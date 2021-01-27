@@ -16,19 +16,20 @@ output: html_notebook
   * Rational for standardizing and population-weighting (and novelty)
   * ~~Data input descriptions~~
   * Methodology
+  * update file convention
 
 - Better way of interpolating than using the for-loop
   * i end point is un-intuitive
   * throws error and stops sourcing, so it fails to write the output
   
-- Reorganize the plot script
-  * pull out the data into separate script
-  * or at least re-organize to have a plot right after its dplyr chain. 
+- ~~Reorganize the plot script~~
+  * ~~pull out the data into separate script~~
+  * ~~or at least re-organize to have a plot right after its dplyr chain.~~
   
-- Actually, I want to split the script into three:
+- ~~Actually, I want to split the script into three:
   * Individual state series (both plain and std)
   * category (both plain and std)
-  * us aggregated series (both plain and pop-std)
+  * us aggregated series (both plain and pop-std)~~
   
 - ~~Get better poplulation dataframe, one that can be exported.~~
 
@@ -36,4 +37,4 @@ output: html_notebook
 
 - make footnotes tex expressions
 
-- pull out plot titles, footnotes into separate string
+- pull out plot titles, footnotes into separate string or separate function defining all the styles.

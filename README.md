@@ -22,20 +22,24 @@ Terminology:
 	1) subtract the mean of the series from each data point (shift)
 	2) divide each of these values by the standard deviation of the series (scale)
 
-    Formulaically, this looks like the following. For each date *t* of *value* of a series *s*, 
+Formulaically, this looks like the following. For each date *t* of *value* of a series *s*, 
+
     ```math
     standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \overline{v_s}}{\sigma_s}
     ```
-    The purpose of this is discussed in the methodology section.
+    
+The purpose of this is discussed in the methodology section.
 
 
 - Population-weighted: a process of scaling data by a weight. Here, the weight is the fraction of population the state owns out of the total United States population (50 states + DC). 
 
-    Formulaically, this looks like the following. For each date *t* of *value* in a series for each state *s*, 
-    ```math
+Formulaically, this looks like the following. For each date *t* of *value* in a series for each state *s*, 
+    
+```math
     population\:weighted\:score = \frac{population_{s}}{\sum_{s=1}^{51}population_s} * value_{s,t}
-    ```
-    The purpose of this is discussed in the methodology section. 
+```
+    
+The purpose of this is discussed in the methodology section. 
 
 
 ## Data
@@ -88,10 +92,10 @@ This is written entirely in R. The repo contains all code and data necessary to 
 The code is ordered numerically and roughly follows this outline:
 - `010_compile_kff_data`: read in csv from each date containing 18 categories. Merges similar categories together and cleans up similar levels within each category. Formats and exports as csv in long form.
 - `012_gather_populations`: read in csv with US Census 2020 state population estimates. Format and export as csv.
-- `020_categorical_plots`: reorders category levels and assigns severity score to each level
+- `020_categorical_plots`: reorders category levels and assigns severity score to each level *now deprecated in favor of individual scripts*
 
 ## Acknowledgments 
-I'd like to thank Alessandro Barbarino for input and mentorship, and Jaclyn Lee for help problem solving code.
+I'd like to thank Alessandro Barbarino for input and mentorship, and Jaclyn Lee for help problem-solving code.
 The lockdown data originate from the [Kaiser Family Foundation](https://www.kff.org/report-section/state-covid-19-data-and-policy-actions-policy-actions/). Thank you for making your [data publicly available!](https://github.com/KFFData/COVID-19-Data/tree/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions)
 
 
