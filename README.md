@@ -24,9 +24,9 @@ Terminology:
 
 Formulaically, this looks like the following. For each date *t* of *value* of a series *s*, 
 
-    ```math
-    standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \overline{v_s}}{\sigma_s}
-    ```
+```math
+standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \overline{v_s}}{\sigma_s}
+```
     
 The purpose of this is discussed in the methodology section.
 
@@ -36,7 +36,7 @@ The purpose of this is discussed in the methodology section.
 Formulaically, this looks like the following. For each date *t* of *value* in a series for each state *s*, 
     
 ```math
-    population\:weighted\:score = \frac{population_{s}}{\sum_{s=1}^{51}population_s} * value_{s,t}
+population\:weighted\:score = \frac{population_{s}}{\sum_{s=1}^{51}population_s} * value_{s,t}
 ```
     
 The purpose of this is discussed in the methodology section. 
@@ -55,7 +55,7 @@ There are approximately 18 categories that are filtered down to 9 (some are merg
 - Status of Reopening                       
 - Non-Essential Business Closures
 - Large Gatherings Ban   
-- Emergency Declaration                                                      
+- Emergency Declaration 
 - Mandatory Quarantine for Travelers             
 - Restaurant Limits 
 - Bar/Restaurant Limits                
@@ -90,9 +90,20 @@ These factor levels are re-ordered to reflect their level of severity using huma
 ## Code Structure
 This is written entirely in R. The repo contains all code and data necessary to reproduce all series and can be sourced sequentially. 
 The code is ordered numerically and roughly follows this outline:
+
 - `010_compile_kff_data`: read in csv from each date containing 18 categories. Merges similar categories together and cleans up similar levels within each category. Formats and exports as csv in long form.
+
 - `012_gather_populations`: read in csv with US Census 2020 state population estimates. Format and export as csv.
-- `020_categorical_plots`: reorders category levels and assigns severity score to each level *now deprecated in favor of individual scripts*
+
+- `021_make_factor_levels`: reorders category levels and assigns severity score to each level.
+
+- `032_plot_raw_series`: plots the "raw" series (not population weighted adn not standardized). 
+
+- `035_plot_std_series`: first, it standardizes the data (shift by mean and scale by std dev). Then, create plots.
+
+- `037_plot_pop_series`: first, it weights each state by population (multiply by state_pop/total_pop). Then, create plots.
+
+- `038_plot_std_pop_series`. first, it standardizes the data. Second, it weights by population. Then, create plots. *(final output)*
 
 ## Acknowledgments 
 I'd like to thank Alessandro Barbarino for input and mentorship, and Jaclyn Lee for help problem-solving code.
