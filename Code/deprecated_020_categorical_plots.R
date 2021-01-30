@@ -1,5 +1,5 @@
 # DEPRECATED! 
-#   This large script has been broken into 3 individual scripts:
+#   This large script has been broken into individual scripts:
 #   - 021 to make the factors into numbers
 #   - 032 to plot these raw numbers
 #   - 035 to standardized the series and plot

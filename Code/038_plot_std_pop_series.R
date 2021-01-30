@@ -1,6 +1,11 @@
 # 038_plot_std_pop_series.R
 # Michael Boerman January 2021
 
+# output: pop_std_scores_states.csv
+#         pop_std_states.png
+#         pop_std_scores_national.csv
+#         pop_std_national.png
+
 # ---- Setup ------------------------------------------------------------------#
 
 library(readr)
@@ -26,10 +31,7 @@ dummies_with_pop    <- read_csv(here("Intermediate_Data/dummies_with_pop.csv"),
   )
 )
 
-pop_weighted_scores <- read_csv(here("Intermediate_Data/pop_weighted_scores.csv"))
-
-
-# standardized
+# standardize and weight by pop
 weighted_std_scores <- dummies_with_pop %>%
   select(-Emergency_Declaration) %>% # is only "yes", so no sd, and would be centered on 0 anyway.
   pivot_longer(cols = -c(1:3), names_to = "Category", values_to = "scores") %>%
@@ -42,26 +44,53 @@ weighted_std_scores <- dummies_with_pop %>%
     standardized_score = (scores - mean(scores, na.rm = T)) / sd(scores, na.rm = T),
     weighted_standardized_score = (population * standardized_score) / sum(unique(population), na.rm = T)
   ) %>%
-  ungroup() %>%
+  ungroup()
+
+write_csv(weighted_std_scores, here("Results/csv/pop_std_scores_states.csv"))
+
+# plot by state
+weighted_std_scores %>%
+  group_by(date, state) %>% 
+  mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
+  ggplot(aes(x = date, y = weighted_standardized_score)) +
+  geom_line() +
+  facet_wrap(~state, scales = "free_y") +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    axis.title.x = element_blank(),
+    aspect.ratio = .5
+  ) +
+  scale_y_continuous(position = "right") +
+  ggtitle(
+    label = "Population-weighted, standardized scores of restriction severity",
+    subtitle = "Low score means less severe restrictions."
+  ) +
+  labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
+                        "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
+  ggsave(here("Results/plots/pop_std_states.png"), width = 12, height = 6)
+
+
+# continue on to aggregate the states into nation-wide.
+weighted_std_scores_agg <- 
+  weighted_std_scores %>% 
   
-  # save the panel version.
-  write_csv(here("Intermediate_Data/weighted_std_scores_panel.csv")) %>% # This causes the date to change to chr...
-  mutate(date = as.Date(date)) %>%
-  
-  # continue on to aggregate the states into nation-wide.
   select(date, weighted_standardized_score) %>%
   group_by(date) %>%
   summarize(composite_weighted_std_score = sum(weighted_standardized_score, na.rm = T)) %>%
   ungroup() %>%
   
   # Save the succinct index version
-  write_csv(here("Results/csv/weighted_std_scores_agg.csv")) %>% # again changes date to chr type.
+  write_csv(here("Results/csv/pop_std_scores_national.csv")) %>% # again changes date to chr type.
   mutate(date = as.Date(date)) %>%
   identity()
 
 
 # 3: Standardized score: THE HOLY GRAIL OF THESE CHARTS!!!!!!
-weighted_std_scores %>%
+weighted_std_scores_agg %>%
   ggplot(aes(x = date, y = composite_weighted_std_score)) +
   geom_line(size = 1.25) +
   theme_minimal() +
@@ -81,6 +110,8 @@ weighted_std_scores %>%
     label = "US Populatiuon-Weighted Rescriction Severity Index (Standardized)",
     subtitle = "Low score means less severe restrictions."
   ) +
-  labs(caption = paste0("Standardized severity is calculated by standardizing (subtract mean and divid by standard deviation) the nationally-aggregated scores across 9 categorical variables. \n Standardization is necessary to correctly weight each category, regardless of the number of levels of it. \n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".")) +
+  labs(caption = paste0("Standardized severity is calculated by weighting the standardized severity index of each state by population.\n",
+                        "Data: KFF State COVID-19 Data and Policy Actions\n",
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
   ylab("Severity Index Score") +
-  ggsave(here("Results/plots/pop_weighted_standardized_aggregate.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/pop_std_national.png"), width = 12, height = 6)

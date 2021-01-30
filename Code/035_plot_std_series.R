@@ -1,7 +1,7 @@
 # 035_plot_std_series.R
 # Michael Boerman January 2021
 
-# output: standardized_categorical_aggregate.png 
+# output: standardized_categories_national.png 
 
 
 # ---- Setup ------------------------------------------------------------------#
@@ -58,4 +58,4 @@ standardized_scores %>%
   ) +
   labs(caption = paste0("Standardized severity is calculated by standardizing (subtract mean and divid by standard deviation) the nationally-aggregated scores across 9 categorical variables. \n Standardization is necessary to correctly weight each category, regardless of the number of levels of it. \n Data is from ", min(standardized_scores$Date), " through ", max(standardized_scores$Date), ".")) +
   ylab("Severity Index Score") +
-  ggsave(here("Results/plots/standardized_categorical_aggregate.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/std_categories_national.png"), width = 12, height = 6)

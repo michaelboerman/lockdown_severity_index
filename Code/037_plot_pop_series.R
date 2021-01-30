@@ -4,9 +4,9 @@
 # weight by state population
 #
 # output: dummies_with_pop.csv
-#         pop_weighted_scores.csv
-#         pop_weighted_facet.png
-#         pop_weighted_aggregated.png
+#         pop_weighted_scores_states.csv
+#         pop_weighted_states.png
+#         pop_weighted_national.png
 
 
 # ---- Setup ------------------------------------------------------------------#
@@ -90,7 +90,7 @@ pop_weighted_scores <- dummies_with_pop %>%
   identity()
 
 # Likewise. Terminate so as to preserve date format for this script.
-write_csv(pop_weighted_scores, here("Intermediate_Data", "pop_weighted_scores.csv"))
+write_csv(pop_weighted_scores, here("Intermediate_Data", "pop_weighted_scores_states.csv"))
 
 # ---- Population-Weighted Plots ---------------------------------------------------------#
 
@@ -113,7 +113,7 @@ pop_weighted_scores %>%
     subtitle = "Low score means less severe restrictions."
   ) +
   labs(caption = paste0("Series is computed as (State Population * sum of lockdown categorical variables) / US Population).\n Data from ", min(pop_weighted_scores$date), " through ", max(pop_weighted_scores$date), ".")) +
-  ggsave(here("Results/plots/pop_weighted_facet.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/pop_weighted_states.png"), width = 12, height = 6)
 
 # 2: US total
 pop_weighted_scores %>%
@@ -145,4 +145,4 @@ pop_weighted_scores %>%
   ) +
   labs(caption = paste0("Series is computed as (State Population * sum of lockdown categorical variables) / US Population). \n Data is from ", min(pop_weighted_scores$date), " through ", max(pop_weighted_scores$date), ".")) +
   ylab("Severity Score (unitless)") +
-  ggsave(here("Results/plots/pop_weighted_aggregated.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/pop_weighted_national.png"), width = 12, height = 6)

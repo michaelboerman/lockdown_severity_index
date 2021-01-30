@@ -1,8 +1,8 @@
 # 032_plot_raw_series.R
 # Michael Boerman January 2021
 # 
-# output: categorical_facet.png 
-#         categorical_aggregate.png
+# output: categories_states.png 
+#         categories_national.png
 
 # ---- Setup ------------------------------------------------------------------#
 
@@ -39,7 +39,7 @@ summary_df %>%
     subtitle = "Low score means less severe restrictions."
   ) +
   labs(caption = paste0("Severity is calculated as the sum of 9 categorical variables mapped to numbers (dummy variables). NAs are counted as 0. \n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
-  ggsave(here("Results/plots/categorical_facet.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/categories_states.png"), width = 12, height = 6)
 
 # 2. Aggregated into US
 summary_df %>%
@@ -67,4 +67,4 @@ summary_df %>%
   ) +
   labs(caption = paste0("Severity is calculated as the sum of 9 categorical variables mapped to numbers (dummy variables). NAs are counted as 0. \n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
   ylab("Severity Index Score") +
-  ggsave(here("Results/plots/categorical_aggregate.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/categories_national.png"), width = 12, height = 6)
