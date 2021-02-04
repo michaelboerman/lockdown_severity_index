@@ -107,7 +107,7 @@ weighted_std_scores_agg %>%
     date_labels = " %b \n %Y"
   ) +
   ggtitle(
-    label = "US Populatiuon-Weighted Rescriction Severity Index (Standardized)",
+    label = "U.S. Restriction Severity Index",
     subtitle = "Low score means less severe restrictions."
   ) +
   labs(caption = paste0("Standardized severity is calculated by weighting the standardized severity index of each state by population.\n",
@@ -128,3 +128,34 @@ weighted_std_scores_agg %>%
 #   geom_line(aes(y = weighted_standardized_score, color = state)) +
 #   geom_line(aes(y = pop_weighted_avg), color = "blue")
 #   NULL
+
+weighted_std_scores %>%
+  group_by(date, Category) %>%
+  summarize(
+    weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)
+  ) %>% 
+  ggplot(aes(x = date)) +
+  geom_line(aes(y = weighted_standardized_score, color = Category), size = 1.5, alpha = 0.75) +
+  theme_minimal() +
+  theme(
+    panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
+    panel.grid.minor.y = element_blank(),
+    axis.title.x = element_blank(),
+    aspect.ratio = .5
+  ) +
+  scale_y_continuous(position = "right") +
+  scale_color_brewer(palette = "RdYlBu") +
+  scale_x_date(
+    date_minor_breaks = "1 week",
+    date_breaks = "1 month",
+    date_labels = " %b \n %Y"
+  ) +
+  ggtitle(
+    label = "U.S. Restriction Severity Categories",
+    subtitle = "Low score means less severe restrictions."
+  ) +
+  labs(caption = paste0("Standardized severity is calculated by weighting the standardized severity index of each state by population.\n",
+                        "Data: KFF State COVID-19 Data and Policy Actions\n",
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+  ylab("Severity Index Score") +
+  ggsave(here("Results/plots/pop_std_categories.png"), width = 12, height = 6)
