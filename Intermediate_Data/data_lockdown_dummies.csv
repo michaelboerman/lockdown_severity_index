@@ -15095,3 +15095,921 @@ Washington,2021-01-14,Lifted,Closing,NA,All Prohbited,Yes,International,General 
 West Virginia,2021-01-14,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
 Wisconsin,2021-01-14,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
 Wyoming,2021-01-14,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-15,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-15,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-15,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-15,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-15,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-15,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-15,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-15,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-15,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-15,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-15,Lifted,Closing,NA,All Prohbited,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-15,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-15,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-15,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-15,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-15,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-15,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-15,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-15,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-15,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-15,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-15,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-15,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-15,-,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Ohio,2021-01-15,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-15,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-15,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-15,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-15,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-15,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-15,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-15,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-15,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-15,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-15,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-15,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-15,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-15,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-16,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-16,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-16,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-16,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-16,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-16,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-16,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-16,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-16,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-16,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-16,Lifted,Closing,NA,All Prohbited,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-16,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-16,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-16,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-16,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-16,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-16,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-16,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-16,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-16,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-16,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-16,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-16,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-16,-,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Ohio,2021-01-16,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-16,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-16,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-16,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-16,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-16,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-16,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-16,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-16,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-16,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-16,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-16,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-16,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-16,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-17,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-17,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-17,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-17,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-17,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-17,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-17,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-17,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-17,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-17,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-17,Lifted,Closing,NA,All Prohbited,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-17,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-17,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-17,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-17,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-17,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-17,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-17,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-17,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-17,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-17,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-17,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-17,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-17,-,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Ohio,2021-01-17,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-17,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-17,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-17,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-17,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-17,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-17,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-17,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-17,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-17,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-17,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-17,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-17,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-17,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-18,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-18,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-18,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-18,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-18,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-18,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-18,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-18,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-18,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-18,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-18,Lifted,Closing,NA,All Prohbited,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-18,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-18,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-18,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-18,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-18,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-18,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-18,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-18,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-18,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-18,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-18,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-18,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-18,-,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Ohio,2021-01-18,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-18,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-18,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-18,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-18,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-18,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-18,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-18,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-18,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-18,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-18,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-18,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-18,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-18,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-19,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-19,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-19,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-19,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-19,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-19,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-19,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-19,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-19,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-19,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-19,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-19,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-19,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-19,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-19,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-19,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-19,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-19,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-19,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-19,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-19,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-19,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-19,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-19,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-19,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-19,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-19,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-19,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-19,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-19,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-19,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-19,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-19,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-19,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-19,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-19,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-19,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-19,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-20,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-20,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-20,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-20,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-20,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-20,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-20,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-20,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-20,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-20,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-20,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-20,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-20,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-20,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-20,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-20,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-20,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-20,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-20,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-20,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-20,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-20,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-20,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-20,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-20,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-20,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-20,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-20,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-20,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-20,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-20,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-20,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-20,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-20,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-20,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-20,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-20,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-20,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-21,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-21,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-21,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-21,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-21,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-21,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-21,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-21,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+Florida,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-21,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-21,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-21,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-21,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-21,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-21,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-21,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Minnesota,2021-01-21,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-21,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-21,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-21,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-21,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-21,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-21,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-21,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-21,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-21,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-21,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-21,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-21,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-21,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-21,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-21,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-21,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-21,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-21,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-21,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-21,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-21,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-21,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-22,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-22,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-22,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-22,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-22,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-22,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-22,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-22,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-22,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-22,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-22,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-22,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-22,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-22,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-22,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-22,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-22,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-22,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-22,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-22,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-22,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-22,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-22,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-22,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-22,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-22,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-22,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-22,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-22,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-22,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-22,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-22,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-22,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-22,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-22,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-22,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-22,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-22,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-23,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-23,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-23,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-23,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-23,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-23,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-23,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-23,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-23,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-23,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-23,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-23,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-23,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-23,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-23,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-23,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-23,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-23,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-23,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-23,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-23,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-23,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-23,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-23,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-23,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-23,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-23,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-23,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-23,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-23,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-23,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-23,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-23,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-23,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-23,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-23,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-23,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-23,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-24,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-24,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-24,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-24,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-24,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-24,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-24,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-24,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-24,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-24,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-24,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-24,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-24,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-24,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-24,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-24,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-24,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-24,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-24,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-24,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-24,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-24,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-24,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-24,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-24,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-24,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-24,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-24,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-24,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-24,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-24,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-24,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-24,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-24,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-24,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-24,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-24,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-24,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-25,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-25,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-25,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-25,NA,Closing,NA,All Prohbited,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-25,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-25,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-25,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-25,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-25,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-25,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-25,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Indiana,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-25,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-25,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-25,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-25,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-25,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-25,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-25,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-25,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-25,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-25,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-25,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-25,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-25,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-25,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-25,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-25,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-25,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-25,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-25,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-25,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-25,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-25,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-25,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-25,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-25,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-25,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-25,-,Reopened,-,10,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-26,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-26,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-26,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-26,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-26,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-26,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-26,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-26,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-26,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-26,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-26,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-26,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-26,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-26,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-26,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-26,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-26,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-26,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-26,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-26,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-26,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-26,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-26,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-26,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-26,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-26,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-26,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-26,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-26,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-26,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-26,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-26,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-26,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-26,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-26,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-26,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-26,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-26,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-27,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-27,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-27,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-27,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-27,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-27,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-27,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-27,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-27,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-27,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-27,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-27,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-27,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-27,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-27,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-27,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-27,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-27,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-27,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-27,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-27,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-27,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-27,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-27,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-27,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-27,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-27,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-27,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-27,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-27,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-27,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-27,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-27,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-27,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-27,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-27,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-27,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-27,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-28,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-28,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-28,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-28,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-28,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-28,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-28,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-28,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-28,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-28,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-28,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,25,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-28,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-28,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-28,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-28,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-28,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-28,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-28,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-28,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-28,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-28,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-28,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-28,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-28,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-28,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-28,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-28,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-28,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-28,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-28,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-28,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-28,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-28,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-28,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-28,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-28,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-28,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-28,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-29,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-29,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-29,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-29,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-29,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-29,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-29,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-29,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-29,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-29,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-29,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-29,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-29,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-29,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-29,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-29,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-29,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-29,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-29,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-29,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-29,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-29,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-29,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-29,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-29,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-29,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-29,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-29,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-29,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-29,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-29,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-29,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-29,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-29,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-29,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-29,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-29,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-29,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-30,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-30,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-30,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-30,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-30,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-30,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-30,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-30,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-30,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-30,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-30,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-30,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-30,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-30,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-30,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-30,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-30,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-30,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-30,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-30,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-30,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-30,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-30,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-30,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-30,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-30,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-30,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-30,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-30,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-30,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-30,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-30,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-30,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-30,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-30,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-30,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-30,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-30,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-01-31,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-01-31,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-01-31,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-01-31,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-01-31,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-01-31,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-01-31,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-01-31,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-01-31,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-01-31,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-01-31,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Iowa,2021-01-31,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-01-31,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-01-31,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-01-31,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-01-31,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-01-31,-,Closing,-,No Limit,Yes,International,Certain Employees Only,No Limits,NA
+Nevada,2021-01-31,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-01-31,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-01-31,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-01-31,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-01-31,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-01-31,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-01-31,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-01-31,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-01-31,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-01-31,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-01-31,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-01-31,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-01-31,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-01-31,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-01-31,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-01-31,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-01-31,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-01-31,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-01-31,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-01-31,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-01-31,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Alabama,2021-02-01,Lifted,Paused,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Alaska,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,Certain Employees Only,No Limits,NA
+Arizona,2021-02-01,Lifted,Closing,NA,50,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Arkansas,2021-02-01,-,Paused,-,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+California,2021-02-01,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Colorado,2021-02-01,Lifted,Closing,Reduced Capacity,10,Yes,-,General Public,Limited Dine-In,NA
+Connecticut,2021-02-01,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Delaware,2021-02-01,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+District of Columbia,2021-02-01,Lifted,Closing,NA,10,Yes,Certain States,General Public,Limited Dine-In,NA
+Florida,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Georgia,2021-02-01,High-Risk Groups,Paused,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Hawaii,2021-02-01,Lifted,Closing,Reduced Capacity,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Idaho,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,Certain Employees Only,Limited Dine-In,NA
+Illinois,2021-02-01,Lifted,Closing,NA,25,Yes,-,General Public,Limited Dine-In,NA
+Indiana,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,No Limits,NA
+Iowa,2021-02-01,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Kansas,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,Certain States,General Public,No Limits,NA
+Kentucky,2021-02-01,Lifted,Closing,NA,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Louisiana,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,-,General Public,Limited Dine-In,NA
+Maine,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,50,Yes,All Travelers,General Public,Limited Dine-In,NA
+Maryland,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Massachusetts,2021-02-01,High-Risk Groups,Closing,NA,10,Yes,All Travelers,General Public,Limited Dine-In,NA
+Michigan,2021-02-01,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Minnesota,2021-02-01,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+Mississippi,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Missouri,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,-,No Limits,NA
+Montana,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Nebraska,2021-02-01,-,Reopened,-,No Limit,Yes,No Restrictions,Certain Employees Only,No Limits,NA
+Nevada,2021-02-01,Lifted,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+New Hampshire,2021-02-01,Lifted,Paused,Reduced Capacity,No Limit,Yes,Certain States,General Public,No Limits,NA
+New Jersey,2021-02-01,Lifted,Closing,Reduced Capacity,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+New Mexico,2021-02-01,Lifted,Closing,NA,10,Yes,Certain States,General Public,Takeout/Delivery Only,NA
+New York,2021-02-01,High-Risk Groups,Closing,Reduced Capacity,10,Yes,Certain States,General Public,Limited Dine-In,NA
+North Carolina,2021-02-01,NA,Closing,NA,10,Yes,-,General Public,Limited Dine-In,NA
+North Dakota,2021-02-01,-,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Ohio,2021-02-01,NA,Closing,All Non-Essential Businesses Closed,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Oklahoma,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,-,No Limits,NA
+Oregon,2021-02-01,Lifted,Closing,NA,10,Yes,-,General Public,Takeout/Delivery Only,NA
+Pennsylvania,2021-02-01,Lifted,Closing,NA,No Limit,Yes,All Travelers,General Public,Limited Dine-In,NA
+Rhode Island,2021-02-01,Lifted,Closing,NA,All Prohbited,Yes,Certain States,General Public,Limited Dine-In,NA
+South Carolina,2021-02-01,Lifted,Closing,All Non-Essential Businesses Closed,No Limit,Yes,No Restrictions,General Public,Limited Dine-In,NA
+South Dakota,2021-02-01,-,Reopened,-,No Limit,Yes,-,-,-,NA
+Tennessee,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,10,Yes,-,General Public,No Limits,NA
+Texas,2021-02-01,Lifted,Closing,NA,10,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Utah,2021-02-01,Lifted,Closing,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA
+Vermont,2021-02-01,Lifted,Closing,Reduced Capacity,All Prohbited,Yes,All Travelers,General Public,Limited Dine-In,NA
+Virginia,2021-02-01,NA,Closing,All Non-Essential Businesses Closed,10,Yes,-,General Public,Limited Dine-In,NA
+Washington,2021-02-01,Lifted,Closing,NA,All Prohbited,Yes,International,General Public,Takeout/Delivery Only,NA
+West Virginia,2021-02-01,Lifted,Closing,Reduced Capacity,25,Yes,No Restrictions,General Public,Limited Dine-In,NA
+Wisconsin,2021-02-01,Lifted,Reopened,All Non-Essential Businesses Closed,No Limit,Yes,-,General Public,No Limits,NA
+Wyoming,2021-02-01,-,Reopened,-,No Limit,Yes,No Restrictions,General Public,No Limits,NA

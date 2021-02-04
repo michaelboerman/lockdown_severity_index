@@ -115,3 +115,16 @@ weighted_std_scores_agg %>%
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
   ylab("Severity Index Score") +
   ggsave(here("Results/plots/pop_std_national.png"), width = 12, height = 6)
+
+
+# plot states as light shades all on one chart
+# weighted_std_scores %>%
+#   group_by(date, state) %>% 
+#   summarize(
+#     weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE),
+#     pop_weighted_avg = mean(weighted_standardized_score)
+#     ) %>% 
+#   ggplot(aes(x = date)) +
+#   geom_line(aes(y = weighted_standardized_score, color = state)) +
+#   geom_line(aes(y = pop_weighted_avg), color = "blue")
+#   NULL

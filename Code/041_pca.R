@@ -3,25 +3,27 @@
 
 # experiment with pca on the categories instead of aggreagting.
 
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(here)
+
 # for nice pc plots
 library(factoextra)
 
-cat_data <- read_csv(here("Intermediate_Data/cat_data_reordered.csv"),
-  col_types = cols(
-    .default = col_double(),      # coerce to be numbers instead of logical if has NA
-    Date = col_date(format = ""), # except column Date, read as date.
-    Location = col_character()    # except column state, read as chr
-  )
-) %>% 
-  select(-Emergency_Declaration) %>% 
-  # mutate_all(~replace(is.na(select_if(is.numeric)), 0)) %>% 
+cat_data <- read_csv(here("Results/csv/pop_std_scores_states.csv")) %>% 
+  pivot_wider(names_from = Category,
+              values_from = weighted_standardized_score) %>% 
+  select(-c(population, scores, standardized_score)) %>% 
   identity()
 
-apply
-
 pca_results <- prcomp(~., data = select_if(cat_data, is.numeric),
-                                 # na.action = na.omit, 
-                                 scale = FALSE)
+                                 na.action = na.omit,
+                                 scale = FALSE
+                      )
+
+prcomp(~., data = cat_data[, 3:10], na.action = )
 
 
 fviz_eig(pca_results)     
@@ -40,10 +42,10 @@ pca_ind$coord          # Coordinates
 head(pca_ind$contrib)  # Contributions to the PCs
 pca_ind$cos2           # Quality of representation 
 
-first_pc <- pca_results$rotation[,1] %>%
+first_pc <- pca_results$x[,1] %>%
   as.data.frame() %>% 
   dplyr::rename(first_pc = '.') %>% 
-  mutate(period = seq(1:length(pca_ind$contrib[,1]))) %>% 
+  mutate(period = seq(1:length(pca_results$x[,1]))) %>% 
   identity()
 
 first_pc %>% 

@@ -78,7 +78,11 @@ read_vintage_csv <- function(file_name) {
 }
 
 # Now apply this function to all files in the csv folder.
-data <- mcMap(read_vintage_csv, files_ordered, mc.cores = detectCores())
+# Linux version:
+# data <- mcMap(read_vintage_csv, files_ordered, mc.cores = detectCores())
+
+# Windows version: takes a little longer. can't use all cores. 
+data <- map(files_ordered, read_vintage_csv)
 
 # change the names of the list items. (not functional / used later)
 names(data) <- paste0(
