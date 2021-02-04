@@ -1,6 +1,7 @@
 # Pandemic Lockdown Severity Index
 
 ![](Results/plots/pop_std_national.png)
+![](Results/plots/pop_std_categories.png)
 ![](Results/plots/pop_std_states.png)
 ![](Results/plots/categories_states.png)
 
