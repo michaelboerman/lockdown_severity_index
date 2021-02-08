@@ -12,6 +12,7 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(zoo)
 library(here)
 
 options(scipen = 999) # for the population-weighted scores
@@ -129,13 +130,16 @@ weighted_std_scores_agg %>%
 #   geom_line(aes(y = pop_weighted_avg), color = "blue")
 #   NULL
 
+# Plot Decomposition
 weighted_std_scores %>%
   group_by(date, Category) %>%
   summarize(
     weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)
   ) %>% 
   ggplot(aes(x = date)) +
-  geom_line(aes(y = weighted_standardized_score, color = Category), size = 1.5, alpha = 0.75) +
+  geom_bar(aes(y = weighted_standardized_score, fill = Category), 
+           position = "stack", stat = "identity", alpha = 0.75) +
+  geom_hline(yintercept = 0, size = 1.0, color = "black") +
   theme_minimal() +
   theme(
     panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
@@ -151,11 +155,11 @@ weighted_std_scores %>%
     date_labels = " %b \n %Y"
   ) +
   ggtitle(
-    label = "U.S. Restriction Severity Categories",
-    subtitle = "Low score means less severe restrictions."
+    label = "Severity Decomposition by Category",
+    subtitle = " Some categories play a big role early and become less important over time."
   ) +
-  labs(caption = paste0("Standardized severity is calculated by weighting the standardized severity index of each state by population.\n",
+  labs(caption = paste0("Lockdown severity is standardized within each category, which are then weighted according to state population.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
-  ylab("Severity Index Score") +
-  ggsave(here("Results/plots/pop_std_categories.png"), width = 12, height = 6)
+  ylab("Severity Index Value") +
+  ggsave(here("Results/plots/pop_std_categories_decomp.png"), width = 12, height = 6)
