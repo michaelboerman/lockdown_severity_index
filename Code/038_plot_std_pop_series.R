@@ -55,10 +55,12 @@ weighted_std_scores %>%
   mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
   ggplot(aes(x = date, y = weighted_standardized_score)) +
   geom_line() +
-  facet_wrap(~state, scales = "free_y") +
+  facet_wrap(~state, scales = "free_y", nrow = 7) +
   theme_minimal() +
   theme(
+    text = element_text(size = 20),
     axis.text.y = element_blank(),
+    axis.text.x = element_blank(),
     axis.title.y = element_blank(),
     panel.grid.minor.y = element_blank(),
     axis.title.x = element_blank(),
@@ -72,7 +74,7 @@ weighted_std_scores %>%
   labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ggsave(here("Results/plots/pop_std_states.png"), width = 12, height = 6)
+  ggsave(here("Results/plots/pop_std_states.png"), width = 12, height = 10)
 
 
 # continue on to aggregate the states into nation-wide.
