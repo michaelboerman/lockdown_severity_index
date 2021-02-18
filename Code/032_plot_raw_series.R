@@ -35,10 +35,10 @@ summary_df %>%
     aspect.ratio = .5
   ) +
   ggtitle(
-    label = "United States Restrictions mapped to numbers",
+    label = "United States Restrictions by Category",
     subtitle = "Low score means less severe restrictions."
   ) +
-  labs(caption = paste0("Severity is calculated as the sum of 9 categorical variables mapped to numbers (dummy variables). NAs are counted as 0. \n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
+  labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
   ggsave(here("Results/plots/categories_states.png"), width = 12, height = 6)
 
 # 2. Aggregated into US
@@ -65,6 +65,6 @@ summary_df %>%
     label = "US Rescriction Severity Index",
     subtitle = "Low score means less severe restrictions."
   ) +
-  labs(caption = paste0("Severity is calculated as the sum of 9 categorical variables mapped to numbers (dummy variables). NAs are counted as 0. \n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
+  labs(caption = paste0("Severity is calculated as the unweighted sum of 9 categorical variables assigned to numbers. NAs are counted as 0.\n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
   ylab("Severity Index Score") +
   ggsave(here("Results/plots/categories_national.png"), width = 12, height = 6)

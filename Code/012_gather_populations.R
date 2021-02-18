@@ -23,7 +23,7 @@ census_url <- "https://www2.census.gov/programs-surveys/popest/datasets/2010-202
 download.file(
   url = census_url,
   destfile = here("Data/census_data.csv"),
-  method = "wget"
+  # method = "wget"
 )
 
 state_populations <- read_csv(here("Data/census_data.csv")) %>%
