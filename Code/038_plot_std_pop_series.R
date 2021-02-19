@@ -11,6 +11,7 @@
 library(readr)
 library(dplyr)
 library(tidyr)
+library(purrr)
 library(ggplot2)
 library(zoo)
 library(here)
@@ -49,13 +50,68 @@ weighted_std_scores <- dummies_with_pop %>%
 
 write_csv(weighted_std_scores, here("Results/csv/pop_std_scores_states.csv"))
 
+# plot one state decomposition
+map(unique(weighted_std_scores$state), function(state_in)
+weighted_std_scores %>%
+  filter(state == state_in) %>% 
+  ggplot(aes(x = date, y = weighted_standardized_score, color = Category)) +
+  geom_line() +
+  facet_wrap(~Category, scales = "fixed") + # fix to show the impact of each if not standardized.
+  theme_minimal() +
+  theme(
+    axis.title.y = element_blank(),
+    axis.title.x = element_blank(),
+    axis.text.y = element_blank(),
+    legend.position = "none",
+    aspect.ratio = .5
+  ) +
+  ggtitle(
+    label = paste0(state_in, " Restrictions by Category"),
+    subtitle = "Low score means less severe restrictions."
+  ) +
+  labs(caption = paste0("Fixed Y axis. Gaps in data are NAs.\n Data is from ", min(weighted_std_scores$Date), " through ", max(weighted_std_scores$Date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
+  ggsave(here(paste0("Results/plots/state_categories/categories_", state_in, ".png")), width = 12, height = 6)
+)
+
+# plot the one final line for each state
+map(unique(weighted_std_scores$state), function(state_in)
+  weighted_std_scores %>%
+    filter(state == state_in) %>% 
+    group_by(date) %>% 
+    mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
+    ggplot(aes(x = date, y = weighted_standardized_score)) +
+    geom_line(size = 1.25) +
+    theme_minimal() +
+    theme(
+      panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
+      panel.grid.minor.y = element_blank(),
+      axis.title.x = element_blank(),
+      aspect.ratio = .5
+    ) +
+    scale_y_continuous(position = "right") +
+    scale_x_date(
+      date_minor_breaks = "1 week",
+      date_breaks = "1 month",
+      date_labels = " %b \n %Y"
+    ) +
+    ggtitle(
+      label = paste0(state_in, " Restriction Severity Index"),
+      subtitle = "Low score means less severe restrictions."
+    ) +
+    labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
+                          "Data: KFF State COVID-19 Data and Policy Actions\n",
+                          "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+    ylab("Severity Index Score") +
+    ggsave(here(paste0("Results/plots/state_index/pop_std_", state_in, ".png")), width = 12, height = 6)
+)
+
 # plot by state
 weighted_std_scores %>%
   group_by(date, state) %>% 
   mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
   ggplot(aes(x = date, y = weighted_standardized_score)) +
   geom_line() +
-  facet_wrap(~state, scales = "free_y", nrow = 7) +
+  facet_wrap(~state, scales = "free_y", nrow = 10) +
   theme_minimal() +
   theme(
     text = element_text(size = 20),
@@ -74,7 +130,8 @@ weighted_std_scores %>%
   labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ggsave(here("Results/plots/pop_std_states.png"), width = 12, height = 10)
+  ggsave(here("Results/plots/pop_std_states.png"), width = 12, height = 20)
+
 
 
 # continue on to aggregate the states into nation-wide.
@@ -113,12 +170,11 @@ weighted_std_scores_agg %>%
     label = "U.S. Restriction Severity Index",
     subtitle = "Low score means less severe restrictions."
   ) +
-  labs(caption = paste0("Standardized severity is calculated by weighting the standardized severity index of each state by population.\n",
+  labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by state by population.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
   ylab("Severity Index Score") +
   ggsave(here("Results/plots/pop_std_national.png"), width = 12, height = 6)
-
 
 # plot states as light shades all on one chart
 # weighted_std_scores %>%
@@ -158,10 +214,45 @@ weighted_std_scores %>%
   ) +
   ggtitle(
     label = "Severity Decomposition by Category",
-    subtitle = " Some categories play a big role early and become less important over time."
+    subtitle = "Some categories play a big role early and become less important over time."
   ) +
   labs(caption = paste0("Lockdown severity is standardized within each category, which are then weighted according to state population.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
   ylab("Severity Index Value") +
   ggsave(here("Results/plots/pop_std_categories_decomp.png"), width = 12, height = 6)
+
+
+map(unique(weighted_std_scores$state), function(state_in)
+weighted_std_scores %>%
+  group_by(state, date, Category) %>%
+  summarize(
+    weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)
+  ) %>% 
+  filter(state == state_in) %>% 
+  ggplot(aes(x = date)) +
+  geom_bar(aes(y = weighted_standardized_score, fill = Category), 
+           position = "stack", stat = "identity", alpha = 0.75) +
+  geom_hline(yintercept = 0, size = 1.0, color = "black") +
+  theme_minimal() +
+  theme(
+    panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
+    panel.grid.minor.y = element_blank(),
+    axis.title.x = element_blank(),
+    aspect.ratio = .5
+  ) +
+  scale_y_continuous(position = "right") +
+  scale_color_brewer(palette = "RdYlBu") +
+  scale_x_date(
+    date_minor_breaks = "1 week",
+    date_breaks = "1 month",
+    date_labels = " %b \n %Y"
+  ) +
+  ggtitle(
+    label = paste0(state_in, " Severity Decomposition by Category"),
+  ) +
+  labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+  ylab("Severity Index Value") +
+  ggsave(here(paste0("Results/plots/state_decomp/decomp_", state_in, ".png")), width = 12, height = 6)
+)
