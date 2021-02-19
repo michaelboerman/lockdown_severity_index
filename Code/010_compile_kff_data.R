@@ -192,7 +192,8 @@ cleaned <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("All Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
         grepl("All Non-Essential Businesses Open with Limits", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
         grepl("Some Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "Some Reopened",
-      )
+        grepl("New Business Closures or Limits", NonEss_Business_Closed, fixed = TRUE) ~ "Some Closed",
+        )
   ) %>%
 
   # Travel Quarantine has 9 levels. Boil down.

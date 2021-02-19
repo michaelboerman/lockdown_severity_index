@@ -27,7 +27,7 @@ options(scipen = 999) # for the population-weighted scores
 
 dummies_with_pop    <- read_csv(here("Intermediate_Data/dummies_with_pop.csv"), 
   col_types = cols(
-    .default = col_double(),      # coerce to be factors instead of chr
+    .default = col_double(),      # defualt is double
     date = col_date(format = ""), # except column Date, read as date.
     state = col_character()       # except column state, read as chr
   )
@@ -232,7 +232,7 @@ weighted_std_scores %>%
   filter(state == state_in) %>% 
   ggplot(aes(x = date)) +
   geom_bar(aes(y = weighted_standardized_score, fill = Category), 
-           position = "stack", stat = "identity", alpha = 0.75) +
+           position = "stack", stat = "identity", alpha = 0.75, width = 1.0) +
   geom_hline(yintercept = 0, size = 1.0, color = "black") +
   theme_minimal() +
   theme(

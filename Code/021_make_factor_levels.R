@@ -59,7 +59,7 @@ cat_data_reordered <- data_lockdown_dummies %>%
   
   # column 6.
   mutate(Gathering_Limit = factor(Gathering_Limit,
-                                  levels = c("-", "Other", "No Limit", "5", "10", "20", "25", "50", "All Prohbited"),
+                                  levels = c("-", "Other", "No Limit", "50", "25", "20", "10", "5", "All Prohbited"),
                                   labels = c(0, 0, 1, 2, 3, 4, 5, 6, 7)
   )) %>%
   
@@ -71,14 +71,14 @@ cat_data_reordered <- data_lockdown_dummies %>%
   
   # column 8.
   mutate(Travel_Quarantine = factor(Travel_Quarantine,
-                                    levels = c("-", "Other", "No Restrictions", "International", "Certain States", "Air Only", "All Locations"),
+                                    levels = c("-", "Other", "No Restrictions", "International", "Air Only", "Certain States", "All Locations"),
                                     labels = c(0, 0, 1, 2, 3, 4, 5)
   )) %>%
   
   # column 9.
   mutate(Mask_Requirement = factor(Mask_Requirement,
                                    levels = c("-", "No", "Certain Employees Only", "General Public", "Yes"),
-                                   labels = c(0, 1, 2, 3, 4)
+                                   labels = c(0, 1, 2, 3, 3)
   )) %>%
   
   # column 10.
