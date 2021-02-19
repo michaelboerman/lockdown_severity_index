@@ -40,8 +40,8 @@ cat_data_reordered <- data_lockdown_dummies %>%
   
   # column 3
   mutate(Stay_Home_Order = factor(Stay_Home_Order,
-                                  levels = c("-", "Lifted", "High-Risk Groups", "Statewide"),
-                                  labels = c(0, 1, 2, 3)
+                                  levels = c("-", "Lifted", "High-Risk Groups", "Curfew", "Statewide"),
+                                  labels = c(0, 1, 2, 3, 4)
   )) %>%
   
   
@@ -77,13 +77,13 @@ cat_data_reordered <- data_lockdown_dummies %>%
   
   # column 9.
   mutate(Mask_Requirement = factor(Mask_Requirement,
-                                   levels = c("-", "Certain Employees Only", "General Public"),
-                                   labels = c(0, 1, 2)
+                                   levels = c("-", "No", "Certain Employees Only", "General Public", "Yes"),
+                                   labels = c(0, 1, 2, 3, 4)
   )) %>%
   
   # column 10.
   mutate(Restaurants = factor(Restaurants,
-                              levels = c("-", "No Limits", "Limited Dine-In", "Takeout/Delivery Only"),
+                              levels = c("-", "No Limits", "Limited Indoor", "No Indoor"),
                               labels = c(0, 1, 2, 3)
   )) %>%
   

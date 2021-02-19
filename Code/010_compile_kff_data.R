@@ -5,15 +5,15 @@
 #
 # Vintage data comes from
 #
-# 3/25/2020 - 12/20/2020:
-#  the Way Back Machine's web archive of
-#  https://www.kff.org/health-costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/
-#  and are stored in /Data/kff_website using mm-dd-yyyy
+#   3/25/2020 - 12/20/2020:
+#    the Way Back Machine's web archive of
+#    https://www.kff.org/health-costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/
+#    and are stored in /Data/kff_website using mm-dd-yyyy
 #
-# 1/04/2021 - ongoing:
-#  The KFF's github page for the website
-#  https://github.com/KFFData/COVID-19-Data/tree/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions
-#  and are stored in /Data/kff_github using mm-dd-yyyy
+#   1/04/2021 - ongoing:
+#    The KFF's github page for the website
+#    https://github.com/KFFData/COVID-19-Data/tree/kff_master/State%20Policy%20Actions/State%20Social%20Distancing%20Actions
+#    and are stored in /Data/kff_github using mm-dd-yyyy
 #
 # The page is not updated every single day, only when there is a change in policy.
 #
@@ -26,6 +26,7 @@
 # ----- SETUP ------------------------------------------------------------------
 # Suppress some outputs
 options(tidyverse.quiet = TRUE)
+
 
 # Load libraries
 library(here)
@@ -138,9 +139,11 @@ cleaned <- plyr::join_all(dfs = data, type = "full") %>%
     Restaurants =
       case_when(
         grepl("^-", Restaurants, fixed = FALSE) ~ "-",
-        grepl("elivery", Restaurants, fixed = TRUE) | grepl("Closed", Restaurants, fixed = TRUE) ~ "Takeout/Delivery Only",
-        grepl("Limit", Restaurants, fixed = TRUE) & grepl("Service", Restaurants, fixed = TRUE) ~ "Limited Dine-In",
-        grepl("Reopened", Restaurants, fixed = TRUE) ~ "No Limits"
+        grepl("elivery", Restaurants, fixed = TRUE) | grepl("Closed", Restaurants, fixed = TRUE) ~ "No Indoor",
+        grepl("Closed to Indoor Service", Restaurants, fixed = TRUE) & grepl("Service", Restaurants, fixed = TRUE) ~ "No Indoor",
+        grepl("Limit", Restaurants, fixed = TRUE) & grepl("Service", Restaurants, fixed = TRUE) ~ "Limited Indoor",
+        grepl("Reopened", Restaurants, fixed = TRUE) ~ "No Limits",
+        grepl("Open", Restaurants, fixed = TRUE) ~ "No Limits"
       )
   ) %>%
 
@@ -186,8 +189,9 @@ cleaned <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("Open with Reduced Capacity", NonEss_Business_Closed, fixed = FALSE) ~ "Reduced Capacity",
         grepl("All Non-Essential Businesses Permitted to Reopen with Reduced Capacity", NonEss_Business_Closed, fixed = TRUE) ~ "Reduced Capacity",
         grepl("Some Non-Essential Businesses Permitted to Reopen with Reduced Capacity", NonEss_Business_Closed, fixed = TRUE) ~ "Reduced Capacity",
+        grepl("All Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
+        grepl("All Non-Essential Businesses Open with Limits", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
         grepl("Some Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "Some Reopened",
-        grepl("All Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened"
       )
   ) %>%
 
@@ -222,18 +226,22 @@ cleaned <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("High-risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("High Risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("Lifted", Stay_Home_Order, fixed = TRUE) ~ "Lifted",
-        grepl("Statewide", Stay_Home_Order, fixed = TRUE) ~ "Statewide"
+        grepl("Statewide", Stay_Home_Order, fixed = TRUE) ~ "Statewide",
+        grepl("Curfew", Stay_Home_Order, fixed = TRUE) ~ "Curfew",
       )
   ) %>%
 
   # Clean up face mask requirement levels
-  dplyr::rename(Mask_Requirement = `Face Covering Requirement`) %>%
+  mutate(Mask_Requirement = coalesce(`Face Covering Requirement`, `Statewide Face Mask Requirement`)) %>%
+  select(-c(`Face Covering Requirement`, `Statewide Face Mask Requirement`)) %>%
   mutate(
     Mask_Requirement =
       case_when(
         grepl("^-", Mask_Requirement, fixed = FALSE) ~ "-",
+        grepl("No", Mask_Requirement, fixed = TRUE) ~ "No",
+        grepl("Required for Certain Employees", Mask_Requirement, fixed = FALSE) ~ "Certain Employees Only",
         grepl("General Public", Mask_Requirement, fixed = TRUE) ~ "General Public",
-        grepl("Required for Certain Employees", Mask_Requirement, fixed = FALSE) ~ "Certain Employees Only"
+        grepl("Yes", Mask_Requirement, fixed = TRUE) ~ "Yes"
       )
   ) %>%
 
