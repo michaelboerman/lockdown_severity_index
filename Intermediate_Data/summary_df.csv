@@ -370,7 +370,7 @@ Date,Category,sums
 2020-05-04,School_Closed,88
 2020-05-05,Stay_Home_Order,132
 2020-05-05,Status_of_Reopening,0
-2020-05-05,NonEss_Business_Closed,145
+2020-05-05,NonEss_Business_Closed,139
 2020-05-05,Gathering_Limit,234
 2020-05-05,Emergency_Declaration,51
 2020-05-05,Travel_Quarantine,94
@@ -379,7 +379,7 @@ Date,Category,sums
 2020-05-05,School_Closed,88
 2020-05-06,Stay_Home_Order,132
 2020-05-06,Status_of_Reopening,0
-2020-05-06,NonEss_Business_Closed,145
+2020-05-06,NonEss_Business_Closed,139
 2020-05-06,Gathering_Limit,234
 2020-05-06,Emergency_Declaration,51
 2020-05-06,Travel_Quarantine,94
@@ -388,7 +388,7 @@ Date,Category,sums
 2020-05-06,School_Closed,88
 2020-05-07,Stay_Home_Order,132
 2020-05-07,Status_of_Reopening,0
-2020-05-07,NonEss_Business_Closed,141
+2020-05-07,NonEss_Business_Closed,135
 2020-05-07,Gathering_Limit,234
 2020-05-07,Emergency_Declaration,51
 2020-05-07,Travel_Quarantine,95
@@ -397,7 +397,7 @@ Date,Category,sums
 2020-05-07,School_Closed,86
 2020-05-08,Stay_Home_Order,132
 2020-05-08,Status_of_Reopening,0
-2020-05-08,NonEss_Business_Closed,133
+2020-05-08,NonEss_Business_Closed,119
 2020-05-08,Gathering_Limit,232
 2020-05-08,Emergency_Declaration,51
 2020-05-08,Travel_Quarantine,95
@@ -406,7 +406,7 @@ Date,Category,sums
 2020-05-08,School_Closed,86
 2020-05-09,Stay_Home_Order,132
 2020-05-09,Status_of_Reopening,0
-2020-05-09,NonEss_Business_Closed,133
+2020-05-09,NonEss_Business_Closed,119
 2020-05-09,Gathering_Limit,232
 2020-05-09,Emergency_Declaration,51
 2020-05-09,Travel_Quarantine,95
@@ -415,7 +415,7 @@ Date,Category,sums
 2020-05-09,School_Closed,86
 2020-05-10,Stay_Home_Order,132
 2020-05-10,Status_of_Reopening,0
-2020-05-10,NonEss_Business_Closed,133
+2020-05-10,NonEss_Business_Closed,119
 2020-05-10,Gathering_Limit,232
 2020-05-10,Emergency_Declaration,51
 2020-05-10,Travel_Quarantine,95
@@ -424,7 +424,7 @@ Date,Category,sums
 2020-05-10,School_Closed,86
 2020-05-11,Stay_Home_Order,132
 2020-05-11,Status_of_Reopening,0
-2020-05-11,NonEss_Business_Closed,133
+2020-05-11,NonEss_Business_Closed,119
 2020-05-11,Gathering_Limit,232
 2020-05-11,Emergency_Declaration,51
 2020-05-11,Travel_Quarantine,95
@@ -433,7 +433,7 @@ Date,Category,sums
 2020-05-11,School_Closed,86
 2020-05-12,Stay_Home_Order,132
 2020-05-12,Status_of_Reopening,0
-2020-05-12,NonEss_Business_Closed,125
+2020-05-12,NonEss_Business_Closed,111
 2020-05-12,Gathering_Limit,228
 2020-05-12,Emergency_Declaration,51
 2020-05-12,Travel_Quarantine,95
@@ -442,7 +442,7 @@ Date,Category,sums
 2020-05-12,School_Closed,86
 2020-05-13,Stay_Home_Order,132
 2020-05-13,Status_of_Reopening,0
-2020-05-13,NonEss_Business_Closed,125
+2020-05-13,NonEss_Business_Closed,111
 2020-05-13,Gathering_Limit,226
 2020-05-13,Emergency_Declaration,51
 2020-05-13,Travel_Quarantine,95
@@ -451,7 +451,7 @@ Date,Category,sums
 2020-05-13,School_Closed,86
 2020-05-14,Stay_Home_Order,129
 2020-05-14,Status_of_Reopening,0
-2020-05-14,NonEss_Business_Closed,125
+2020-05-14,NonEss_Business_Closed,111
 2020-05-14,Gathering_Limit,226
 2020-05-14,Emergency_Declaration,51
 2020-05-14,Travel_Quarantine,95
@@ -460,7 +460,7 @@ Date,Category,sums
 2020-05-14,School_Closed,86
 2020-05-15,Stay_Home_Order,117
 2020-05-15,Status_of_Reopening,0
-2020-05-15,NonEss_Business_Closed,120
+2020-05-15,NonEss_Business_Closed,95
 2020-05-15,Gathering_Limit,206
 2020-05-15,Emergency_Declaration,51
 2020-05-15,Travel_Quarantine,92
@@ -469,7 +469,7 @@ Date,Category,sums
 2020-05-15,School_Closed,86
 2020-05-16,Stay_Home_Order,117
 2020-05-16,Status_of_Reopening,0
-2020-05-16,NonEss_Business_Closed,120
+2020-05-16,NonEss_Business_Closed,95
 2020-05-16,Gathering_Limit,206
 2020-05-16,Emergency_Declaration,51
 2020-05-16,Travel_Quarantine,92
@@ -478,7 +478,7 @@ Date,Category,sums
 2020-05-16,School_Closed,86
 2020-05-17,Stay_Home_Order,117
 2020-05-17,Status_of_Reopening,0
-2020-05-17,NonEss_Business_Closed,120
+2020-05-17,NonEss_Business_Closed,95
 2020-05-17,Gathering_Limit,206
 2020-05-17,Emergency_Declaration,51
 2020-05-17,Travel_Quarantine,92
@@ -487,7 +487,7 @@ Date,Category,sums
 2020-05-17,School_Closed,86
 2020-05-18,Stay_Home_Order,114
 2020-05-18,Status_of_Reopening,0
-2020-05-18,NonEss_Business_Closed,120
+2020-05-18,NonEss_Business_Closed,90
 2020-05-18,Gathering_Limit,208
 2020-05-18,Emergency_Declaration,51
 2020-05-18,Travel_Quarantine,92
@@ -496,7 +496,7 @@ Date,Category,sums
 2020-05-18,School_Closed,86
 2020-05-19,Stay_Home_Order,112
 2020-05-19,Status_of_Reopening,0
-2020-05-19,NonEss_Business_Closed,112
+2020-05-19,NonEss_Business_Closed,82
 2020-05-19,Gathering_Limit,208
 2020-05-19,Emergency_Declaration,51
 2020-05-19,Travel_Quarantine,92
@@ -505,7 +505,7 @@ Date,Category,sums
 2020-05-19,School_Closed,86
 2020-05-20,Stay_Home_Order,109
 2020-05-20,Status_of_Reopening,0
-2020-05-20,NonEss_Business_Closed,109
+2020-05-20,NonEss_Business_Closed,79
 2020-05-20,Gathering_Limit,208
 2020-05-20,Emergency_Declaration,51
 2020-05-20,Travel_Quarantine,92
@@ -514,7 +514,7 @@ Date,Category,sums
 2020-05-20,School_Closed,86
 2020-05-21,Stay_Home_Order,106
 2020-05-21,Status_of_Reopening,0
-2020-05-21,NonEss_Business_Closed,109
+2020-05-21,NonEss_Business_Closed,79
 2020-05-21,Gathering_Limit,206
 2020-05-21,Emergency_Declaration,51
 2020-05-21,Travel_Quarantine,82
@@ -523,7 +523,7 @@ Date,Category,sums
 2020-05-21,School_Closed,86
 2020-05-22,Stay_Home_Order,100
 2020-05-22,Status_of_Reopening,0
-2020-05-22,NonEss_Business_Closed,120
+2020-05-22,NonEss_Business_Closed,75
 2020-05-22,Gathering_Limit,193
 2020-05-22,Emergency_Declaration,51
 2020-05-22,Travel_Quarantine,82
@@ -532,7 +532,7 @@ Date,Category,sums
 2020-05-22,School_Closed,86
 2020-05-23,Stay_Home_Order,100
 2020-05-23,Status_of_Reopening,0
-2020-05-23,NonEss_Business_Closed,120
+2020-05-23,NonEss_Business_Closed,75
 2020-05-23,Gathering_Limit,193
 2020-05-23,Emergency_Declaration,51
 2020-05-23,Travel_Quarantine,82
@@ -541,7 +541,7 @@ Date,Category,sums
 2020-05-23,School_Closed,86
 2020-05-24,Stay_Home_Order,100
 2020-05-24,Status_of_Reopening,0
-2020-05-24,NonEss_Business_Closed,120
+2020-05-24,NonEss_Business_Closed,75
 2020-05-24,Gathering_Limit,193
 2020-05-24,Emergency_Declaration,51
 2020-05-24,Travel_Quarantine,82
@@ -550,7 +550,7 @@ Date,Category,sums
 2020-05-24,School_Closed,86
 2020-05-25,Stay_Home_Order,100
 2020-05-25,Status_of_Reopening,0
-2020-05-25,NonEss_Business_Closed,120
+2020-05-25,NonEss_Business_Closed,75
 2020-05-25,Gathering_Limit,193
 2020-05-25,Emergency_Declaration,51
 2020-05-25,Travel_Quarantine,82
@@ -559,7 +559,7 @@ Date,Category,sums
 2020-05-25,School_Closed,86
 2020-05-26,Stay_Home_Order,97
 2020-05-26,Status_of_Reopening,0
-2020-05-26,NonEss_Business_Closed,119
+2020-05-26,NonEss_Business_Closed,72
 2020-05-26,Gathering_Limit,185
 2020-05-26,Emergency_Declaration,51
 2020-05-26,Travel_Quarantine,82
@@ -568,7 +568,7 @@ Date,Category,sums
 2020-05-26,School_Closed,86
 2020-05-27,Stay_Home_Order,97
 2020-05-27,Status_of_Reopening,0
-2020-05-27,NonEss_Business_Closed,121
+2020-05-27,NonEss_Business_Closed,76
 2020-05-27,Gathering_Limit,185
 2020-05-27,Emergency_Declaration,51
 2020-05-27,Travel_Quarantine,82
@@ -577,7 +577,7 @@ Date,Category,sums
 2020-05-27,School_Closed,86
 2020-05-28,Stay_Home_Order,97
 2020-05-28,Status_of_Reopening,0
-2020-05-28,NonEss_Business_Closed,121
+2020-05-28,NonEss_Business_Closed,76
 2020-05-28,Gathering_Limit,185
 2020-05-28,Emergency_Declaration,51
 2020-05-28,Travel_Quarantine,82
@@ -586,7 +586,7 @@ Date,Category,sums
 2020-05-28,School_Closed,86
 2020-05-29,Stay_Home_Order,94
 2020-05-29,Status_of_Reopening,0
-2020-05-29,NonEss_Business_Closed,115
+2020-05-29,NonEss_Business_Closed,70
 2020-05-29,Gathering_Limit,174
 2020-05-29,Emergency_Declaration,51
 2020-05-29,Travel_Quarantine,72
@@ -595,7 +595,7 @@ Date,Category,sums
 2020-05-29,School_Closed,86
 2020-05-30,Stay_Home_Order,94
 2020-05-30,Status_of_Reopening,0
-2020-05-30,NonEss_Business_Closed,115
+2020-05-30,NonEss_Business_Closed,70
 2020-05-30,Gathering_Limit,174
 2020-05-30,Emergency_Declaration,51
 2020-05-30,Travel_Quarantine,72
@@ -604,7 +604,7 @@ Date,Category,sums
 2020-05-30,School_Closed,86
 2020-05-31,Stay_Home_Order,94
 2020-05-31,Status_of_Reopening,0
-2020-05-31,NonEss_Business_Closed,115
+2020-05-31,NonEss_Business_Closed,70
 2020-05-31,Gathering_Limit,174
 2020-05-31,Emergency_Declaration,51
 2020-05-31,Travel_Quarantine,72
@@ -613,7 +613,7 @@ Date,Category,sums
 2020-05-31,School_Closed,86
 2020-06-01,Stay_Home_Order,82
 2020-06-01,Status_of_Reopening,0
-2020-06-01,NonEss_Business_Closed,118
+2020-06-01,NonEss_Business_Closed,70
 2020-06-01,Gathering_Limit,166
 2020-06-01,Emergency_Declaration,51
 2020-06-01,Travel_Quarantine,65
@@ -622,7 +622,7 @@ Date,Category,sums
 2020-06-01,School_Closed,86
 2020-06-02,Stay_Home_Order,82
 2020-06-02,Status_of_Reopening,0
-2020-06-02,NonEss_Business_Closed,118
+2020-06-02,NonEss_Business_Closed,70
 2020-06-02,Gathering_Limit,166
 2020-06-02,Emergency_Declaration,51
 2020-06-02,Travel_Quarantine,65
@@ -631,7 +631,7 @@ Date,Category,sums
 2020-06-02,School_Closed,86
 2020-06-03,Stay_Home_Order,82
 2020-06-03,Status_of_Reopening,0
-2020-06-03,NonEss_Business_Closed,118
+2020-06-03,NonEss_Business_Closed,70
 2020-06-03,Gathering_Limit,166
 2020-06-03,Emergency_Declaration,51
 2020-06-03,Travel_Quarantine,65
@@ -640,7 +640,7 @@ Date,Category,sums
 2020-06-03,School_Closed,86
 2020-06-04,Stay_Home_Order,82
 2020-06-04,Status_of_Reopening,0
-2020-06-04,NonEss_Business_Closed,118
+2020-06-04,NonEss_Business_Closed,70
 2020-06-04,Gathering_Limit,162
 2020-06-04,Emergency_Declaration,51
 2020-06-04,Travel_Quarantine,65
@@ -649,7 +649,7 @@ Date,Category,sums
 2020-06-04,School_Closed,86
 2020-06-05,Stay_Home_Order,82
 2020-06-05,Status_of_Reopening,0
-2020-06-05,NonEss_Business_Closed,121
+2020-06-05,NonEss_Business_Closed,70
 2020-06-05,Gathering_Limit,157
 2020-06-05,Emergency_Declaration,51
 2020-06-05,Travel_Quarantine,65
@@ -658,7 +658,7 @@ Date,Category,sums
 2020-06-05,School_Closed,86
 2020-06-06,Stay_Home_Order,82
 2020-06-06,Status_of_Reopening,0
-2020-06-06,NonEss_Business_Closed,121
+2020-06-06,NonEss_Business_Closed,70
 2020-06-06,Gathering_Limit,157
 2020-06-06,Emergency_Declaration,51
 2020-06-06,Travel_Quarantine,65
@@ -667,7 +667,7 @@ Date,Category,sums
 2020-06-06,School_Closed,86
 2020-06-07,Stay_Home_Order,82
 2020-06-07,Status_of_Reopening,0
-2020-06-07,NonEss_Business_Closed,121
+2020-06-07,NonEss_Business_Closed,70
 2020-06-07,Gathering_Limit,157
 2020-06-07,Emergency_Declaration,51
 2020-06-07,Travel_Quarantine,65
@@ -676,7 +676,7 @@ Date,Category,sums
 2020-06-07,School_Closed,86
 2020-06-08,Stay_Home_Order,82
 2020-06-08,Status_of_Reopening,0
-2020-06-08,NonEss_Business_Closed,121
+2020-06-08,NonEss_Business_Closed,70
 2020-06-08,Gathering_Limit,157
 2020-06-08,Emergency_Declaration,51
 2020-06-08,Travel_Quarantine,65
@@ -685,7 +685,7 @@ Date,Category,sums
 2020-06-08,School_Closed,86
 2020-06-09,Stay_Home_Order,76
 2020-06-09,Status_of_Reopening,0
-2020-06-09,NonEss_Business_Closed,121
+2020-06-09,NonEss_Business_Closed,70
 2020-06-09,Gathering_Limit,157
 2020-06-09,Emergency_Declaration,51
 2020-06-09,Travel_Quarantine,64
@@ -694,7 +694,7 @@ Date,Category,sums
 2020-06-09,School_Closed,86
 2020-06-10,Stay_Home_Order,76
 2020-06-10,Status_of_Reopening,0
-2020-06-10,NonEss_Business_Closed,121
+2020-06-10,NonEss_Business_Closed,70
 2020-06-10,Gathering_Limit,157
 2020-06-10,Emergency_Declaration,51
 2020-06-10,Travel_Quarantine,64
@@ -703,7 +703,7 @@ Date,Category,sums
 2020-06-10,School_Closed,86
 2020-06-11,Stay_Home_Order,76
 2020-06-11,Status_of_Reopening,0
-2020-06-11,NonEss_Business_Closed,121
+2020-06-11,NonEss_Business_Closed,70
 2020-06-11,Gathering_Limit,157
 2020-06-11,Emergency_Declaration,51
 2020-06-11,Travel_Quarantine,64
@@ -712,7 +712,7 @@ Date,Category,sums
 2020-06-11,School_Closed,86
 2020-06-12,Stay_Home_Order,70
 2020-06-12,Status_of_Reopening,0
-2020-06-12,NonEss_Business_Closed,131
+2020-06-12,NonEss_Business_Closed,71
 2020-06-12,Gathering_Limit,151
 2020-06-12,Emergency_Declaration,51
 2020-06-12,Travel_Quarantine,64
@@ -721,7 +721,7 @@ Date,Category,sums
 2020-06-12,School_Closed,86
 2020-06-13,Stay_Home_Order,70
 2020-06-13,Status_of_Reopening,0
-2020-06-13,NonEss_Business_Closed,131
+2020-06-13,NonEss_Business_Closed,71
 2020-06-13,Gathering_Limit,151
 2020-06-13,Emergency_Declaration,51
 2020-06-13,Travel_Quarantine,64
@@ -730,7 +730,7 @@ Date,Category,sums
 2020-06-13,School_Closed,86
 2020-06-14,Stay_Home_Order,70
 2020-06-14,Status_of_Reopening,0
-2020-06-14,NonEss_Business_Closed,131
+2020-06-14,NonEss_Business_Closed,71
 2020-06-14,Gathering_Limit,151
 2020-06-14,Emergency_Declaration,51
 2020-06-14,Travel_Quarantine,64
@@ -739,7 +739,7 @@ Date,Category,sums
 2020-06-14,School_Closed,86
 2020-06-15,Stay_Home_Order,67
 2020-06-15,Status_of_Reopening,0
-2020-06-15,NonEss_Business_Closed,134
+2020-06-15,NonEss_Business_Closed,67
 2020-06-15,Gathering_Limit,141
 2020-06-15,Emergency_Declaration,51
 2020-06-15,Travel_Quarantine,61
@@ -748,7 +748,7 @@ Date,Category,sums
 2020-06-15,School_Closed,86
 2020-06-16,Stay_Home_Order,67
 2020-06-16,Status_of_Reopening,0
-2020-06-16,NonEss_Business_Closed,137
+2020-06-16,NonEss_Business_Closed,67
 2020-06-16,Gathering_Limit,141
 2020-06-16,Emergency_Declaration,51
 2020-06-16,Travel_Quarantine,61
@@ -757,7 +757,7 @@ Date,Category,sums
 2020-06-16,School_Closed,86
 2020-06-17,Stay_Home_Order,67
 2020-06-17,Status_of_Reopening,0
-2020-06-17,NonEss_Business_Closed,137
+2020-06-17,NonEss_Business_Closed,67
 2020-06-17,Gathering_Limit,141
 2020-06-17,Emergency_Declaration,51
 2020-06-17,Travel_Quarantine,61
@@ -766,7 +766,7 @@ Date,Category,sums
 2020-06-17,School_Closed,86
 2020-06-18,Stay_Home_Order,67
 2020-06-18,Status_of_Reopening,0
-2020-06-18,NonEss_Business_Closed,137
+2020-06-18,NonEss_Business_Closed,67
 2020-06-18,Gathering_Limit,141
 2020-06-18,Emergency_Declaration,51
 2020-06-18,Travel_Quarantine,61
@@ -775,7 +775,7 @@ Date,Category,sums
 2020-06-18,School_Closed,86
 2020-06-19,Stay_Home_Order,67
 2020-06-19,Status_of_Reopening,0
-2020-06-19,NonEss_Business_Closed,137
+2020-06-19,NonEss_Business_Closed,67
 2020-06-19,Gathering_Limit,141
 2020-06-19,Emergency_Declaration,51
 2020-06-19,Travel_Quarantine,61
@@ -784,7 +784,7 @@ Date,Category,sums
 2020-06-19,School_Closed,86
 2020-06-20,Stay_Home_Order,67
 2020-06-20,Status_of_Reopening,0
-2020-06-20,NonEss_Business_Closed,137
+2020-06-20,NonEss_Business_Closed,67
 2020-06-20,Gathering_Limit,141
 2020-06-20,Emergency_Declaration,51
 2020-06-20,Travel_Quarantine,61
@@ -793,7 +793,7 @@ Date,Category,sums
 2020-06-20,School_Closed,86
 2020-06-21,Stay_Home_Order,67
 2020-06-21,Status_of_Reopening,0
-2020-06-21,NonEss_Business_Closed,137
+2020-06-21,NonEss_Business_Closed,67
 2020-06-21,Gathering_Limit,141
 2020-06-21,Emergency_Declaration,51
 2020-06-21,Travel_Quarantine,61
@@ -802,7 +802,7 @@ Date,Category,sums
 2020-06-21,School_Closed,86
 2020-06-22,Stay_Home_Order,66
 2020-06-22,Status_of_Reopening,0
-2020-06-22,NonEss_Business_Closed,137
+2020-06-22,NonEss_Business_Closed,67
 2020-06-22,Gathering_Limit,131
 2020-06-22,Emergency_Declaration,51
 2020-06-22,Travel_Quarantine,61
@@ -811,7 +811,7 @@ Date,Category,sums
 2020-06-22,School_Closed,86
 2020-06-23,Stay_Home_Order,66
 2020-06-23,Status_of_Reopening,0
-2020-06-23,NonEss_Business_Closed,137
+2020-06-23,NonEss_Business_Closed,67
 2020-06-23,Gathering_Limit,131
 2020-06-23,Emergency_Declaration,51
 2020-06-23,Travel_Quarantine,61
@@ -820,7 +820,7 @@ Date,Category,sums
 2020-06-23,School_Closed,86
 2020-06-24,Stay_Home_Order,66
 2020-06-24,Status_of_Reopening,0
-2020-06-24,NonEss_Business_Closed,137
+2020-06-24,NonEss_Business_Closed,67
 2020-06-24,Gathering_Limit,131
 2020-06-24,Emergency_Declaration,51
 2020-06-24,Travel_Quarantine,73
@@ -829,7 +829,7 @@ Date,Category,sums
 2020-06-24,School_Closed,86
 2020-06-25,Stay_Home_Order,66
 2020-06-25,Status_of_Reopening,0
-2020-06-25,NonEss_Business_Closed,137
+2020-06-25,NonEss_Business_Closed,67
 2020-06-25,Gathering_Limit,131
 2020-06-25,Emergency_Declaration,51
 2020-06-25,Travel_Quarantine,73
@@ -838,7 +838,7 @@ Date,Category,sums
 2020-06-25,School_Closed,86
 2020-06-26,Stay_Home_Order,66
 2020-06-26,Status_of_Reopening,0
-2020-06-26,NonEss_Business_Closed,137
+2020-06-26,NonEss_Business_Closed,67
 2020-06-26,Gathering_Limit,133
 2020-06-26,Emergency_Declaration,51
 2020-06-26,Travel_Quarantine,73
@@ -847,7 +847,7 @@ Date,Category,sums
 2020-06-26,School_Closed,86
 2020-06-27,Stay_Home_Order,66
 2020-06-27,Status_of_Reopening,0
-2020-06-27,NonEss_Business_Closed,137
+2020-06-27,NonEss_Business_Closed,67
 2020-06-27,Gathering_Limit,133
 2020-06-27,Emergency_Declaration,51
 2020-06-27,Travel_Quarantine,73
@@ -856,7 +856,7 @@ Date,Category,sums
 2020-06-27,School_Closed,86
 2020-06-28,Stay_Home_Order,66
 2020-06-28,Status_of_Reopening,0
-2020-06-28,NonEss_Business_Closed,137
+2020-06-28,NonEss_Business_Closed,67
 2020-06-28,Gathering_Limit,133
 2020-06-28,Emergency_Declaration,51
 2020-06-28,Travel_Quarantine,73
@@ -865,7 +865,7 @@ Date,Category,sums
 2020-06-28,School_Closed,86
 2020-06-29,Stay_Home_Order,66
 2020-06-29,Status_of_Reopening,0
-2020-06-29,NonEss_Business_Closed,137
+2020-06-29,NonEss_Business_Closed,67
 2020-06-29,Gathering_Limit,133
 2020-06-29,Emergency_Declaration,51
 2020-06-29,Travel_Quarantine,73
@@ -874,7 +874,7 @@ Date,Category,sums
 2020-06-29,School_Closed,86
 2020-06-30,Stay_Home_Order,66
 2020-06-30,Status_of_Reopening,0
-2020-06-30,NonEss_Business_Closed,137
+2020-06-30,NonEss_Business_Closed,67
 2020-06-30,Gathering_Limit,135
 2020-06-30,Emergency_Declaration,51
 2020-06-30,Travel_Quarantine,73
@@ -883,7 +883,7 @@ Date,Category,sums
 2020-06-30,School_Closed,86
 2020-07-01,Stay_Home_Order,66
 2020-07-01,Status_of_Reopening,73
-2020-07-01,NonEss_Business_Closed,140
+2020-07-01,NonEss_Business_Closed,68
 2020-07-01,Gathering_Limit,126
 2020-07-01,Emergency_Declaration,51
 2020-07-01,Travel_Quarantine,73
@@ -892,7 +892,7 @@ Date,Category,sums
 2020-07-01,School_Closed,86
 2020-07-02,Stay_Home_Order,66
 2020-07-02,Status_of_Reopening,73
-2020-07-02,NonEss_Business_Closed,140
+2020-07-02,NonEss_Business_Closed,68
 2020-07-02,Gathering_Limit,126
 2020-07-02,Emergency_Declaration,51
 2020-07-02,Travel_Quarantine,73
@@ -901,7 +901,7 @@ Date,Category,sums
 2020-07-02,School_Closed,86
 2020-07-03,Stay_Home_Order,66
 2020-07-03,Status_of_Reopening,73
-2020-07-03,NonEss_Business_Closed,141
+2020-07-03,NonEss_Business_Closed,69
 2020-07-03,Gathering_Limit,126
 2020-07-03,Emergency_Declaration,51
 2020-07-03,Travel_Quarantine,73
@@ -910,7 +910,7 @@ Date,Category,sums
 2020-07-03,School_Closed,86
 2020-07-04,Stay_Home_Order,66
 2020-07-04,Status_of_Reopening,73
-2020-07-04,NonEss_Business_Closed,141
+2020-07-04,NonEss_Business_Closed,69
 2020-07-04,Gathering_Limit,126
 2020-07-04,Emergency_Declaration,51
 2020-07-04,Travel_Quarantine,73
@@ -919,7 +919,7 @@ Date,Category,sums
 2020-07-04,School_Closed,86
 2020-07-05,Stay_Home_Order,66
 2020-07-05,Status_of_Reopening,73
-2020-07-05,NonEss_Business_Closed,141
+2020-07-05,NonEss_Business_Closed,69
 2020-07-05,Gathering_Limit,126
 2020-07-05,Emergency_Declaration,51
 2020-07-05,Travel_Quarantine,73
@@ -928,7 +928,7 @@ Date,Category,sums
 2020-07-05,School_Closed,86
 2020-07-06,Stay_Home_Order,66
 2020-07-06,Status_of_Reopening,73
-2020-07-06,NonEss_Business_Closed,141
+2020-07-06,NonEss_Business_Closed,69
 2020-07-06,Gathering_Limit,126
 2020-07-06,Emergency_Declaration,51
 2020-07-06,Travel_Quarantine,73
@@ -937,7 +937,7 @@ Date,Category,sums
 2020-07-06,School_Closed,86
 2020-07-07,Stay_Home_Order,66
 2020-07-07,Status_of_Reopening,74
-2020-07-07,NonEss_Business_Closed,141
+2020-07-07,NonEss_Business_Closed,69
 2020-07-07,Gathering_Limit,124
 2020-07-07,Emergency_Declaration,51
 2020-07-07,Travel_Quarantine,73
@@ -946,7 +946,7 @@ Date,Category,sums
 2020-07-07,School_Closed,86
 2020-07-08,Stay_Home_Order,66
 2020-07-08,Status_of_Reopening,74
-2020-07-08,NonEss_Business_Closed,141
+2020-07-08,NonEss_Business_Closed,69
 2020-07-08,Gathering_Limit,124
 2020-07-08,Emergency_Declaration,51
 2020-07-08,Travel_Quarantine,73
@@ -955,7 +955,7 @@ Date,Category,sums
 2020-07-08,School_Closed,0
 2020-07-09,Stay_Home_Order,66
 2020-07-09,Status_of_Reopening,75
-2020-07-09,NonEss_Business_Closed,141
+2020-07-09,NonEss_Business_Closed,69
 2020-07-09,Gathering_Limit,124
 2020-07-09,Emergency_Declaration,51
 2020-07-09,Travel_Quarantine,73
@@ -964,7 +964,7 @@ Date,Category,sums
 2020-07-09,School_Closed,0
 2020-07-10,Stay_Home_Order,66
 2020-07-10,Status_of_Reopening,79
-2020-07-10,NonEss_Business_Closed,141
+2020-07-10,NonEss_Business_Closed,69
 2020-07-10,Gathering_Limit,124
 2020-07-10,Emergency_Declaration,51
 2020-07-10,Travel_Quarantine,73
@@ -973,7 +973,7 @@ Date,Category,sums
 2020-07-10,School_Closed,0
 2020-07-11,Stay_Home_Order,66
 2020-07-11,Status_of_Reopening,79
-2020-07-11,NonEss_Business_Closed,141
+2020-07-11,NonEss_Business_Closed,69
 2020-07-11,Gathering_Limit,124
 2020-07-11,Emergency_Declaration,51
 2020-07-11,Travel_Quarantine,73
@@ -982,7 +982,7 @@ Date,Category,sums
 2020-07-11,School_Closed,0
 2020-07-12,Stay_Home_Order,66
 2020-07-12,Status_of_Reopening,79
-2020-07-12,NonEss_Business_Closed,141
+2020-07-12,NonEss_Business_Closed,69
 2020-07-12,Gathering_Limit,124
 2020-07-12,Emergency_Declaration,51
 2020-07-12,Travel_Quarantine,73
@@ -991,7 +991,7 @@ Date,Category,sums
 2020-07-12,School_Closed,0
 2020-07-13,Stay_Home_Order,63
 2020-07-13,Status_of_Reopening,80
-2020-07-13,NonEss_Business_Closed,141
+2020-07-13,NonEss_Business_Closed,69
 2020-07-13,Gathering_Limit,124
 2020-07-13,Emergency_Declaration,51
 2020-07-13,Travel_Quarantine,73
@@ -1000,7 +1000,7 @@ Date,Category,sums
 2020-07-13,School_Closed,0
 2020-07-14,Stay_Home_Order,54
 2020-07-14,Status_of_Reopening,82
-2020-07-14,NonEss_Business_Closed,141
+2020-07-14,NonEss_Business_Closed,69
 2020-07-14,Gathering_Limit,121
 2020-07-14,Emergency_Declaration,51
 2020-07-14,Travel_Quarantine,73
@@ -1009,7 +1009,7 @@ Date,Category,sums
 2020-07-14,School_Closed,0
 2020-07-15,Stay_Home_Order,52
 2020-07-15,Status_of_Reopening,84
-2020-07-15,NonEss_Business_Closed,141
+2020-07-15,NonEss_Business_Closed,69
 2020-07-15,Gathering_Limit,118
 2020-07-15,Emergency_Declaration,51
 2020-07-15,Travel_Quarantine,73
@@ -1018,7 +1018,7 @@ Date,Category,sums
 2020-07-15,School_Closed,0
 2020-07-16,Stay_Home_Order,52
 2020-07-16,Status_of_Reopening,84
-2020-07-16,NonEss_Business_Closed,141
+2020-07-16,NonEss_Business_Closed,69
 2020-07-16,Gathering_Limit,118
 2020-07-16,Emergency_Declaration,51
 2020-07-16,Travel_Quarantine,73
@@ -1027,7 +1027,7 @@ Date,Category,sums
 2020-07-16,School_Closed,0
 2020-07-17,Stay_Home_Order,52
 2020-07-17,Status_of_Reopening,86
-2020-07-17,NonEss_Business_Closed,141
+2020-07-17,NonEss_Business_Closed,69
 2020-07-17,Gathering_Limit,115
 2020-07-17,Emergency_Declaration,51
 2020-07-17,Travel_Quarantine,73
@@ -1036,7 +1036,7 @@ Date,Category,sums
 2020-07-17,School_Closed,0
 2020-07-18,Stay_Home_Order,52
 2020-07-18,Status_of_Reopening,86
-2020-07-18,NonEss_Business_Closed,141
+2020-07-18,NonEss_Business_Closed,69
 2020-07-18,Gathering_Limit,115
 2020-07-18,Emergency_Declaration,51
 2020-07-18,Travel_Quarantine,73
@@ -1045,7 +1045,7 @@ Date,Category,sums
 2020-07-18,School_Closed,0
 2020-07-19,Stay_Home_Order,52
 2020-07-19,Status_of_Reopening,86
-2020-07-19,NonEss_Business_Closed,141
+2020-07-19,NonEss_Business_Closed,69
 2020-07-19,Gathering_Limit,115
 2020-07-19,Emergency_Declaration,51
 2020-07-19,Travel_Quarantine,73
@@ -1054,7 +1054,7 @@ Date,Category,sums
 2020-07-19,School_Closed,0
 2020-07-20,Stay_Home_Order,52
 2020-07-20,Status_of_Reopening,86
-2020-07-20,NonEss_Business_Closed,141
+2020-07-20,NonEss_Business_Closed,69
 2020-07-20,Gathering_Limit,115
 2020-07-20,Emergency_Declaration,51
 2020-07-20,Travel_Quarantine,73
@@ -1063,7 +1063,7 @@ Date,Category,sums
 2020-07-20,School_Closed,0
 2020-07-21,Stay_Home_Order,52
 2020-07-21,Status_of_Reopening,86
-2020-07-21,NonEss_Business_Closed,141
+2020-07-21,NonEss_Business_Closed,69
 2020-07-21,Gathering_Limit,115
 2020-07-21,Emergency_Declaration,51
 2020-07-21,Travel_Quarantine,73
@@ -1072,7 +1072,7 @@ Date,Category,sums
 2020-07-21,School_Closed,0
 2020-07-22,Stay_Home_Order,52
 2020-07-22,Status_of_Reopening,89
-2020-07-22,NonEss_Business_Closed,141
+2020-07-22,NonEss_Business_Closed,69
 2020-07-22,Gathering_Limit,112
 2020-07-22,Emergency_Declaration,51
 2020-07-22,Travel_Quarantine,73
@@ -1081,7 +1081,7 @@ Date,Category,sums
 2020-07-22,School_Closed,0
 2020-07-23,Stay_Home_Order,52
 2020-07-23,Status_of_Reopening,89
-2020-07-23,NonEss_Business_Closed,141
+2020-07-23,NonEss_Business_Closed,69
 2020-07-23,Gathering_Limit,112
 2020-07-23,Emergency_Declaration,51
 2020-07-23,Travel_Quarantine,73
@@ -1090,7 +1090,7 @@ Date,Category,sums
 2020-07-23,School_Closed,0
 2020-07-24,Stay_Home_Order,52
 2020-07-24,Status_of_Reopening,89
-2020-07-24,NonEss_Business_Closed,141
+2020-07-24,NonEss_Business_Closed,69
 2020-07-24,Gathering_Limit,112
 2020-07-24,Emergency_Declaration,51
 2020-07-24,Travel_Quarantine,73
@@ -1099,7 +1099,7 @@ Date,Category,sums
 2020-07-24,School_Closed,0
 2020-07-25,Stay_Home_Order,52
 2020-07-25,Status_of_Reopening,89
-2020-07-25,NonEss_Business_Closed,141
+2020-07-25,NonEss_Business_Closed,69
 2020-07-25,Gathering_Limit,112
 2020-07-25,Emergency_Declaration,51
 2020-07-25,Travel_Quarantine,73
@@ -1108,7 +1108,7 @@ Date,Category,sums
 2020-07-25,School_Closed,0
 2020-07-26,Stay_Home_Order,52
 2020-07-26,Status_of_Reopening,89
-2020-07-26,NonEss_Business_Closed,141
+2020-07-26,NonEss_Business_Closed,69
 2020-07-26,Gathering_Limit,112
 2020-07-26,Emergency_Declaration,51
 2020-07-26,Travel_Quarantine,73
@@ -1117,7 +1117,7 @@ Date,Category,sums
 2020-07-26,School_Closed,0
 2020-07-27,Stay_Home_Order,52
 2020-07-27,Status_of_Reopening,89
-2020-07-27,NonEss_Business_Closed,141
+2020-07-27,NonEss_Business_Closed,69
 2020-07-27,Gathering_Limit,109
 2020-07-27,Emergency_Declaration,51
 2020-07-27,Travel_Quarantine,77
@@ -1126,7 +1126,7 @@ Date,Category,sums
 2020-07-27,School_Closed,0
 2020-07-28,Stay_Home_Order,52
 2020-07-28,Status_of_Reopening,89
-2020-07-28,NonEss_Business_Closed,141
+2020-07-28,NonEss_Business_Closed,69
 2020-07-28,Gathering_Limit,109
 2020-07-28,Emergency_Declaration,51
 2020-07-28,Travel_Quarantine,77
@@ -1135,7 +1135,7 @@ Date,Category,sums
 2020-07-28,School_Closed,0
 2020-07-29,Stay_Home_Order,52
 2020-07-29,Status_of_Reopening,89
-2020-07-29,NonEss_Business_Closed,141
+2020-07-29,NonEss_Business_Closed,69
 2020-07-29,Gathering_Limit,109
 2020-07-29,Emergency_Declaration,51
 2020-07-29,Travel_Quarantine,77
@@ -1144,7 +1144,7 @@ Date,Category,sums
 2020-07-29,School_Closed,0
 2020-07-30,Stay_Home_Order,52
 2020-07-30,Status_of_Reopening,92
-2020-07-30,NonEss_Business_Closed,141
+2020-07-30,NonEss_Business_Closed,69
 2020-07-30,Gathering_Limit,102
 2020-07-30,Emergency_Declaration,51
 2020-07-30,Travel_Quarantine,77
@@ -1153,7 +1153,7 @@ Date,Category,sums
 2020-07-30,School_Closed,0
 2020-07-31,Stay_Home_Order,52
 2020-07-31,Status_of_Reopening,92
-2020-07-31,NonEss_Business_Closed,141
+2020-07-31,NonEss_Business_Closed,69
 2020-07-31,Gathering_Limit,102
 2020-07-31,Emergency_Declaration,51
 2020-07-31,Travel_Quarantine,77
@@ -1162,7 +1162,7 @@ Date,Category,sums
 2020-07-31,School_Closed,0
 2020-08-01,Stay_Home_Order,52
 2020-08-01,Status_of_Reopening,92
-2020-08-01,NonEss_Business_Closed,141
+2020-08-01,NonEss_Business_Closed,69
 2020-08-01,Gathering_Limit,102
 2020-08-01,Emergency_Declaration,51
 2020-08-01,Travel_Quarantine,77
@@ -1171,7 +1171,7 @@ Date,Category,sums
 2020-08-01,School_Closed,0
 2020-08-02,Stay_Home_Order,52
 2020-08-02,Status_of_Reopening,92
-2020-08-02,NonEss_Business_Closed,141
+2020-08-02,NonEss_Business_Closed,69
 2020-08-02,Gathering_Limit,102
 2020-08-02,Emergency_Declaration,51
 2020-08-02,Travel_Quarantine,77
@@ -1180,7 +1180,7 @@ Date,Category,sums
 2020-08-02,School_Closed,0
 2020-08-03,Stay_Home_Order,52
 2020-08-03,Status_of_Reopening,93
-2020-08-03,NonEss_Business_Closed,139
+2020-08-03,NonEss_Business_Closed,72
 2020-08-03,Gathering_Limit,99
 2020-08-03,Emergency_Declaration,51
 2020-08-03,Travel_Quarantine,77
@@ -1189,7 +1189,7 @@ Date,Category,sums
 2020-08-03,School_Closed,0
 2020-08-04,Stay_Home_Order,52
 2020-08-04,Status_of_Reopening,93
-2020-08-04,NonEss_Business_Closed,139
+2020-08-04,NonEss_Business_Closed,72
 2020-08-04,Gathering_Limit,99
 2020-08-04,Emergency_Declaration,51
 2020-08-04,Travel_Quarantine,77
@@ -1198,7 +1198,7 @@ Date,Category,sums
 2020-08-04,School_Closed,0
 2020-08-05,Stay_Home_Order,51
 2020-08-05,Status_of_Reopening,93
-2020-08-05,NonEss_Business_Closed,139
+2020-08-05,NonEss_Business_Closed,72
 2020-08-05,Gathering_Limit,99
 2020-08-05,Emergency_Declaration,51
 2020-08-05,Travel_Quarantine,77
@@ -1207,7 +1207,7 @@ Date,Category,sums
 2020-08-05,School_Closed,0
 2020-08-06,Stay_Home_Order,51
 2020-08-06,Status_of_Reopening,93
-2020-08-06,NonEss_Business_Closed,139
+2020-08-06,NonEss_Business_Closed,72
 2020-08-06,Gathering_Limit,99
 2020-08-06,Emergency_Declaration,51
 2020-08-06,Travel_Quarantine,77
@@ -1216,7 +1216,7 @@ Date,Category,sums
 2020-08-06,School_Closed,0
 2020-08-07,Stay_Home_Order,51
 2020-08-07,Status_of_Reopening,96
-2020-08-07,NonEss_Business_Closed,139
+2020-08-07,NonEss_Business_Closed,72
 2020-08-07,Gathering_Limit,99
 2020-08-07,Emergency_Declaration,51
 2020-08-07,Travel_Quarantine,77
@@ -1225,7 +1225,7 @@ Date,Category,sums
 2020-08-07,School_Closed,0
 2020-08-08,Stay_Home_Order,51
 2020-08-08,Status_of_Reopening,96
-2020-08-08,NonEss_Business_Closed,139
+2020-08-08,NonEss_Business_Closed,72
 2020-08-08,Gathering_Limit,99
 2020-08-08,Emergency_Declaration,51
 2020-08-08,Travel_Quarantine,77
@@ -1234,7 +1234,7 @@ Date,Category,sums
 2020-08-08,School_Closed,0
 2020-08-09,Stay_Home_Order,51
 2020-08-09,Status_of_Reopening,96
-2020-08-09,NonEss_Business_Closed,139
+2020-08-09,NonEss_Business_Closed,72
 2020-08-09,Gathering_Limit,99
 2020-08-09,Emergency_Declaration,51
 2020-08-09,Travel_Quarantine,77
@@ -1243,7 +1243,7 @@ Date,Category,sums
 2020-08-09,School_Closed,0
 2020-08-10,Stay_Home_Order,51
 2020-08-10,Status_of_Reopening,96
-2020-08-10,NonEss_Business_Closed,139
+2020-08-10,NonEss_Business_Closed,72
 2020-08-10,Gathering_Limit,99
 2020-08-10,Emergency_Declaration,51
 2020-08-10,Travel_Quarantine,77
@@ -1252,7 +1252,7 @@ Date,Category,sums
 2020-08-10,School_Closed,0
 2020-08-11,Stay_Home_Order,51
 2020-08-11,Status_of_Reopening,98
-2020-08-11,NonEss_Business_Closed,139
+2020-08-11,NonEss_Business_Closed,72
 2020-08-11,Gathering_Limit,101
 2020-08-11,Emergency_Declaration,51
 2020-08-11,Travel_Quarantine,77
@@ -1261,7 +1261,7 @@ Date,Category,sums
 2020-08-11,School_Closed,0
 2020-08-12,Stay_Home_Order,51
 2020-08-12,Status_of_Reopening,98
-2020-08-12,NonEss_Business_Closed,139
+2020-08-12,NonEss_Business_Closed,72
 2020-08-12,Gathering_Limit,101
 2020-08-12,Emergency_Declaration,51
 2020-08-12,Travel_Quarantine,77
@@ -1270,7 +1270,7 @@ Date,Category,sums
 2020-08-12,School_Closed,0
 2020-08-13,Stay_Home_Order,51
 2020-08-13,Status_of_Reopening,98
-2020-08-13,NonEss_Business_Closed,139
+2020-08-13,NonEss_Business_Closed,72
 2020-08-13,Gathering_Limit,101
 2020-08-13,Emergency_Declaration,51
 2020-08-13,Travel_Quarantine,77
@@ -1279,7 +1279,7 @@ Date,Category,sums
 2020-08-13,School_Closed,0
 2020-08-14,Stay_Home_Order,51
 2020-08-14,Status_of_Reopening,98
-2020-08-14,NonEss_Business_Closed,139
+2020-08-14,NonEss_Business_Closed,72
 2020-08-14,Gathering_Limit,101
 2020-08-14,Emergency_Declaration,51
 2020-08-14,Travel_Quarantine,77
@@ -1288,7 +1288,7 @@ Date,Category,sums
 2020-08-14,School_Closed,0
 2020-08-15,Stay_Home_Order,51
 2020-08-15,Status_of_Reopening,98
-2020-08-15,NonEss_Business_Closed,139
+2020-08-15,NonEss_Business_Closed,72
 2020-08-15,Gathering_Limit,101
 2020-08-15,Emergency_Declaration,51
 2020-08-15,Travel_Quarantine,77
@@ -1297,7 +1297,7 @@ Date,Category,sums
 2020-08-15,School_Closed,0
 2020-08-16,Stay_Home_Order,51
 2020-08-16,Status_of_Reopening,98
-2020-08-16,NonEss_Business_Closed,139
+2020-08-16,NonEss_Business_Closed,72
 2020-08-16,Gathering_Limit,101
 2020-08-16,Emergency_Declaration,51
 2020-08-16,Travel_Quarantine,77
@@ -1306,7 +1306,7 @@ Date,Category,sums
 2020-08-16,School_Closed,0
 2020-08-17,Stay_Home_Order,51
 2020-08-17,Status_of_Reopening,98
-2020-08-17,NonEss_Business_Closed,139
+2020-08-17,NonEss_Business_Closed,72
 2020-08-17,Gathering_Limit,101
 2020-08-17,Emergency_Declaration,51
 2020-08-17,Travel_Quarantine,77
@@ -1315,7 +1315,7 @@ Date,Category,sums
 2020-08-17,School_Closed,0
 2020-08-18,Stay_Home_Order,51
 2020-08-18,Status_of_Reopening,98
-2020-08-18,NonEss_Business_Closed,139
+2020-08-18,NonEss_Business_Closed,72
 2020-08-18,Gathering_Limit,101
 2020-08-18,Emergency_Declaration,51
 2020-08-18,Travel_Quarantine,77
@@ -1324,7 +1324,7 @@ Date,Category,sums
 2020-08-18,School_Closed,0
 2020-08-19,Stay_Home_Order,51
 2020-08-19,Status_of_Reopening,98
-2020-08-19,NonEss_Business_Closed,139
+2020-08-19,NonEss_Business_Closed,72
 2020-08-19,Gathering_Limit,101
 2020-08-19,Emergency_Declaration,51
 2020-08-19,Travel_Quarantine,77
@@ -1333,7 +1333,7 @@ Date,Category,sums
 2020-08-19,School_Closed,0
 2020-08-20,Stay_Home_Order,51
 2020-08-20,Status_of_Reopening,98
-2020-08-20,NonEss_Business_Closed,139
+2020-08-20,NonEss_Business_Closed,72
 2020-08-20,Gathering_Limit,101
 2020-08-20,Emergency_Declaration,51
 2020-08-20,Travel_Quarantine,77
@@ -1342,7 +1342,7 @@ Date,Category,sums
 2020-08-20,School_Closed,0
 2020-08-21,Stay_Home_Order,51
 2020-08-21,Status_of_Reopening,100
-2020-08-21,NonEss_Business_Closed,139
+2020-08-21,NonEss_Business_Closed,72
 2020-08-21,Gathering_Limit,98
 2020-08-21,Emergency_Declaration,51
 2020-08-21,Travel_Quarantine,70
@@ -1351,7 +1351,7 @@ Date,Category,sums
 2020-08-21,School_Closed,0
 2020-08-22,Stay_Home_Order,51
 2020-08-22,Status_of_Reopening,100
-2020-08-22,NonEss_Business_Closed,139
+2020-08-22,NonEss_Business_Closed,72
 2020-08-22,Gathering_Limit,98
 2020-08-22,Emergency_Declaration,51
 2020-08-22,Travel_Quarantine,70
@@ -1360,7 +1360,7 @@ Date,Category,sums
 2020-08-22,School_Closed,0
 2020-08-23,Stay_Home_Order,51
 2020-08-23,Status_of_Reopening,100
-2020-08-23,NonEss_Business_Closed,139
+2020-08-23,NonEss_Business_Closed,72
 2020-08-23,Gathering_Limit,98
 2020-08-23,Emergency_Declaration,51
 2020-08-23,Travel_Quarantine,70
@@ -1369,7 +1369,7 @@ Date,Category,sums
 2020-08-23,School_Closed,0
 2020-08-24,Stay_Home_Order,51
 2020-08-24,Status_of_Reopening,100
-2020-08-24,NonEss_Business_Closed,139
+2020-08-24,NonEss_Business_Closed,72
 2020-08-24,Gathering_Limit,98
 2020-08-24,Emergency_Declaration,51
 2020-08-24,Travel_Quarantine,70
@@ -1378,7 +1378,7 @@ Date,Category,sums
 2020-08-24,School_Closed,0
 2020-08-25,Stay_Home_Order,51
 2020-08-25,Status_of_Reopening,100
-2020-08-25,NonEss_Business_Closed,139
+2020-08-25,NonEss_Business_Closed,72
 2020-08-25,Gathering_Limit,98
 2020-08-25,Emergency_Declaration,51
 2020-08-25,Travel_Quarantine,70
@@ -1387,7 +1387,7 @@ Date,Category,sums
 2020-08-25,School_Closed,0
 2020-08-26,Stay_Home_Order,50
 2020-08-26,Status_of_Reopening,100
-2020-08-26,NonEss_Business_Closed,139
+2020-08-26,NonEss_Business_Closed,72
 2020-08-26,Gathering_Limit,98
 2020-08-26,Emergency_Declaration,51
 2020-08-26,Travel_Quarantine,70
@@ -1396,7 +1396,7 @@ Date,Category,sums
 2020-08-26,School_Closed,0
 2020-08-27,Stay_Home_Order,50
 2020-08-27,Status_of_Reopening,100
-2020-08-27,NonEss_Business_Closed,139
+2020-08-27,NonEss_Business_Closed,72
 2020-08-27,Gathering_Limit,98
 2020-08-27,Emergency_Declaration,51
 2020-08-27,Travel_Quarantine,70
@@ -1405,7 +1405,7 @@ Date,Category,sums
 2020-08-27,School_Closed,0
 2020-08-28,Stay_Home_Order,50
 2020-08-28,Status_of_Reopening,100
-2020-08-28,NonEss_Business_Closed,139
+2020-08-28,NonEss_Business_Closed,72
 2020-08-28,Gathering_Limit,98
 2020-08-28,Emergency_Declaration,51
 2020-08-28,Travel_Quarantine,70
@@ -1414,7 +1414,7 @@ Date,Category,sums
 2020-08-28,School_Closed,0
 2020-08-29,Stay_Home_Order,50
 2020-08-29,Status_of_Reopening,100
-2020-08-29,NonEss_Business_Closed,139
+2020-08-29,NonEss_Business_Closed,72
 2020-08-29,Gathering_Limit,98
 2020-08-29,Emergency_Declaration,51
 2020-08-29,Travel_Quarantine,70
@@ -1423,7 +1423,7 @@ Date,Category,sums
 2020-08-29,School_Closed,0
 2020-08-30,Stay_Home_Order,50
 2020-08-30,Status_of_Reopening,100
-2020-08-30,NonEss_Business_Closed,139
+2020-08-30,NonEss_Business_Closed,72
 2020-08-30,Gathering_Limit,98
 2020-08-30,Emergency_Declaration,51
 2020-08-30,Travel_Quarantine,70
@@ -1432,7 +1432,7 @@ Date,Category,sums
 2020-08-30,School_Closed,0
 2020-08-31,Stay_Home_Order,50
 2020-08-31,Status_of_Reopening,98
-2020-08-31,NonEss_Business_Closed,139
+2020-08-31,NonEss_Business_Closed,72
 2020-08-31,Gathering_Limit,98
 2020-08-31,Emergency_Declaration,51
 2020-08-31,Travel_Quarantine,70
@@ -1441,7 +1441,7 @@ Date,Category,sums
 2020-08-31,School_Closed,0
 2020-09-01,Stay_Home_Order,50
 2020-09-01,Status_of_Reopening,98
-2020-09-01,NonEss_Business_Closed,139
+2020-09-01,NonEss_Business_Closed,72
 2020-09-01,Gathering_Limit,98
 2020-09-01,Emergency_Declaration,51
 2020-09-01,Travel_Quarantine,70
@@ -1450,7 +1450,7 @@ Date,Category,sums
 2020-09-01,School_Closed,0
 2020-09-02,Stay_Home_Order,50
 2020-09-02,Status_of_Reopening,96
-2020-09-02,NonEss_Business_Closed,139
+2020-09-02,NonEss_Business_Closed,72
 2020-09-02,Gathering_Limit,96
 2020-09-02,Emergency_Declaration,51
 2020-09-02,Travel_Quarantine,70
@@ -1459,7 +1459,7 @@ Date,Category,sums
 2020-09-02,School_Closed,0
 2020-09-03,Stay_Home_Order,50
 2020-09-03,Status_of_Reopening,96
-2020-09-03,NonEss_Business_Closed,139
+2020-09-03,NonEss_Business_Closed,72
 2020-09-03,Gathering_Limit,96
 2020-09-03,Emergency_Declaration,51
 2020-09-03,Travel_Quarantine,70
@@ -1468,7 +1468,7 @@ Date,Category,sums
 2020-09-03,School_Closed,0
 2020-09-04,Stay_Home_Order,50
 2020-09-04,Status_of_Reopening,95
-2020-09-04,NonEss_Business_Closed,142
+2020-09-04,NonEss_Business_Closed,72
 2020-09-04,Gathering_Limit,96
 2020-09-04,Emergency_Declaration,51
 2020-09-04,Travel_Quarantine,70
@@ -1477,7 +1477,7 @@ Date,Category,sums
 2020-09-04,School_Closed,0
 2020-09-05,Stay_Home_Order,50
 2020-09-05,Status_of_Reopening,95
-2020-09-05,NonEss_Business_Closed,142
+2020-09-05,NonEss_Business_Closed,72
 2020-09-05,Gathering_Limit,96
 2020-09-05,Emergency_Declaration,51
 2020-09-05,Travel_Quarantine,70
@@ -1486,7 +1486,7 @@ Date,Category,sums
 2020-09-05,School_Closed,0
 2020-09-06,Stay_Home_Order,50
 2020-09-06,Status_of_Reopening,95
-2020-09-06,NonEss_Business_Closed,142
+2020-09-06,NonEss_Business_Closed,72
 2020-09-06,Gathering_Limit,96
 2020-09-06,Emergency_Declaration,51
 2020-09-06,Travel_Quarantine,70
@@ -1495,7 +1495,7 @@ Date,Category,sums
 2020-09-06,School_Closed,0
 2020-09-07,Stay_Home_Order,50
 2020-09-07,Status_of_Reopening,95
-2020-09-07,NonEss_Business_Closed,142
+2020-09-07,NonEss_Business_Closed,72
 2020-09-07,Gathering_Limit,96
 2020-09-07,Emergency_Declaration,51
 2020-09-07,Travel_Quarantine,70
@@ -1504,7 +1504,7 @@ Date,Category,sums
 2020-09-07,School_Closed,0
 2020-09-08,Stay_Home_Order,50
 2020-09-08,Status_of_Reopening,95
-2020-09-08,NonEss_Business_Closed,142
+2020-09-08,NonEss_Business_Closed,72
 2020-09-08,Gathering_Limit,96
 2020-09-08,Emergency_Declaration,51
 2020-09-08,Travel_Quarantine,71
@@ -1513,7 +1513,7 @@ Date,Category,sums
 2020-09-08,School_Closed,0
 2020-09-09,Stay_Home_Order,50
 2020-09-09,Status_of_Reopening,95
-2020-09-09,NonEss_Business_Closed,142
+2020-09-09,NonEss_Business_Closed,72
 2020-09-09,Gathering_Limit,96
 2020-09-09,Emergency_Declaration,51
 2020-09-09,Travel_Quarantine,71
@@ -1522,7 +1522,7 @@ Date,Category,sums
 2020-09-09,School_Closed,0
 2020-09-10,Stay_Home_Order,50
 2020-09-10,Status_of_Reopening,95
-2020-09-10,NonEss_Business_Closed,142
+2020-09-10,NonEss_Business_Closed,72
 2020-09-10,Gathering_Limit,96
 2020-09-10,Emergency_Declaration,51
 2020-09-10,Travel_Quarantine,71
@@ -1531,7 +1531,7 @@ Date,Category,sums
 2020-09-10,School_Closed,0
 2020-09-11,Stay_Home_Order,50
 2020-09-11,Status_of_Reopening,95
-2020-09-11,NonEss_Business_Closed,142
+2020-09-11,NonEss_Business_Closed,72
 2020-09-11,Gathering_Limit,96
 2020-09-11,Emergency_Declaration,51
 2020-09-11,Travel_Quarantine,71
@@ -1540,7 +1540,7 @@ Date,Category,sums
 2020-09-11,School_Closed,0
 2020-09-12,Stay_Home_Order,50
 2020-09-12,Status_of_Reopening,95
-2020-09-12,NonEss_Business_Closed,142
+2020-09-12,NonEss_Business_Closed,72
 2020-09-12,Gathering_Limit,96
 2020-09-12,Emergency_Declaration,51
 2020-09-12,Travel_Quarantine,71
@@ -1549,7 +1549,7 @@ Date,Category,sums
 2020-09-12,School_Closed,0
 2020-09-13,Stay_Home_Order,50
 2020-09-13,Status_of_Reopening,95
-2020-09-13,NonEss_Business_Closed,142
+2020-09-13,NonEss_Business_Closed,72
 2020-09-13,Gathering_Limit,96
 2020-09-13,Emergency_Declaration,51
 2020-09-13,Travel_Quarantine,71
@@ -1558,7 +1558,7 @@ Date,Category,sums
 2020-09-13,School_Closed,0
 2020-09-14,Stay_Home_Order,50
 2020-09-14,Status_of_Reopening,95
-2020-09-14,NonEss_Business_Closed,142
+2020-09-14,NonEss_Business_Closed,72
 2020-09-14,Gathering_Limit,96
 2020-09-14,Emergency_Declaration,51
 2020-09-14,Travel_Quarantine,71
@@ -1567,7 +1567,7 @@ Date,Category,sums
 2020-09-14,School_Closed,0
 2020-09-15,Stay_Home_Order,50
 2020-09-15,Status_of_Reopening,95
-2020-09-15,NonEss_Business_Closed,142
+2020-09-15,NonEss_Business_Closed,72
 2020-09-15,Gathering_Limit,96
 2020-09-15,Emergency_Declaration,51
 2020-09-15,Travel_Quarantine,71
@@ -1576,7 +1576,7 @@ Date,Category,sums
 2020-09-15,School_Closed,0
 2020-09-16,Stay_Home_Order,50
 2020-09-16,Status_of_Reopening,93
-2020-09-16,NonEss_Business_Closed,142
+2020-09-16,NonEss_Business_Closed,72
 2020-09-16,Gathering_Limit,96
 2020-09-16,Emergency_Declaration,51
 2020-09-16,Travel_Quarantine,71
@@ -1585,7 +1585,7 @@ Date,Category,sums
 2020-09-16,School_Closed,0
 2020-09-17,Stay_Home_Order,50
 2020-09-17,Status_of_Reopening,93
-2020-09-17,NonEss_Business_Closed,142
+2020-09-17,NonEss_Business_Closed,72
 2020-09-17,Gathering_Limit,96
 2020-09-17,Emergency_Declaration,51
 2020-09-17,Travel_Quarantine,71
@@ -1594,7 +1594,7 @@ Date,Category,sums
 2020-09-17,School_Closed,0
 2020-09-18,Stay_Home_Order,50
 2020-09-18,Status_of_Reopening,93
-2020-09-18,NonEss_Business_Closed,142
+2020-09-18,NonEss_Business_Closed,72
 2020-09-18,Gathering_Limit,96
 2020-09-18,Emergency_Declaration,51
 2020-09-18,Travel_Quarantine,71
@@ -1603,7 +1603,7 @@ Date,Category,sums
 2020-09-18,School_Closed,0
 2020-09-19,Stay_Home_Order,50
 2020-09-19,Status_of_Reopening,93
-2020-09-19,NonEss_Business_Closed,142
+2020-09-19,NonEss_Business_Closed,72
 2020-09-19,Gathering_Limit,96
 2020-09-19,Emergency_Declaration,51
 2020-09-19,Travel_Quarantine,71
@@ -1612,7 +1612,7 @@ Date,Category,sums
 2020-09-19,School_Closed,0
 2020-09-20,Stay_Home_Order,50
 2020-09-20,Status_of_Reopening,93
-2020-09-20,NonEss_Business_Closed,142
+2020-09-20,NonEss_Business_Closed,72
 2020-09-20,Gathering_Limit,96
 2020-09-20,Emergency_Declaration,51
 2020-09-20,Travel_Quarantine,71
@@ -1621,7 +1621,7 @@ Date,Category,sums
 2020-09-20,School_Closed,0
 2020-09-21,Stay_Home_Order,50
 2020-09-21,Status_of_Reopening,93
-2020-09-21,NonEss_Business_Closed,142
+2020-09-21,NonEss_Business_Closed,72
 2020-09-21,Gathering_Limit,96
 2020-09-21,Emergency_Declaration,51
 2020-09-21,Travel_Quarantine,71
@@ -1630,7 +1630,7 @@ Date,Category,sums
 2020-09-21,School_Closed,0
 2020-09-22,Stay_Home_Order,50
 2020-09-22,Status_of_Reopening,93
-2020-09-22,NonEss_Business_Closed,142
+2020-09-22,NonEss_Business_Closed,72
 2020-09-22,Gathering_Limit,96
 2020-09-22,Emergency_Declaration,51
 2020-09-22,Travel_Quarantine,71
@@ -1639,7 +1639,7 @@ Date,Category,sums
 2020-09-22,School_Closed,0
 2020-09-23,Stay_Home_Order,50
 2020-09-23,Status_of_Reopening,93
-2020-09-23,NonEss_Business_Closed,142
+2020-09-23,NonEss_Business_Closed,72
 2020-09-23,Gathering_Limit,96
 2020-09-23,Emergency_Declaration,51
 2020-09-23,Travel_Quarantine,71
@@ -1648,7 +1648,7 @@ Date,Category,sums
 2020-09-23,School_Closed,0
 2020-09-24,Stay_Home_Order,50
 2020-09-24,Status_of_Reopening,92
-2020-09-24,NonEss_Business_Closed,142
+2020-09-24,NonEss_Business_Closed,70
 2020-09-24,Gathering_Limit,94
 2020-09-24,Emergency_Declaration,51
 2020-09-24,Travel_Quarantine,70
@@ -1657,7 +1657,7 @@ Date,Category,sums
 2020-09-24,School_Closed,0
 2020-09-25,Stay_Home_Order,50
 2020-09-25,Status_of_Reopening,90
-2020-09-25,NonEss_Business_Closed,142
+2020-09-25,NonEss_Business_Closed,68
 2020-09-25,Gathering_Limit,94
 2020-09-25,Emergency_Declaration,51
 2020-09-25,Travel_Quarantine,70
@@ -1666,7 +1666,7 @@ Date,Category,sums
 2020-09-25,School_Closed,0
 2020-09-26,Stay_Home_Order,50
 2020-09-26,Status_of_Reopening,90
-2020-09-26,NonEss_Business_Closed,142
+2020-09-26,NonEss_Business_Closed,68
 2020-09-26,Gathering_Limit,94
 2020-09-26,Emergency_Declaration,51
 2020-09-26,Travel_Quarantine,70
@@ -1675,7 +1675,7 @@ Date,Category,sums
 2020-09-26,School_Closed,0
 2020-09-27,Stay_Home_Order,50
 2020-09-27,Status_of_Reopening,90
-2020-09-27,NonEss_Business_Closed,142
+2020-09-27,NonEss_Business_Closed,68
 2020-09-27,Gathering_Limit,94
 2020-09-27,Emergency_Declaration,51
 2020-09-27,Travel_Quarantine,70
@@ -1684,7 +1684,7 @@ Date,Category,sums
 2020-09-27,School_Closed,0
 2020-09-28,Stay_Home_Order,50
 2020-09-28,Status_of_Reopening,90
-2020-09-28,NonEss_Business_Closed,142
+2020-09-28,NonEss_Business_Closed,68
 2020-09-28,Gathering_Limit,94
 2020-09-28,Emergency_Declaration,51
 2020-09-28,Travel_Quarantine,70
@@ -1693,7 +1693,7 @@ Date,Category,sums
 2020-09-28,School_Closed,0
 2020-09-29,Stay_Home_Order,50
 2020-09-29,Status_of_Reopening,90
-2020-09-29,NonEss_Business_Closed,142
+2020-09-29,NonEss_Business_Closed,68
 2020-09-29,Gathering_Limit,94
 2020-09-29,Emergency_Declaration,51
 2020-09-29,Travel_Quarantine,70
@@ -1702,7 +1702,7 @@ Date,Category,sums
 2020-09-29,School_Closed,0
 2020-09-30,Stay_Home_Order,50
 2020-09-30,Status_of_Reopening,90
-2020-09-30,NonEss_Business_Closed,142
+2020-09-30,NonEss_Business_Closed,68
 2020-09-30,Gathering_Limit,94
 2020-09-30,Emergency_Declaration,51
 2020-09-30,Travel_Quarantine,70
@@ -1711,7 +1711,7 @@ Date,Category,sums
 2020-09-30,School_Closed,0
 2020-10-01,Stay_Home_Order,50
 2020-10-01,Status_of_Reopening,90
-2020-10-01,NonEss_Business_Closed,142
+2020-10-01,NonEss_Business_Closed,68
 2020-10-01,Gathering_Limit,94
 2020-10-01,Emergency_Declaration,51
 2020-10-01,Travel_Quarantine,70
@@ -1720,7 +1720,7 @@ Date,Category,sums
 2020-10-01,School_Closed,0
 2020-10-02,Stay_Home_Order,50
 2020-10-02,Status_of_Reopening,89
-2020-10-02,NonEss_Business_Closed,142
+2020-10-02,NonEss_Business_Closed,66
 2020-10-02,Gathering_Limit,94
 2020-10-02,Emergency_Declaration,51
 2020-10-02,Travel_Quarantine,70
@@ -1729,7 +1729,7 @@ Date,Category,sums
 2020-10-02,School_Closed,0
 2020-10-03,Stay_Home_Order,50
 2020-10-03,Status_of_Reopening,89
-2020-10-03,NonEss_Business_Closed,142
+2020-10-03,NonEss_Business_Closed,66
 2020-10-03,Gathering_Limit,94
 2020-10-03,Emergency_Declaration,51
 2020-10-03,Travel_Quarantine,70
@@ -1738,7 +1738,7 @@ Date,Category,sums
 2020-10-03,School_Closed,0
 2020-10-04,Stay_Home_Order,50
 2020-10-04,Status_of_Reopening,89
-2020-10-04,NonEss_Business_Closed,142
+2020-10-04,NonEss_Business_Closed,66
 2020-10-04,Gathering_Limit,94
 2020-10-04,Emergency_Declaration,51
 2020-10-04,Travel_Quarantine,70
@@ -1747,7 +1747,7 @@ Date,Category,sums
 2020-10-04,School_Closed,0
 2020-10-05,Stay_Home_Order,50
 2020-10-05,Status_of_Reopening,87
-2020-10-05,NonEss_Business_Closed,142
+2020-10-05,NonEss_Business_Closed,66
 2020-10-05,Gathering_Limit,94
 2020-10-05,Emergency_Declaration,51
 2020-10-05,Travel_Quarantine,70
@@ -1756,7 +1756,7 @@ Date,Category,sums
 2020-10-05,School_Closed,0
 2020-10-06,Stay_Home_Order,50
 2020-10-06,Status_of_Reopening,87
-2020-10-06,NonEss_Business_Closed,142
+2020-10-06,NonEss_Business_Closed,66
 2020-10-06,Gathering_Limit,94
 2020-10-06,Emergency_Declaration,51
 2020-10-06,Travel_Quarantine,70
@@ -1765,7 +1765,7 @@ Date,Category,sums
 2020-10-06,School_Closed,0
 2020-10-07,Stay_Home_Order,50
 2020-10-07,Status_of_Reopening,88
-2020-10-07,NonEss_Business_Closed,142
+2020-10-07,NonEss_Business_Closed,66
 2020-10-07,Gathering_Limit,94
 2020-10-07,Emergency_Declaration,51
 2020-10-07,Travel_Quarantine,70
@@ -1774,7 +1774,7 @@ Date,Category,sums
 2020-10-07,School_Closed,0
 2020-10-08,Stay_Home_Order,50
 2020-10-08,Status_of_Reopening,90
-2020-10-08,NonEss_Business_Closed,142
+2020-10-08,NonEss_Business_Closed,66
 2020-10-08,Gathering_Limit,93
 2020-10-08,Emergency_Declaration,51
 2020-10-08,Travel_Quarantine,70
@@ -1783,7 +1783,7 @@ Date,Category,sums
 2020-10-08,School_Closed,0
 2020-10-09,Stay_Home_Order,50
 2020-10-09,Status_of_Reopening,89
-2020-10-09,NonEss_Business_Closed,142
+2020-10-09,NonEss_Business_Closed,66
 2020-10-09,Gathering_Limit,96
 2020-10-09,Emergency_Declaration,51
 2020-10-09,Travel_Quarantine,70
@@ -1792,7 +1792,7 @@ Date,Category,sums
 2020-10-09,School_Closed,0
 2020-10-10,Stay_Home_Order,50
 2020-10-10,Status_of_Reopening,89
-2020-10-10,NonEss_Business_Closed,142
+2020-10-10,NonEss_Business_Closed,66
 2020-10-10,Gathering_Limit,96
 2020-10-10,Emergency_Declaration,51
 2020-10-10,Travel_Quarantine,70
@@ -1801,7 +1801,7 @@ Date,Category,sums
 2020-10-10,School_Closed,0
 2020-10-11,Stay_Home_Order,50
 2020-10-11,Status_of_Reopening,89
-2020-10-11,NonEss_Business_Closed,142
+2020-10-11,NonEss_Business_Closed,66
 2020-10-11,Gathering_Limit,96
 2020-10-11,Emergency_Declaration,51
 2020-10-11,Travel_Quarantine,70
@@ -1810,7 +1810,7 @@ Date,Category,sums
 2020-10-11,School_Closed,0
 2020-10-12,Stay_Home_Order,50
 2020-10-12,Status_of_Reopening,89
-2020-10-12,NonEss_Business_Closed,142
+2020-10-12,NonEss_Business_Closed,66
 2020-10-12,Gathering_Limit,96
 2020-10-12,Emergency_Declaration,51
 2020-10-12,Travel_Quarantine,70
@@ -1819,7 +1819,7 @@ Date,Category,sums
 2020-10-12,School_Closed,0
 2020-10-13,Stay_Home_Order,50
 2020-10-13,Status_of_Reopening,89
-2020-10-13,NonEss_Business_Closed,142
+2020-10-13,NonEss_Business_Closed,66
 2020-10-13,Gathering_Limit,96
 2020-10-13,Emergency_Declaration,51
 2020-10-13,Travel_Quarantine,70
@@ -1828,7 +1828,7 @@ Date,Category,sums
 2020-10-13,School_Closed,0
 2020-10-14,Stay_Home_Order,50
 2020-10-14,Status_of_Reopening,87
-2020-10-14,NonEss_Business_Closed,146
+2020-10-14,NonEss_Business_Closed,67
 2020-10-14,Gathering_Limit,97
 2020-10-14,Emergency_Declaration,51
 2020-10-14,Travel_Quarantine,70
@@ -1837,7 +1837,7 @@ Date,Category,sums
 2020-10-14,School_Closed,0
 2020-10-15,Stay_Home_Order,50
 2020-10-15,Status_of_Reopening,87
-2020-10-15,NonEss_Business_Closed,146
+2020-10-15,NonEss_Business_Closed,67
 2020-10-15,Gathering_Limit,97
 2020-10-15,Emergency_Declaration,51
 2020-10-15,Travel_Quarantine,70
@@ -1846,7 +1846,7 @@ Date,Category,sums
 2020-10-15,School_Closed,0
 2020-10-16,Stay_Home_Order,50
 2020-10-16,Status_of_Reopening,89
-2020-10-16,NonEss_Business_Closed,146
+2020-10-16,NonEss_Business_Closed,67
 2020-10-16,Gathering_Limit,97
 2020-10-16,Emergency_Declaration,51
 2020-10-16,Travel_Quarantine,70
@@ -1855,7 +1855,7 @@ Date,Category,sums
 2020-10-16,School_Closed,0
 2020-10-17,Stay_Home_Order,50
 2020-10-17,Status_of_Reopening,89
-2020-10-17,NonEss_Business_Closed,146
+2020-10-17,NonEss_Business_Closed,67
 2020-10-17,Gathering_Limit,97
 2020-10-17,Emergency_Declaration,51
 2020-10-17,Travel_Quarantine,70
@@ -1864,7 +1864,7 @@ Date,Category,sums
 2020-10-17,School_Closed,0
 2020-10-18,Stay_Home_Order,50
 2020-10-18,Status_of_Reopening,89
-2020-10-18,NonEss_Business_Closed,146
+2020-10-18,NonEss_Business_Closed,67
 2020-10-18,Gathering_Limit,97
 2020-10-18,Emergency_Declaration,51
 2020-10-18,Travel_Quarantine,70
@@ -1873,7 +1873,7 @@ Date,Category,sums
 2020-10-18,School_Closed,0
 2020-10-19,Stay_Home_Order,50
 2020-10-19,Status_of_Reopening,91
-2020-10-19,NonEss_Business_Closed,146
+2020-10-19,NonEss_Business_Closed,67
 2020-10-19,Gathering_Limit,94
 2020-10-19,Emergency_Declaration,51
 2020-10-19,Travel_Quarantine,70
@@ -1882,7 +1882,7 @@ Date,Category,sums
 2020-10-19,School_Closed,0
 2020-10-20,Stay_Home_Order,50
 2020-10-20,Status_of_Reopening,91
-2020-10-20,NonEss_Business_Closed,146
+2020-10-20,NonEss_Business_Closed,67
 2020-10-20,Gathering_Limit,94
 2020-10-20,Emergency_Declaration,51
 2020-10-20,Travel_Quarantine,70
@@ -1891,7 +1891,7 @@ Date,Category,sums
 2020-10-20,School_Closed,0
 2020-10-21,Stay_Home_Order,50
 2020-10-21,Status_of_Reopening,91
-2020-10-21,NonEss_Business_Closed,146
+2020-10-21,NonEss_Business_Closed,67
 2020-10-21,Gathering_Limit,94
 2020-10-21,Emergency_Declaration,51
 2020-10-21,Travel_Quarantine,70
@@ -1900,7 +1900,7 @@ Date,Category,sums
 2020-10-21,School_Closed,0
 2020-10-22,Stay_Home_Order,50
 2020-10-22,Status_of_Reopening,91
-2020-10-22,NonEss_Business_Closed,146
+2020-10-22,NonEss_Business_Closed,67
 2020-10-22,Gathering_Limit,94
 2020-10-22,Emergency_Declaration,51
 2020-10-22,Travel_Quarantine,70
@@ -1909,7 +1909,7 @@ Date,Category,sums
 2020-10-22,School_Closed,0
 2020-10-23,Stay_Home_Order,51
 2020-10-23,Status_of_Reopening,91
-2020-10-23,NonEss_Business_Closed,146
+2020-10-23,NonEss_Business_Closed,67
 2020-10-23,Gathering_Limit,94
 2020-10-23,Emergency_Declaration,51
 2020-10-23,Travel_Quarantine,70
@@ -1918,7 +1918,7 @@ Date,Category,sums
 2020-10-23,School_Closed,0
 2020-10-24,Stay_Home_Order,51
 2020-10-24,Status_of_Reopening,91
-2020-10-24,NonEss_Business_Closed,146
+2020-10-24,NonEss_Business_Closed,67
 2020-10-24,Gathering_Limit,94
 2020-10-24,Emergency_Declaration,51
 2020-10-24,Travel_Quarantine,70
@@ -1927,7 +1927,7 @@ Date,Category,sums
 2020-10-24,School_Closed,0
 2020-10-25,Stay_Home_Order,51
 2020-10-25,Status_of_Reopening,91
-2020-10-25,NonEss_Business_Closed,146
+2020-10-25,NonEss_Business_Closed,67
 2020-10-25,Gathering_Limit,94
 2020-10-25,Emergency_Declaration,51
 2020-10-25,Travel_Quarantine,70
@@ -1936,7 +1936,7 @@ Date,Category,sums
 2020-10-25,School_Closed,0
 2020-10-26,Stay_Home_Order,51
 2020-10-26,Status_of_Reopening,92
-2020-10-26,NonEss_Business_Closed,146
+2020-10-26,NonEss_Business_Closed,67
 2020-10-26,Gathering_Limit,94
 2020-10-26,Emergency_Declaration,51
 2020-10-26,Travel_Quarantine,70
@@ -1945,7 +1945,7 @@ Date,Category,sums
 2020-10-26,School_Closed,0
 2020-10-27,Stay_Home_Order,51
 2020-10-27,Status_of_Reopening,92
-2020-10-27,NonEss_Business_Closed,146
+2020-10-27,NonEss_Business_Closed,67
 2020-10-27,Gathering_Limit,94
 2020-10-27,Emergency_Declaration,51
 2020-10-27,Travel_Quarantine,70
@@ -1954,7 +1954,7 @@ Date,Category,sums
 2020-10-27,School_Closed,0
 2020-10-28,Stay_Home_Order,51
 2020-10-28,Status_of_Reopening,95
-2020-10-28,NonEss_Business_Closed,146
+2020-10-28,NonEss_Business_Closed,67
 2020-10-28,Gathering_Limit,90
 2020-10-28,Emergency_Declaration,51
 2020-10-28,Travel_Quarantine,70
@@ -1963,7 +1963,7 @@ Date,Category,sums
 2020-10-28,School_Closed,0
 2020-10-29,Stay_Home_Order,51
 2020-10-29,Status_of_Reopening,95
-2020-10-29,NonEss_Business_Closed,146
+2020-10-29,NonEss_Business_Closed,67
 2020-10-29,Gathering_Limit,90
 2020-10-29,Emergency_Declaration,51
 2020-10-29,Travel_Quarantine,70
@@ -1972,7 +1972,7 @@ Date,Category,sums
 2020-10-29,School_Closed,0
 2020-10-30,Stay_Home_Order,51
 2020-10-30,Status_of_Reopening,95
-2020-10-30,NonEss_Business_Closed,149
+2020-10-30,NonEss_Business_Closed,67
 2020-10-30,Gathering_Limit,90
 2020-10-30,Emergency_Declaration,51
 2020-10-30,Travel_Quarantine,70
@@ -1981,7 +1981,7 @@ Date,Category,sums
 2020-10-30,School_Closed,0
 2020-10-31,Stay_Home_Order,51
 2020-10-31,Status_of_Reopening,95
-2020-10-31,NonEss_Business_Closed,149
+2020-10-31,NonEss_Business_Closed,67
 2020-10-31,Gathering_Limit,90
 2020-10-31,Emergency_Declaration,51
 2020-10-31,Travel_Quarantine,70
@@ -1990,7 +1990,7 @@ Date,Category,sums
 2020-10-31,School_Closed,0
 2020-11-01,Stay_Home_Order,51
 2020-11-01,Status_of_Reopening,95
-2020-11-01,NonEss_Business_Closed,149
+2020-11-01,NonEss_Business_Closed,67
 2020-11-01,Gathering_Limit,90
 2020-11-01,Emergency_Declaration,51
 2020-11-01,Travel_Quarantine,70
@@ -1999,7 +1999,7 @@ Date,Category,sums
 2020-11-01,School_Closed,0
 2020-11-02,Stay_Home_Order,51
 2020-11-02,Status_of_Reopening,97
-2020-11-02,NonEss_Business_Closed,149
+2020-11-02,NonEss_Business_Closed,67
 2020-11-02,Gathering_Limit,87
 2020-11-02,Emergency_Declaration,51
 2020-11-02,Travel_Quarantine,70
@@ -2008,7 +2008,7 @@ Date,Category,sums
 2020-11-02,School_Closed,0
 2020-11-03,Stay_Home_Order,51
 2020-11-03,Status_of_Reopening,97
-2020-11-03,NonEss_Business_Closed,149
+2020-11-03,NonEss_Business_Closed,67
 2020-11-03,Gathering_Limit,87
 2020-11-03,Emergency_Declaration,51
 2020-11-03,Travel_Quarantine,70
@@ -2017,7 +2017,7 @@ Date,Category,sums
 2020-11-03,School_Closed,0
 2020-11-04,Stay_Home_Order,51
 2020-11-04,Status_of_Reopening,97
-2020-11-04,NonEss_Business_Closed,149
+2020-11-04,NonEss_Business_Closed,67
 2020-11-04,Gathering_Limit,87
 2020-11-04,Emergency_Declaration,51
 2020-11-04,Travel_Quarantine,70
@@ -2026,7 +2026,7 @@ Date,Category,sums
 2020-11-04,School_Closed,0
 2020-11-05,Stay_Home_Order,51
 2020-11-05,Status_of_Reopening,97
-2020-11-05,NonEss_Business_Closed,149
+2020-11-05,NonEss_Business_Closed,67
 2020-11-05,Gathering_Limit,87
 2020-11-05,Emergency_Declaration,51
 2020-11-05,Travel_Quarantine,70
@@ -2035,7 +2035,7 @@ Date,Category,sums
 2020-11-05,School_Closed,0
 2020-11-06,Stay_Home_Order,51
 2020-11-06,Status_of_Reopening,97
-2020-11-06,NonEss_Business_Closed,154
+2020-11-06,NonEss_Business_Closed,67
 2020-11-06,Gathering_Limit,84
 2020-11-06,Emergency_Declaration,51
 2020-11-06,Travel_Quarantine,70
@@ -2044,7 +2044,7 @@ Date,Category,sums
 2020-11-06,School_Closed,0
 2020-11-07,Stay_Home_Order,51
 2020-11-07,Status_of_Reopening,97
-2020-11-07,NonEss_Business_Closed,154
+2020-11-07,NonEss_Business_Closed,67
 2020-11-07,Gathering_Limit,84
 2020-11-07,Emergency_Declaration,51
 2020-11-07,Travel_Quarantine,70
@@ -2053,7 +2053,7 @@ Date,Category,sums
 2020-11-07,School_Closed,0
 2020-11-08,Stay_Home_Order,51
 2020-11-08,Status_of_Reopening,97
-2020-11-08,NonEss_Business_Closed,154
+2020-11-08,NonEss_Business_Closed,67
 2020-11-08,Gathering_Limit,84
 2020-11-08,Emergency_Declaration,51
 2020-11-08,Travel_Quarantine,70
@@ -2062,7 +2062,7 @@ Date,Category,sums
 2020-11-08,School_Closed,0
 2020-11-09,Stay_Home_Order,51
 2020-11-09,Status_of_Reopening,99
-2020-11-09,NonEss_Business_Closed,155
+2020-11-09,NonEss_Business_Closed,68
 2020-11-09,Gathering_Limit,84
 2020-11-09,Emergency_Declaration,51
 2020-11-09,Travel_Quarantine,70
@@ -2071,7 +2071,7 @@ Date,Category,sums
 2020-11-09,School_Closed,0
 2020-11-10,Stay_Home_Order,51
 2020-11-10,Status_of_Reopening,99
-2020-11-10,NonEss_Business_Closed,155
+2020-11-10,NonEss_Business_Closed,68
 2020-11-10,Gathering_Limit,84
 2020-11-10,Emergency_Declaration,51
 2020-11-10,Travel_Quarantine,70
@@ -2080,7 +2080,7 @@ Date,Category,sums
 2020-11-10,School_Closed,0
 2020-11-11,Stay_Home_Order,51
 2020-11-11,Status_of_Reopening,106
-2020-11-11,NonEss_Business_Closed,155
+2020-11-11,NonEss_Business_Closed,68
 2020-11-11,Gathering_Limit,78
 2020-11-11,Emergency_Declaration,51
 2020-11-11,Travel_Quarantine,71
@@ -2089,7 +2089,7 @@ Date,Category,sums
 2020-11-11,School_Closed,0
 2020-11-12,Stay_Home_Order,51
 2020-11-12,Status_of_Reopening,106
-2020-11-12,NonEss_Business_Closed,155
+2020-11-12,NonEss_Business_Closed,68
 2020-11-12,Gathering_Limit,78
 2020-11-12,Emergency_Declaration,51
 2020-11-12,Travel_Quarantine,71
@@ -2098,7 +2098,7 @@ Date,Category,sums
 2020-11-12,School_Closed,0
 2020-11-13,Stay_Home_Order,51
 2020-11-13,Status_of_Reopening,108
-2020-11-13,NonEss_Business_Closed,155
+2020-11-13,NonEss_Business_Closed,68
 2020-11-13,Gathering_Limit,72
 2020-11-13,Emergency_Declaration,51
 2020-11-13,Travel_Quarantine,71
@@ -2107,7 +2107,7 @@ Date,Category,sums
 2020-11-13,School_Closed,0
 2020-11-14,Stay_Home_Order,51
 2020-11-14,Status_of_Reopening,108
-2020-11-14,NonEss_Business_Closed,155
+2020-11-14,NonEss_Business_Closed,68
 2020-11-14,Gathering_Limit,72
 2020-11-14,Emergency_Declaration,51
 2020-11-14,Travel_Quarantine,71
@@ -2116,7 +2116,7 @@ Date,Category,sums
 2020-11-14,School_Closed,0
 2020-11-15,Stay_Home_Order,51
 2020-11-15,Status_of_Reopening,108
-2020-11-15,NonEss_Business_Closed,155
+2020-11-15,NonEss_Business_Closed,68
 2020-11-15,Gathering_Limit,72
 2020-11-15,Emergency_Declaration,51
 2020-11-15,Travel_Quarantine,71
@@ -2125,7 +2125,7 @@ Date,Category,sums
 2020-11-15,School_Closed,0
 2020-11-16,Stay_Home_Order,51
 2020-11-16,Status_of_Reopening,110
-2020-11-16,NonEss_Business_Closed,157
+2020-11-16,NonEss_Business_Closed,70
 2020-11-16,Gathering_Limit,62
 2020-11-16,Emergency_Declaration,51
 2020-11-16,Travel_Quarantine,75
@@ -2134,7 +2134,7 @@ Date,Category,sums
 2020-11-16,School_Closed,0
 2020-11-17,Stay_Home_Order,51
 2020-11-17,Status_of_Reopening,112
-2020-11-17,NonEss_Business_Closed,161
+2020-11-17,NonEss_Business_Closed,67
 2020-11-17,Gathering_Limit,53
 2020-11-17,Emergency_Declaration,51
 2020-11-17,Travel_Quarantine,75
@@ -2143,7 +2143,7 @@ Date,Category,sums
 2020-11-17,School_Closed,0
 2020-11-18,Stay_Home_Order,51
 2020-11-18,Status_of_Reopening,112
-2020-11-18,NonEss_Business_Closed,165
+2020-11-18,NonEss_Business_Closed,71
 2020-11-18,Gathering_Limit,53
 2020-11-18,Emergency_Declaration,51
 2020-11-18,Travel_Quarantine,75
@@ -2152,7 +2152,7 @@ Date,Category,sums
 2020-11-18,School_Closed,0
 2020-11-19,Stay_Home_Order,51
 2020-11-19,Status_of_Reopening,112
-2020-11-19,NonEss_Business_Closed,165
+2020-11-19,NonEss_Business_Closed,71
 2020-11-19,Gathering_Limit,53
 2020-11-19,Emergency_Declaration,51
 2020-11-19,Travel_Quarantine,75
@@ -2161,7 +2161,7 @@ Date,Category,sums
 2020-11-19,School_Closed,0
 2020-11-20,Stay_Home_Order,54
 2020-11-20,Status_of_Reopening,116
-2020-11-20,NonEss_Business_Closed,165
+2020-11-20,NonEss_Business_Closed,71
 2020-11-20,Gathering_Limit,176
 2020-11-20,Emergency_Declaration,51
 2020-11-20,Travel_Quarantine,75
@@ -2170,7 +2170,7 @@ Date,Category,sums
 2020-11-20,School_Closed,0
 2020-11-21,Stay_Home_Order,54
 2020-11-21,Status_of_Reopening,116
-2020-11-21,NonEss_Business_Closed,165
+2020-11-21,NonEss_Business_Closed,71
 2020-11-21,Gathering_Limit,176
 2020-11-21,Emergency_Declaration,51
 2020-11-21,Travel_Quarantine,75
@@ -2179,7 +2179,7 @@ Date,Category,sums
 2020-11-21,School_Closed,0
 2020-11-22,Stay_Home_Order,54
 2020-11-22,Status_of_Reopening,116
-2020-11-22,NonEss_Business_Closed,165
+2020-11-22,NonEss_Business_Closed,71
 2020-11-22,Gathering_Limit,176
 2020-11-22,Emergency_Declaration,51
 2020-11-22,Travel_Quarantine,75
@@ -2188,7 +2188,7 @@ Date,Category,sums
 2020-11-22,School_Closed,0
 2020-11-23,Stay_Home_Order,54
 2020-11-23,Status_of_Reopening,116
-2020-11-23,NonEss_Business_Closed,165
+2020-11-23,NonEss_Business_Closed,71
 2020-11-23,Gathering_Limit,170
 2020-11-23,Emergency_Declaration,51
 2020-11-23,Travel_Quarantine,75
@@ -2197,7 +2197,7 @@ Date,Category,sums
 2020-11-23,School_Closed,0
 2020-11-24,Stay_Home_Order,54
 2020-11-24,Status_of_Reopening,118
-2020-11-24,NonEss_Business_Closed,162
+2020-11-24,NonEss_Business_Closed,74
 2020-11-24,Gathering_Limit,171
 2020-11-24,Emergency_Declaration,51
 2020-11-24,Travel_Quarantine,75
@@ -2206,7 +2206,7 @@ Date,Category,sums
 2020-11-24,School_Closed,0
 2020-11-25,Stay_Home_Order,54
 2020-11-25,Status_of_Reopening,118
-2020-11-25,NonEss_Business_Closed,162
+2020-11-25,NonEss_Business_Closed,74
 2020-11-25,Gathering_Limit,171
 2020-11-25,Emergency_Declaration,51
 2020-11-25,Travel_Quarantine,75
@@ -2215,7 +2215,7 @@ Date,Category,sums
 2020-11-25,School_Closed,0
 2020-11-26,Stay_Home_Order,54
 2020-11-26,Status_of_Reopening,118
-2020-11-26,NonEss_Business_Closed,162
+2020-11-26,NonEss_Business_Closed,74
 2020-11-26,Gathering_Limit,171
 2020-11-26,Emergency_Declaration,51
 2020-11-26,Travel_Quarantine,75
@@ -2224,7 +2224,7 @@ Date,Category,sums
 2020-11-26,School_Closed,0
 2020-11-27,Stay_Home_Order,54
 2020-11-27,Status_of_Reopening,118
-2020-11-27,NonEss_Business_Closed,162
+2020-11-27,NonEss_Business_Closed,74
 2020-11-27,Gathering_Limit,171
 2020-11-27,Emergency_Declaration,51
 2020-11-27,Travel_Quarantine,75
@@ -2233,7 +2233,7 @@ Date,Category,sums
 2020-11-27,School_Closed,0
 2020-11-28,Stay_Home_Order,54
 2020-11-28,Status_of_Reopening,118
-2020-11-28,NonEss_Business_Closed,162
+2020-11-28,NonEss_Business_Closed,74
 2020-11-28,Gathering_Limit,171
 2020-11-28,Emergency_Declaration,51
 2020-11-28,Travel_Quarantine,75
@@ -2242,7 +2242,7 @@ Date,Category,sums
 2020-11-28,School_Closed,0
 2020-11-29,Stay_Home_Order,54
 2020-11-29,Status_of_Reopening,118
-2020-11-29,NonEss_Business_Closed,162
+2020-11-29,NonEss_Business_Closed,74
 2020-11-29,Gathering_Limit,171
 2020-11-29,Emergency_Declaration,51
 2020-11-29,Travel_Quarantine,75
@@ -2251,7 +2251,7 @@ Date,Category,sums
 2020-11-29,School_Closed,0
 2020-11-30,Stay_Home_Order,54
 2020-11-30,Status_of_Reopening,118
-2020-11-30,NonEss_Business_Closed,171
+2020-11-30,NonEss_Business_Closed,78
 2020-11-30,Gathering_Limit,173
 2020-11-30,Emergency_Declaration,51
 2020-11-30,Travel_Quarantine,77
@@ -2260,7 +2260,7 @@ Date,Category,sums
 2020-11-30,School_Closed,0
 2020-12-01,Stay_Home_Order,54
 2020-12-01,Status_of_Reopening,135
-2020-12-01,NonEss_Business_Closed,171
+2020-12-01,NonEss_Business_Closed,78
 2020-12-01,Gathering_Limit,174
 2020-12-01,Emergency_Declaration,51
 2020-12-01,Travel_Quarantine,77
@@ -2269,7 +2269,7 @@ Date,Category,sums
 2020-12-01,School_Closed,0
 2020-12-02,Stay_Home_Order,54
 2020-12-02,Status_of_Reopening,135
-2020-12-02,NonEss_Business_Closed,171
+2020-12-02,NonEss_Business_Closed,78
 2020-12-02,Gathering_Limit,174
 2020-12-02,Emergency_Declaration,51
 2020-12-02,Travel_Quarantine,77
@@ -2278,7 +2278,7 @@ Date,Category,sums
 2020-12-02,School_Closed,0
 2020-12-03,Stay_Home_Order,47
 2020-12-03,Status_of_Reopening,135
-2020-12-03,NonEss_Business_Closed,171
+2020-12-03,NonEss_Business_Closed,78
 2020-12-03,Gathering_Limit,174
 2020-12-03,Emergency_Declaration,51
 2020-12-03,Travel_Quarantine,77
@@ -2287,7 +2287,7 @@ Date,Category,sums
 2020-12-03,School_Closed,0
 2020-12-04,Stay_Home_Order,47
 2020-12-04,Status_of_Reopening,135
-2020-12-04,NonEss_Business_Closed,171
+2020-12-04,NonEss_Business_Closed,78
 2020-12-04,Gathering_Limit,174
 2020-12-04,Emergency_Declaration,51
 2020-12-04,Travel_Quarantine,77
@@ -2296,7 +2296,7 @@ Date,Category,sums
 2020-12-04,School_Closed,0
 2020-12-05,Stay_Home_Order,47
 2020-12-05,Status_of_Reopening,135
-2020-12-05,NonEss_Business_Closed,171
+2020-12-05,NonEss_Business_Closed,78
 2020-12-05,Gathering_Limit,174
 2020-12-05,Emergency_Declaration,51
 2020-12-05,Travel_Quarantine,77
@@ -2305,7 +2305,7 @@ Date,Category,sums
 2020-12-05,School_Closed,0
 2020-12-06,Stay_Home_Order,47
 2020-12-06,Status_of_Reopening,135
-2020-12-06,NonEss_Business_Closed,171
+2020-12-06,NonEss_Business_Closed,78
 2020-12-06,Gathering_Limit,174
 2020-12-06,Emergency_Declaration,51
 2020-12-06,Travel_Quarantine,77
@@ -2314,7 +2314,7 @@ Date,Category,sums
 2020-12-06,School_Closed,0
 2020-12-07,Stay_Home_Order,47
 2020-12-07,Status_of_Reopening,135
-2020-12-07,NonEss_Business_Closed,171
+2020-12-07,NonEss_Business_Closed,78
 2020-12-07,Gathering_Limit,174
 2020-12-07,Emergency_Declaration,51
 2020-12-07,Travel_Quarantine,77
@@ -2323,7 +2323,7 @@ Date,Category,sums
 2020-12-07,School_Closed,0
 2020-12-08,Stay_Home_Order,47
 2020-12-08,Status_of_Reopening,135
-2020-12-08,NonEss_Business_Closed,171
+2020-12-08,NonEss_Business_Closed,78
 2020-12-08,Gathering_Limit,174
 2020-12-08,Emergency_Declaration,51
 2020-12-08,Travel_Quarantine,77
@@ -2332,7 +2332,7 @@ Date,Category,sums
 2020-12-08,School_Closed,0
 2020-12-09,Stay_Home_Order,49
 2020-12-09,Status_of_Reopening,135
-2020-12-09,NonEss_Business_Closed,171
+2020-12-09,NonEss_Business_Closed,78
 2020-12-09,Gathering_Limit,176
 2020-12-09,Emergency_Declaration,51
 2020-12-09,Travel_Quarantine,77
@@ -2341,7 +2341,7 @@ Date,Category,sums
 2020-12-09,School_Closed,0
 2020-12-10,Stay_Home_Order,49
 2020-12-10,Status_of_Reopening,135
-2020-12-10,NonEss_Business_Closed,171
+2020-12-10,NonEss_Business_Closed,78
 2020-12-10,Gathering_Limit,176
 2020-12-10,Emergency_Declaration,51
 2020-12-10,Travel_Quarantine,77
@@ -2350,7 +2350,7 @@ Date,Category,sums
 2020-12-10,School_Closed,0
 2020-12-11,Stay_Home_Order,51
 2020-12-11,Status_of_Reopening,135
-2020-12-11,NonEss_Business_Closed,172
+2020-12-11,NonEss_Business_Closed,79
 2020-12-11,Gathering_Limit,182
 2020-12-11,Emergency_Declaration,51
 2020-12-11,Travel_Quarantine,77
@@ -2359,7 +2359,7 @@ Date,Category,sums
 2020-12-11,School_Closed,0
 2020-12-12,Stay_Home_Order,51
 2020-12-12,Status_of_Reopening,135
-2020-12-12,NonEss_Business_Closed,172
+2020-12-12,NonEss_Business_Closed,79
 2020-12-12,Gathering_Limit,182
 2020-12-12,Emergency_Declaration,51
 2020-12-12,Travel_Quarantine,77
@@ -2368,7 +2368,7 @@ Date,Category,sums
 2020-12-12,School_Closed,0
 2020-12-13,Stay_Home_Order,51
 2020-12-13,Status_of_Reopening,135
-2020-12-13,NonEss_Business_Closed,172
+2020-12-13,NonEss_Business_Closed,79
 2020-12-13,Gathering_Limit,182
 2020-12-13,Emergency_Declaration,51
 2020-12-13,Travel_Quarantine,77
@@ -2377,7 +2377,7 @@ Date,Category,sums
 2020-12-13,School_Closed,0
 2020-12-14,Stay_Home_Order,51
 2020-12-14,Status_of_Reopening,135
-2020-12-14,NonEss_Business_Closed,172
+2020-12-14,NonEss_Business_Closed,79
 2020-12-14,Gathering_Limit,182
 2020-12-14,Emergency_Declaration,51
 2020-12-14,Travel_Quarantine,77
@@ -2386,7 +2386,7 @@ Date,Category,sums
 2020-12-14,School_Closed,0
 2020-12-15,Stay_Home_Order,51
 2020-12-15,Status_of_Reopening,135
-2020-12-15,NonEss_Business_Closed,172
+2020-12-15,NonEss_Business_Closed,79
 2020-12-15,Gathering_Limit,182
 2020-12-15,Emergency_Declaration,51
 2020-12-15,Travel_Quarantine,77
@@ -2395,7 +2395,7 @@ Date,Category,sums
 2020-12-15,School_Closed,0
 2020-12-16,Stay_Home_Order,51
 2020-12-16,Status_of_Reopening,135
-2020-12-16,NonEss_Business_Closed,172
+2020-12-16,NonEss_Business_Closed,79
 2020-12-16,Gathering_Limit,182
 2020-12-16,Emergency_Declaration,51
 2020-12-16,Travel_Quarantine,77
@@ -2404,7 +2404,7 @@ Date,Category,sums
 2020-12-16,School_Closed,0
 2020-12-17,Stay_Home_Order,53
 2020-12-17,Status_of_Reopening,135
-2020-12-17,NonEss_Business_Closed,173
+2020-12-17,NonEss_Business_Closed,80
 2020-12-17,Gathering_Limit,180
 2020-12-17,Emergency_Declaration,51
 2020-12-17,Travel_Quarantine,77
@@ -2413,7 +2413,7 @@ Date,Category,sums
 2020-12-17,School_Closed,0
 2020-12-18,Stay_Home_Order,53
 2020-12-18,Status_of_Reopening,133
-2020-12-18,NonEss_Business_Closed,173
+2020-12-18,NonEss_Business_Closed,80
 2020-12-18,Gathering_Limit,176
 2020-12-18,Emergency_Declaration,51
 2020-12-18,Travel_Quarantine,81
@@ -2422,7 +2422,7 @@ Date,Category,sums
 2020-12-18,School_Closed,0
 2020-12-19,Stay_Home_Order,53
 2020-12-19,Status_of_Reopening,133
-2020-12-19,NonEss_Business_Closed,173
+2020-12-19,NonEss_Business_Closed,80
 2020-12-19,Gathering_Limit,176
 2020-12-19,Emergency_Declaration,51
 2020-12-19,Travel_Quarantine,81
@@ -2431,7 +2431,7 @@ Date,Category,sums
 2020-12-19,School_Closed,0
 2020-12-20,Stay_Home_Order,53
 2020-12-20,Status_of_Reopening,133
-2020-12-20,NonEss_Business_Closed,173
+2020-12-20,NonEss_Business_Closed,80
 2020-12-20,Gathering_Limit,180
 2020-12-20,Emergency_Declaration,51
 2020-12-20,Travel_Quarantine,83
@@ -2440,7 +2440,7 @@ Date,Category,sums
 2020-12-20,School_Closed,0
 2020-12-21,Stay_Home_Order,53
 2020-12-21,Status_of_Reopening,133
-2020-12-21,NonEss_Business_Closed,173
+2020-12-21,NonEss_Business_Closed,80
 2020-12-21,Gathering_Limit,180
 2020-12-21,Emergency_Declaration,51
 2020-12-21,Travel_Quarantine,83
@@ -2449,7 +2449,7 @@ Date,Category,sums
 2020-12-21,School_Closed,0
 2020-12-22,Stay_Home_Order,53
 2020-12-22,Status_of_Reopening,133
-2020-12-22,NonEss_Business_Closed,173
+2020-12-22,NonEss_Business_Closed,80
 2020-12-22,Gathering_Limit,180
 2020-12-22,Emergency_Declaration,51
 2020-12-22,Travel_Quarantine,83
@@ -2458,7 +2458,7 @@ Date,Category,sums
 2020-12-22,School_Closed,0
 2020-12-23,Stay_Home_Order,53
 2020-12-23,Status_of_Reopening,133
-2020-12-23,NonEss_Business_Closed,173
+2020-12-23,NonEss_Business_Closed,80
 2020-12-23,Gathering_Limit,180
 2020-12-23,Emergency_Declaration,51
 2020-12-23,Travel_Quarantine,83
@@ -2467,7 +2467,7 @@ Date,Category,sums
 2020-12-23,School_Closed,0
 2020-12-24,Stay_Home_Order,53
 2020-12-24,Status_of_Reopening,133
-2020-12-24,NonEss_Business_Closed,173
+2020-12-24,NonEss_Business_Closed,80
 2020-12-24,Gathering_Limit,180
 2020-12-24,Emergency_Declaration,51
 2020-12-24,Travel_Quarantine,83
@@ -2476,7 +2476,7 @@ Date,Category,sums
 2020-12-24,School_Closed,0
 2020-12-25,Stay_Home_Order,53
 2020-12-25,Status_of_Reopening,133
-2020-12-25,NonEss_Business_Closed,173
+2020-12-25,NonEss_Business_Closed,80
 2020-12-25,Gathering_Limit,180
 2020-12-25,Emergency_Declaration,51
 2020-12-25,Travel_Quarantine,83
@@ -2485,7 +2485,7 @@ Date,Category,sums
 2020-12-25,School_Closed,0
 2020-12-26,Stay_Home_Order,53
 2020-12-26,Status_of_Reopening,133
-2020-12-26,NonEss_Business_Closed,173
+2020-12-26,NonEss_Business_Closed,80
 2020-12-26,Gathering_Limit,180
 2020-12-26,Emergency_Declaration,51
 2020-12-26,Travel_Quarantine,83
@@ -2494,7 +2494,7 @@ Date,Category,sums
 2020-12-26,School_Closed,0
 2020-12-27,Stay_Home_Order,53
 2020-12-27,Status_of_Reopening,133
-2020-12-27,NonEss_Business_Closed,173
+2020-12-27,NonEss_Business_Closed,80
 2020-12-27,Gathering_Limit,180
 2020-12-27,Emergency_Declaration,51
 2020-12-27,Travel_Quarantine,83
@@ -2503,7 +2503,7 @@ Date,Category,sums
 2020-12-27,School_Closed,0
 2020-12-28,Stay_Home_Order,53
 2020-12-28,Status_of_Reopening,133
-2020-12-28,NonEss_Business_Closed,173
+2020-12-28,NonEss_Business_Closed,80
 2020-12-28,Gathering_Limit,180
 2020-12-28,Emergency_Declaration,51
 2020-12-28,Travel_Quarantine,83
@@ -2512,7 +2512,7 @@ Date,Category,sums
 2020-12-28,School_Closed,0
 2020-12-29,Stay_Home_Order,53
 2020-12-29,Status_of_Reopening,133
-2020-12-29,NonEss_Business_Closed,173
+2020-12-29,NonEss_Business_Closed,80
 2020-12-29,Gathering_Limit,180
 2020-12-29,Emergency_Declaration,51
 2020-12-29,Travel_Quarantine,83
@@ -2521,7 +2521,7 @@ Date,Category,sums
 2020-12-29,School_Closed,0
 2020-12-30,Stay_Home_Order,53
 2020-12-30,Status_of_Reopening,133
-2020-12-30,NonEss_Business_Closed,173
+2020-12-30,NonEss_Business_Closed,80
 2020-12-30,Gathering_Limit,180
 2020-12-30,Emergency_Declaration,51
 2020-12-30,Travel_Quarantine,83
@@ -2530,7 +2530,7 @@ Date,Category,sums
 2020-12-30,School_Closed,0
 2020-12-31,Stay_Home_Order,53
 2020-12-31,Status_of_Reopening,133
-2020-12-31,NonEss_Business_Closed,173
+2020-12-31,NonEss_Business_Closed,80
 2020-12-31,Gathering_Limit,180
 2020-12-31,Emergency_Declaration,51
 2020-12-31,Travel_Quarantine,83
@@ -2539,7 +2539,7 @@ Date,Category,sums
 2020-12-31,School_Closed,0
 2021-01-01,Stay_Home_Order,53
 2021-01-01,Status_of_Reopening,133
-2021-01-01,NonEss_Business_Closed,173
+2021-01-01,NonEss_Business_Closed,80
 2021-01-01,Gathering_Limit,180
 2021-01-01,Emergency_Declaration,51
 2021-01-01,Travel_Quarantine,83
@@ -2548,7 +2548,7 @@ Date,Category,sums
 2021-01-01,School_Closed,0
 2021-01-02,Stay_Home_Order,53
 2021-01-02,Status_of_Reopening,133
-2021-01-02,NonEss_Business_Closed,173
+2021-01-02,NonEss_Business_Closed,80
 2021-01-02,Gathering_Limit,180
 2021-01-02,Emergency_Declaration,51
 2021-01-02,Travel_Quarantine,83
@@ -2557,7 +2557,7 @@ Date,Category,sums
 2021-01-02,School_Closed,0
 2021-01-03,Stay_Home_Order,53
 2021-01-03,Status_of_Reopening,133
-2021-01-03,NonEss_Business_Closed,173
+2021-01-03,NonEss_Business_Closed,80
 2021-01-03,Gathering_Limit,180
 2021-01-03,Emergency_Declaration,51
 2021-01-03,Travel_Quarantine,83
@@ -2566,7 +2566,7 @@ Date,Category,sums
 2021-01-03,School_Closed,0
 2021-01-04,Stay_Home_Order,53
 2021-01-04,Status_of_Reopening,133
-2021-01-04,NonEss_Business_Closed,173
+2021-01-04,NonEss_Business_Closed,80
 2021-01-04,Gathering_Limit,176
 2021-01-04,Emergency_Declaration,51
 2021-01-04,Travel_Quarantine,83
@@ -2575,7 +2575,7 @@ Date,Category,sums
 2021-01-04,School_Closed,0
 2021-01-05,Stay_Home_Order,53
 2021-01-05,Status_of_Reopening,133
-2021-01-05,NonEss_Business_Closed,173
+2021-01-05,NonEss_Business_Closed,80
 2021-01-05,Gathering_Limit,176
 2021-01-05,Emergency_Declaration,51
 2021-01-05,Travel_Quarantine,83
@@ -2584,7 +2584,7 @@ Date,Category,sums
 2021-01-05,School_Closed,0
 2021-01-06,Stay_Home_Order,53
 2021-01-06,Status_of_Reopening,133
-2021-01-06,NonEss_Business_Closed,173
+2021-01-06,NonEss_Business_Closed,80
 2021-01-06,Gathering_Limit,176
 2021-01-06,Emergency_Declaration,51
 2021-01-06,Travel_Quarantine,83
@@ -2593,7 +2593,7 @@ Date,Category,sums
 2021-01-06,School_Closed,0
 2021-01-07,Stay_Home_Order,53
 2021-01-07,Status_of_Reopening,133
-2021-01-07,NonEss_Business_Closed,173
+2021-01-07,NonEss_Business_Closed,80
 2021-01-07,Gathering_Limit,176
 2021-01-07,Emergency_Declaration,51
 2021-01-07,Travel_Quarantine,83
@@ -2602,7 +2602,7 @@ Date,Category,sums
 2021-01-07,School_Closed,0
 2021-01-08,Stay_Home_Order,53
 2021-01-08,Status_of_Reopening,131
-2021-01-08,NonEss_Business_Closed,173
+2021-01-08,NonEss_Business_Closed,80
 2021-01-08,Gathering_Limit,175
 2021-01-08,Emergency_Declaration,51
 2021-01-08,Travel_Quarantine,83
@@ -2611,7 +2611,7 @@ Date,Category,sums
 2021-01-08,School_Closed,0
 2021-01-09,Stay_Home_Order,53
 2021-01-09,Status_of_Reopening,131
-2021-01-09,NonEss_Business_Closed,173
+2021-01-09,NonEss_Business_Closed,80
 2021-01-09,Gathering_Limit,175
 2021-01-09,Emergency_Declaration,51
 2021-01-09,Travel_Quarantine,83
@@ -2620,7 +2620,7 @@ Date,Category,sums
 2021-01-09,School_Closed,0
 2021-01-10,Stay_Home_Order,53
 2021-01-10,Status_of_Reopening,131
-2021-01-10,NonEss_Business_Closed,173
+2021-01-10,NonEss_Business_Closed,80
 2021-01-10,Gathering_Limit,175
 2021-01-10,Emergency_Declaration,51
 2021-01-10,Travel_Quarantine,83
@@ -2629,7 +2629,7 @@ Date,Category,sums
 2021-01-10,School_Closed,0
 2021-01-11,Stay_Home_Order,53
 2021-01-11,Status_of_Reopening,131
-2021-01-11,NonEss_Business_Closed,173
+2021-01-11,NonEss_Business_Closed,80
 2021-01-11,Gathering_Limit,175
 2021-01-11,Emergency_Declaration,51
 2021-01-11,Travel_Quarantine,83
@@ -2638,7 +2638,7 @@ Date,Category,sums
 2021-01-11,School_Closed,0
 2021-01-12,Stay_Home_Order,53
 2021-01-12,Status_of_Reopening,131
-2021-01-12,NonEss_Business_Closed,173
+2021-01-12,NonEss_Business_Closed,80
 2021-01-12,Gathering_Limit,175
 2021-01-12,Emergency_Declaration,51
 2021-01-12,Travel_Quarantine,83
@@ -2647,7 +2647,7 @@ Date,Category,sums
 2021-01-12,School_Closed,0
 2021-01-13,Stay_Home_Order,53
 2021-01-13,Status_of_Reopening,131
-2021-01-13,NonEss_Business_Closed,173
+2021-01-13,NonEss_Business_Closed,80
 2021-01-13,Gathering_Limit,175
 2021-01-13,Emergency_Declaration,51
 2021-01-13,Travel_Quarantine,83
@@ -2656,7 +2656,7 @@ Date,Category,sums
 2021-01-13,School_Closed,0
 2021-01-14,Stay_Home_Order,53
 2021-01-14,Status_of_Reopening,129
-2021-01-14,NonEss_Business_Closed,173
+2021-01-14,NonEss_Business_Closed,80
 2021-01-14,Gathering_Limit,175
 2021-01-14,Emergency_Declaration,51
 2021-01-14,Travel_Quarantine,83
@@ -2665,7 +2665,7 @@ Date,Category,sums
 2021-01-14,School_Closed,0
 2021-01-15,Stay_Home_Order,53
 2021-01-15,Status_of_Reopening,127
-2021-01-15,NonEss_Business_Closed,173
+2021-01-15,NonEss_Business_Closed,78
 2021-01-15,Gathering_Limit,173
 2021-01-15,Emergency_Declaration,51
 2021-01-15,Travel_Quarantine,83
@@ -2674,7 +2674,7 @@ Date,Category,sums
 2021-01-15,School_Closed,0
 2021-01-16,Stay_Home_Order,53
 2021-01-16,Status_of_Reopening,127
-2021-01-16,NonEss_Business_Closed,173
+2021-01-16,NonEss_Business_Closed,78
 2021-01-16,Gathering_Limit,173
 2021-01-16,Emergency_Declaration,51
 2021-01-16,Travel_Quarantine,83
@@ -2683,7 +2683,7 @@ Date,Category,sums
 2021-01-16,School_Closed,0
 2021-01-17,Stay_Home_Order,53
 2021-01-17,Status_of_Reopening,127
-2021-01-17,NonEss_Business_Closed,173
+2021-01-17,NonEss_Business_Closed,78
 2021-01-17,Gathering_Limit,173
 2021-01-17,Emergency_Declaration,51
 2021-01-17,Travel_Quarantine,83
@@ -2692,7 +2692,7 @@ Date,Category,sums
 2021-01-17,School_Closed,0
 2021-01-18,Stay_Home_Order,53
 2021-01-18,Status_of_Reopening,127
-2021-01-18,NonEss_Business_Closed,173
+2021-01-18,NonEss_Business_Closed,78
 2021-01-18,Gathering_Limit,173
 2021-01-18,Emergency_Declaration,51
 2021-01-18,Travel_Quarantine,83
@@ -2701,7 +2701,7 @@ Date,Category,sums
 2021-01-18,School_Closed,0
 2021-01-19,Stay_Home_Order,53
 2021-01-19,Status_of_Reopening,125
-2021-01-19,NonEss_Business_Closed,173
+2021-01-19,NonEss_Business_Closed,78
 2021-01-19,Gathering_Limit,171
 2021-01-19,Emergency_Declaration,51
 2021-01-19,Travel_Quarantine,83
@@ -2710,7 +2710,7 @@ Date,Category,sums
 2021-01-19,School_Closed,0
 2021-01-20,Stay_Home_Order,53
 2021-01-20,Status_of_Reopening,125
-2021-01-20,NonEss_Business_Closed,173
+2021-01-20,NonEss_Business_Closed,78
 2021-01-20,Gathering_Limit,171
 2021-01-20,Emergency_Declaration,51
 2021-01-20,Travel_Quarantine,83
@@ -2719,7 +2719,7 @@ Date,Category,sums
 2021-01-20,School_Closed,0
 2021-01-21,Stay_Home_Order,53
 2021-01-21,Status_of_Reopening,125
-2021-01-21,NonEss_Business_Closed,173
+2021-01-21,NonEss_Business_Closed,78
 2021-01-21,Gathering_Limit,171
 2021-01-21,Emergency_Declaration,51
 2021-01-21,Travel_Quarantine,83
@@ -2728,7 +2728,7 @@ Date,Category,sums
 2021-01-21,School_Closed,0
 2021-01-22,Stay_Home_Order,53
 2021-01-22,Status_of_Reopening,125
-2021-01-22,NonEss_Business_Closed,173
+2021-01-22,NonEss_Business_Closed,78
 2021-01-22,Gathering_Limit,171
 2021-01-22,Emergency_Declaration,51
 2021-01-22,Travel_Quarantine,83
@@ -2737,7 +2737,7 @@ Date,Category,sums
 2021-01-22,School_Closed,0
 2021-01-23,Stay_Home_Order,53
 2021-01-23,Status_of_Reopening,125
-2021-01-23,NonEss_Business_Closed,173
+2021-01-23,NonEss_Business_Closed,78
 2021-01-23,Gathering_Limit,171
 2021-01-23,Emergency_Declaration,51
 2021-01-23,Travel_Quarantine,83
@@ -2746,7 +2746,7 @@ Date,Category,sums
 2021-01-23,School_Closed,0
 2021-01-24,Stay_Home_Order,53
 2021-01-24,Status_of_Reopening,125
-2021-01-24,NonEss_Business_Closed,173
+2021-01-24,NonEss_Business_Closed,78
 2021-01-24,Gathering_Limit,171
 2021-01-24,Emergency_Declaration,51
 2021-01-24,Travel_Quarantine,83
@@ -2755,7 +2755,7 @@ Date,Category,sums
 2021-01-24,School_Closed,0
 2021-01-25,Stay_Home_Order,53
 2021-01-25,Status_of_Reopening,125
-2021-01-25,NonEss_Business_Closed,173
+2021-01-25,NonEss_Business_Closed,78
 2021-01-25,Gathering_Limit,171
 2021-01-25,Emergency_Declaration,51
 2021-01-25,Travel_Quarantine,83
@@ -2764,7 +2764,7 @@ Date,Category,sums
 2021-01-25,School_Closed,0
 2021-01-26,Stay_Home_Order,56
 2021-01-26,Status_of_Reopening,125
-2021-01-26,NonEss_Business_Closed,173
+2021-01-26,NonEss_Business_Closed,78
 2021-01-26,Gathering_Limit,163
 2021-01-26,Emergency_Declaration,51
 2021-01-26,Travel_Quarantine,83
@@ -2773,7 +2773,7 @@ Date,Category,sums
 2021-01-26,School_Closed,0
 2021-01-27,Stay_Home_Order,56
 2021-01-27,Status_of_Reopening,125
-2021-01-27,NonEss_Business_Closed,173
+2021-01-27,NonEss_Business_Closed,78
 2021-01-27,Gathering_Limit,163
 2021-01-27,Emergency_Declaration,51
 2021-01-27,Travel_Quarantine,83
@@ -2782,7 +2782,7 @@ Date,Category,sums
 2021-01-27,School_Closed,0
 2021-01-28,Stay_Home_Order,56
 2021-01-28,Status_of_Reopening,125
-2021-01-28,NonEss_Business_Closed,173
+2021-01-28,NonEss_Business_Closed,78
 2021-01-28,Gathering_Limit,163
 2021-01-28,Emergency_Declaration,51
 2021-01-28,Travel_Quarantine,83
@@ -2791,7 +2791,7 @@ Date,Category,sums
 2021-01-28,School_Closed,0
 2021-01-29,Stay_Home_Order,56
 2021-01-29,Status_of_Reopening,125
-2021-01-29,NonEss_Business_Closed,173
+2021-01-29,NonEss_Business_Closed,78
 2021-01-29,Gathering_Limit,162
 2021-01-29,Emergency_Declaration,51
 2021-01-29,Travel_Quarantine,83
@@ -2800,7 +2800,7 @@ Date,Category,sums
 2021-01-29,School_Closed,0
 2021-01-30,Stay_Home_Order,56
 2021-01-30,Status_of_Reopening,125
-2021-01-30,NonEss_Business_Closed,173
+2021-01-30,NonEss_Business_Closed,78
 2021-01-30,Gathering_Limit,162
 2021-01-30,Emergency_Declaration,51
 2021-01-30,Travel_Quarantine,83
@@ -2809,7 +2809,7 @@ Date,Category,sums
 2021-01-30,School_Closed,0
 2021-01-31,Stay_Home_Order,56
 2021-01-31,Status_of_Reopening,125
-2021-01-31,NonEss_Business_Closed,173
+2021-01-31,NonEss_Business_Closed,78
 2021-01-31,Gathering_Limit,162
 2021-01-31,Emergency_Declaration,51
 2021-01-31,Travel_Quarantine,83
@@ -2818,7 +2818,7 @@ Date,Category,sums
 2021-01-31,School_Closed,0
 2021-02-01,Stay_Home_Order,56
 2021-02-01,Status_of_Reopening,123
-2021-02-01,NonEss_Business_Closed,173
+2021-02-01,NonEss_Business_Closed,78
 2021-02-01,Gathering_Limit,162
 2021-02-01,Emergency_Declaration,51
 2021-02-01,Travel_Quarantine,82
@@ -2827,7 +2827,7 @@ Date,Category,sums
 2021-02-01,School_Closed,0
 2021-02-02,Stay_Home_Order,56
 2021-02-02,Status_of_Reopening,123
-2021-02-02,NonEss_Business_Closed,173
+2021-02-02,NonEss_Business_Closed,78
 2021-02-02,Gathering_Limit,162
 2021-02-02,Emergency_Declaration,51
 2021-02-02,Travel_Quarantine,82
@@ -2836,7 +2836,7 @@ Date,Category,sums
 2021-02-02,School_Closed,0
 2021-02-03,Stay_Home_Order,56
 2021-02-03,Status_of_Reopening,123
-2021-02-03,NonEss_Business_Closed,173
+2021-02-03,NonEss_Business_Closed,78
 2021-02-03,Gathering_Limit,158
 2021-02-03,Emergency_Declaration,51
 2021-02-03,Travel_Quarantine,82
@@ -2845,7 +2845,7 @@ Date,Category,sums
 2021-02-03,School_Closed,0
 2021-02-04,Stay_Home_Order,56
 2021-02-04,Status_of_Reopening,123
-2021-02-04,NonEss_Business_Closed,173
+2021-02-04,NonEss_Business_Closed,78
 2021-02-04,Gathering_Limit,158
 2021-02-04,Emergency_Declaration,51
 2021-02-04,Travel_Quarantine,82
@@ -2854,7 +2854,7 @@ Date,Category,sums
 2021-02-04,School_Closed,0
 2021-02-05,Stay_Home_Order,56
 2021-02-05,Status_of_Reopening,123
-2021-02-05,NonEss_Business_Closed,173
+2021-02-05,NonEss_Business_Closed,78
 2021-02-05,Gathering_Limit,158
 2021-02-05,Emergency_Declaration,51
 2021-02-05,Travel_Quarantine,82
@@ -2863,7 +2863,7 @@ Date,Category,sums
 2021-02-05,School_Closed,0
 2021-02-06,Stay_Home_Order,56
 2021-02-06,Status_of_Reopening,123
-2021-02-06,NonEss_Business_Closed,173
+2021-02-06,NonEss_Business_Closed,78
 2021-02-06,Gathering_Limit,158
 2021-02-06,Emergency_Declaration,51
 2021-02-06,Travel_Quarantine,82
@@ -2872,7 +2872,7 @@ Date,Category,sums
 2021-02-06,School_Closed,0
 2021-02-07,Stay_Home_Order,56
 2021-02-07,Status_of_Reopening,123
-2021-02-07,NonEss_Business_Closed,173
+2021-02-07,NonEss_Business_Closed,78
 2021-02-07,Gathering_Limit,158
 2021-02-07,Emergency_Declaration,51
 2021-02-07,Travel_Quarantine,82
@@ -2881,7 +2881,7 @@ Date,Category,sums
 2021-02-07,School_Closed,0
 2021-02-08,Stay_Home_Order,56
 2021-02-08,Status_of_Reopening,123
-2021-02-08,NonEss_Business_Closed,173
+2021-02-08,NonEss_Business_Closed,78
 2021-02-08,Gathering_Limit,158
 2021-02-08,Emergency_Declaration,51
 2021-02-08,Travel_Quarantine,82
@@ -2890,7 +2890,7 @@ Date,Category,sums
 2021-02-08,School_Closed,0
 2021-02-09,Stay_Home_Order,56
 2021-02-09,Status_of_Reopening,123
-2021-02-09,NonEss_Business_Closed,176
+2021-02-09,NonEss_Business_Closed,78
 2021-02-09,Gathering_Limit,158
 2021-02-09,Emergency_Declaration,51
 2021-02-09,Travel_Quarantine,82
@@ -2899,7 +2899,7 @@ Date,Category,sums
 2021-02-09,School_Closed,0
 2021-02-10,Stay_Home_Order,56
 2021-02-10,Status_of_Reopening,123
-2021-02-10,NonEss_Business_Closed,176
+2021-02-10,NonEss_Business_Closed,78
 2021-02-10,Gathering_Limit,158
 2021-02-10,Emergency_Declaration,51
 2021-02-10,Travel_Quarantine,82
@@ -2908,7 +2908,7 @@ Date,Category,sums
 2021-02-10,School_Closed,0
 2021-02-11,Stay_Home_Order,56
 2021-02-11,Status_of_Reopening,123
-2021-02-11,NonEss_Business_Closed,176
+2021-02-11,NonEss_Business_Closed,78
 2021-02-11,Gathering_Limit,158
 2021-02-11,Emergency_Declaration,51
 2021-02-11,Travel_Quarantine,79
@@ -2917,7 +2917,7 @@ Date,Category,sums
 2021-02-11,School_Closed,0
 2021-02-12,Stay_Home_Order,56
 2021-02-12,Status_of_Reopening,119
-2021-02-12,NonEss_Business_Closed,180
+2021-02-12,NonEss_Business_Closed,76
 2021-02-12,Gathering_Limit,158
 2021-02-12,Emergency_Declaration,51
 2021-02-12,Travel_Quarantine,79
@@ -2926,7 +2926,7 @@ Date,Category,sums
 2021-02-12,School_Closed,0
 2021-02-13,Stay_Home_Order,56
 2021-02-13,Status_of_Reopening,119
-2021-02-13,NonEss_Business_Closed,180
+2021-02-13,NonEss_Business_Closed,76
 2021-02-13,Gathering_Limit,158
 2021-02-13,Emergency_Declaration,51
 2021-02-13,Travel_Quarantine,79
@@ -2935,7 +2935,7 @@ Date,Category,sums
 2021-02-13,School_Closed,0
 2021-02-14,Stay_Home_Order,56
 2021-02-14,Status_of_Reopening,119
-2021-02-14,NonEss_Business_Closed,180
+2021-02-14,NonEss_Business_Closed,76
 2021-02-14,Gathering_Limit,158
 2021-02-14,Emergency_Declaration,51
 2021-02-14,Travel_Quarantine,79
@@ -2944,19 +2944,10 @@ Date,Category,sums
 2021-02-14,School_Closed,0
 2021-02-15,Stay_Home_Order,56
 2021-02-15,Status_of_Reopening,119
-2021-02-15,NonEss_Business_Closed,180
+2021-02-15,NonEss_Business_Closed,76
 2021-02-15,Gathering_Limit,158
 2021-02-15,Emergency_Declaration,51
 2021-02-15,Travel_Quarantine,79
 2021-02-15,Mask_Requirement,133
 2021-02-15,Restaurants,83
 2021-02-15,School_Closed,0
-2021-02-16,Stay_Home_Order,53
-2021-02-16,Status_of_Reopening,108
-2021-02-16,NonEss_Business_Closed,225
-2021-02-16,Gathering_Limit,151
-2021-02-16,Emergency_Declaration,51
-2021-02-16,Travel_Quarantine,75
-2021-02-16,Mask_Requirement,123
-2021-02-16,Restaurants,84
-2021-02-16,School_Closed,0

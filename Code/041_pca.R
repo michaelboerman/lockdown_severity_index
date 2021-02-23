@@ -24,7 +24,8 @@ library(factoextra)
 #   identity()
 
 cat_data <- cat_data_reordered %>%
-  select(-c(Status_of_Reopening, Emergency_Declaration, School_Closed))
+  select(-c(Status_of_Reopening, Emergency_Declaration, School_Closed)) %>% 
+  mutate_if(is.numeric, ~ . - lag(.))
 
 pca_results <- prcomp(~.,
   data = select_if(cat_data, is.numeric),
@@ -58,4 +59,5 @@ first_pc <- pca_results$x[, 1] %>%
 first_pc %>%
   ggplot(aes(x = period, y = first_pc)) +
   geom_bar(stat = "identity") +
-  ggsave(here("Results/pca", "national_index.png"))
+  # geom_point() +
+  ggsave(here("Results/pca", "pca_national_index.png"))
