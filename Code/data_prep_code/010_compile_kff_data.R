@@ -288,7 +288,7 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
 cleaned_interpolated <- cleaned
 i <- 2
 
-while (i < 20000) { # the amount needed to loop through not just nrow(cleaned), but keep going when adding rows.
+while (i < 24000) { # the amount needed to loop through not just nrow(cleaned), but keep going when adding rows.
   if (cleaned_interpolated$Date[i-1] != max(unique(cleaned$Date))) {
     if ((cleaned_interpolated$Date[i] - 1) > cleaned_interpolated$Date[i - 1]) { # day before current > previous date
       df <- cleaned_interpolated[(i - 51):(i - 1), ] # the last 51 obs
