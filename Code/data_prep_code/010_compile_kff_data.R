@@ -98,7 +98,7 @@ names(data) <- paste0(
 # This should not always be run.
 
 # original <- plyr::join_all(dfs = data, type = "full")
-summary(original)
+# summary(original)
 
 # colnames(original)[16]
 # levels(original[,16])

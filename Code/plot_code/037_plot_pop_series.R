@@ -21,9 +21,9 @@ options(scipen = 999) # for the population-weighted scores
 # ---- Read in population and index data from 024
 pop_weighted_scores <- read_csv(here("Intermediate_Data/dummies_with_pop.csv"),
   col_types = cols(
-    .default = col_double(), # coerce to be factors instead of chr
-    Date = col_date(format = ""), # except column Date, read as date.
-    Location = col_character() # except column Locaiton, read as chr
+    .default = col_double(),      # coerce to be factors instead of chr
+    date = col_date(format = ""), # except column Date, read as date.
+    state = col_character()       # except column Locaiton, read as chr
   )
 )
 
@@ -32,7 +32,7 @@ pop_weighted_scores <- read_csv(here("Intermediate_Data/dummies_with_pop.csv"),
 # Basically want one score instead of the 9 individual components.
 
 # weighted but not standardized
-pop_weighted_scores <- dummies_with_pop %>%
+pop_weighted_scores <- pop_weighted_scores %>%
   pivot_longer(cols = -c(1:3), names_to = "Category", values_to = "scores") %>%
   group_by(date, state) %>%
   summarize(

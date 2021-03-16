@@ -38,7 +38,9 @@ summary_df %>%
     label = "United States Restrictions by Category",
     subtitle = "Low score means less severe restrictions. Y axis fixed."
   ) +
-  labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
+  labs(caption = paste0("NAs are counted as 0.\n Data is from ", 
+                        min(summary_df$Date), " through ", max(summary_df$Date), 
+                        ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
   ggsave(here("Results/plots/category_decomp.png"), width = 12, height = 6)
 
 # 2. Aggregated into US
