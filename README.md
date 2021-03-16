@@ -1,8 +1,10 @@
 # Pandemic Lockdown Severity Index
 
+## Flagship Plots:
 ![](Results/plots/national_index_pop_std.png)
+![](Results/plots/states_index_pop_std_free.png)
+![](Results/plots/states_index_pop_std_fixed.png)
 ![](Results/plots/national_decomp_facet_pop_std.png)
-![](Results/plots/states_index_pop_std.png)
 
 ## Overview
 We all want to know if lockdowns work. They would be a huge price to pay if not! In order to understand a relationship between cause and effect, both must be measured. We need to understand the severity of lockdowns – the cause – before we can do any regression or correlation analysis with death toll or economic impact – the effects. Metrics for these effects exist, but understanding the cause poses a challenge. The index presented here offers a useful measure to understand the severity of lockdown restrictions. It is available for each of nine individual lockdown categories, for each of the fifty states, and aggregated into one measure for the whole United States. 
@@ -11,7 +13,11 @@ Many great indices exist in this vein, but the Pandemic Lockdown Severity Index 
 1)	Weighted by population of each state.
 2)	Each category is standardized to impose equal weighting.
 
-The first ensures California holds more importance than Alaska, for example. The second ensures that regardless of the number of levels within each category, each hold an equal importance. Each of these also provide the opportunity for the user to modify the index with demographic, epidemiologic, or economic significance by adding external weights. 
+The first ensures California holds more weight than Alaska, for example, in the US-wide index. The second ensures that, regardless of the number of levels within each category, each hold an equal importance. Each of these also provide the opportunity for the user to modify the index with demographic, epidemiologic, or economic significance by adding external weights. 
+
+## Other Plots:
+![](Results/plots/unused_itermediaries/national_decomp_bar_pop_std.png)
+![](Results/plots/state_index/pop_std_TX.png)
 
 ## Terminology
 Terminology:
@@ -31,7 +37,7 @@ standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \
 The purpose of this is discussed in the methodology section.
 
 
-- Population-weighted: a process of scaling data by a weight. Here, the weight is the fraction of population the state owns out of the total United States population (50 states + DC). 
+- **Population-weighted:** a process of scaling data by a weight. Here, the weight is the fraction of population the state owns out of the total United States population (50 states + DC). 
 
 Formulaically, this looks like the following. For each date *t* of *value* in a series for each state *s*, 
     
@@ -96,14 +102,19 @@ The code is ordered numerically and roughly follows this outline:
 - `012_gather_populations`: read in csv with US Census 2020 state population estimates. Format and export as csv.
 
 - `021_make_factor_levels`: reorders category levels and assigns severity score to each level.
+- 
+- `024_merge_populations`: merges the result from above with the population data from two above. format and export as csv to use for all plots.
 
-- `032_plot_raw_series`: plots the "raw" series (not population weighted adn not standardized). 
+- `032_plot_raw_series`: plots the "raw" series (not population weighted and not standardized). 
 
 - `035_plot_std_series`: first, it standardizes the data (shift by mean and scale by std dev). Then, create plots.
 
 - `037_plot_pop_series`: first, it weights each state by population (multiply by state_pop/total_pop). Then, create plots.
 
-- `038_plot_std_pop_series`. first, it standardizes the data. Second, it weights by population. Then, create plots. *(final output)*
+- `038_plot_std_pop_series`: first, it standardizes the data. Second, it weights by population. Then, create plots. *(final output)*
+
+- `039_plot_states`: creates in parallel plots for individual states (index, barchart decomposition, and facet wrapped decomposition). 
+
 
 ## Acknowledgments 
 I'd like to thank Alessandro Barbarino for input and mentorship, and Jaclyn Lee for help problem-solving code.
