@@ -213,6 +213,6 @@ weighted_std_scores %>%
     subtitle = "Y axis fixed. Low score means less severe restrictions."
   ) +
   labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
-  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 16, height = 20)
+  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 12, height = 18)
 
 

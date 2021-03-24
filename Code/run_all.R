@@ -8,6 +8,8 @@ library(here)
 source(here("code/data_prep_code", "010_compile_kff_data.R"))
 source(here("code/data_prep_code", "012_gather_populations.R"))
 source(here("code/data_prep_code", "021_make_factor_levels.R"))
+source(here("code/data_prep_code", "024_merge_populations.R"))
+
 
 # plotting scripts
 source(here("code/plot_code", "032_plot_raw_series.R"))
