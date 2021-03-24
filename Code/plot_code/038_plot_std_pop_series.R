@@ -52,8 +52,8 @@ weighted_std_scores %>%
   group_by(date, state) %>% 
   mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
   ungroup() %>% 
-  
   mutate(weighted_standardized_score = rescale(weighted_standardized_score, c(0,100))) %>% 
+  
   ggplot(aes(x = date, y = weighted_standardized_score)) +
   geom_line() +
   facet_wrap(~state, scales = "fixed", nrow = 10) +
@@ -69,13 +69,13 @@ weighted_std_scores %>%
   ) +
   scale_y_continuous(position = "right") +
   ggtitle(
-    label = "Population-weighted, Standardized Scores of Restriction Severity",
-    subtitle = "All same y axis. For plots of each state, see Results/plots/state_index/"
+    label = "Most states enacted similar policy strength. A few stand exceptionally high or low.",
+    subtitle = "All axes are the same 0 to 100 scale of severity."
   ) +
   labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ggsave(here("Results/plots/states_index_pop_std_fixed.png"), width = 12, height = 20)
+  ggsave(here("Results/plots/states_index_pop_std_fixed.png"), width = 16, height = 20)
 
 
 # plot by state: free y axis
@@ -101,8 +101,8 @@ weighted_std_scores %>%
   ) +
   scale_y_continuous(position = "right") +
   ggtitle(
-    label = "Population-weighted, Standardized Scores of Restriction Severity",
-    subtitle = "Y scales vary. For plots of each state, see Results/plots/state_index/"
+    label = "Restriction severity within each state mostly subsided after Spring, but some increased into Winter.",
+    subtitle = "Y-axes vary to show how each state has changed over time."
   ) +
   labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
@@ -143,11 +143,11 @@ weighted_std_scores_agg %>%
   ) +
   ggtitle(
     label = "U.S. Restriction Severity Index",
-    subtitle = "Low score means less severe restrictions. Mapped to [0, 100]."
+    subtitle = "On a scale of 0 (least severe policies) to 100 (most severe policies).\nRestrictions are collected at a state-level across 8 categories."
   ) +
-  labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by state by population.\n",
+  labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by state by population of each state.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
   ylab("Severity Index Score") +
   ggsave(here("Results/plots/national_index_pop_std.png"), width = 12, height = 6)
 
@@ -209,10 +209,10 @@ weighted_std_scores %>%
   scale_x_date(date_breaks = "2 month", date_labels = "%b",
                date_minor_breaks = "1 month") +
   ggtitle(
-    label = "United States Restrictions by Category",
-    subtitle = "Y axis fixed. Low score means less severe restrictions."
+    label = "Across the entire U.S., some policies have had more impact than others over time.",
+    subtitle = "Each Y axis is identical. A low score means less severe restrictions."
   ) +
   labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
-  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 12, height = 18)
+  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 16, height = 11)
 
 
