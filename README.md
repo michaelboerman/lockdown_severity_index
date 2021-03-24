@@ -16,8 +16,7 @@ Many great indices exist in this vein, but the Pandemic Lockdown Severity Index 
 The first ensures California holds more weight than Alaska, for example, in the US-wide index. The second ensures that, regardless of the number of levels within each category, each hold an equal importance. Each of these also provide the opportunity for the user to modify the index with demographic, epidemiologic, or economic significance by adding external weights. 
 
 ## Other Plots:
-![](Results/plots/unused_itermediates/national_decomp_bar_pop_std.png)
-
+![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
 ![](Results/plots/state_index/pop_std_TX.png)
 
 ## Terminology
@@ -31,9 +30,9 @@ Terminology:
 
 Formulaically, this looks like the following. For each date *t* of *value* of a series *s*, 
 
-```math
-standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \overline{v_s}}{\sigma_s}
-```
+
+![standardized\:score = \frac{value_{t,s} - mean_s}{std dev_s} = \frac{v_{t,s} - \overline{v_s}}{\sigma_s}](https://latex.codecogs.com/gif.latex?standardized\:score&space;=&space;\frac{value_{t,s}&space;-&space;mean_s}{std&space;dev_s}&space;=&space;\frac{v_{t,s}&space;-&space;\overline{v_s}}{\sigma_s})
+
     
 The purpose of this is discussed in the methodology section.
 
@@ -42,11 +41,26 @@ The purpose of this is discussed in the methodology section.
 
 Formulaically, this looks like the following. For each date *t* of *value* in a series for each state *s*, 
     
-```math
-population\:weighted\:score = \frac{population_{s}}{\sum_{s=1}^{51}population_s} * value_{s,t}
-```
+
+<img src="https://latex.codecogs.com/gif.latex?population\:weighted\:score&space;=&space;\frac{population_{s}}{\sum_{s=1}^{51}population_s}&space;*&space;value_{s,t}" title="population\:weighted\:score = \frac{population_{s}}{\sum_{s=1}^{51}population_s} * value_{s,t}" />
     
 The purpose of this is discussed in the methodology section. 
+
+## Methodology
+This index is created by a series of weighted averages of standardized data series. The data's raw form is words (e.g., "mask required in public", "all non-essential retail business closed") and it is mapped to numbers on a scale of severity, using human judgment.\* For the "cookbook" of mapping, [see this code](https://github.com/michaelboerman/lockdown_severity_index/blob/main/Code/data_prep_code/021_make_factor_levels.R#L39). 
+
+Despite the numerical values, it is still a discrete data set and cannot be treated as continuous. A value of 2 is not necessarily twice as severe as a value of 1. Nor is a 4 quadruple the intensity of 1. The only conclusion of the scale is that a 4 is worse than a 1. Thus, traditional methods such as PCA or factor analysis are unavailable. 
+
+However, to account for difference in the number of levels within each category, I standardize each series individually. This puts all the categories on an equal playing field and handles outliers well. This step is absolutely crucial.
+
+An optional but valuable step is to weight each state's severity by it's relative population prior to national aggregation. Unlike the Oxford Stringency Index, which is a top-down approach, I build up from each individual state's individual categories. Thus, when aggregating into a national index, I aggregate across two dimensions: geographic (states) and value (categories). I choose to weight the states by population but leave the categories unweighted. Weights could be assigned externally to count one category more important than another, but I omit this research-intensive step.
+
+Becuase I aggregate across two dimensions to build up, indivudual plots exist. For each state's single index, see [this folder](https://github.com/michaelboerman/lockdown_severity_index/tree/main/Results/plots/state_index). For each state's categorical decomposition, see [this folder](https://github.com/michaelboerman/lockdown_severity_index/tree/main/Results/plots/state_categories). For the US index created without population-weighting or without category standardization, [see this folder](https://github.com/michaelboerman/lockdown_severity_index/tree/main/Results/plots/unused_intermediates).
+
+At the end, I re-scale the series from 0 (least severe instance) to 100 (most severe instance). This takes the series from an arbitrary number to a relative scale, and indeed allows for mulitplicative and additive comparison: for instance, 100 is twice as severe as 50, and the change in severity from 10 to 20 is equal that to the change from 90 to 100. 
+
+
+\*This method has received some [justified critiscism](https://www.aier.org/article/oxfords-stringency-index-is-falling-apart/).
 
 
 ## Data
