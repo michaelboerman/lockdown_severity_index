@@ -37,8 +37,8 @@ cat_data_reordered <- data_lockdown_dummies %>%
 
   # column 3
   mutate(Stay_Home_Order = factor(Stay_Home_Order,
-    levels = c("-", "Lifted", "High-Risk Groups", "Curfew", "Statewide"),
-    labels = c(0, 1, 2, 3, 4)
+    levels = c("-", "Lifted", "High-Risk Groups", "Curfew", "Certain Regions", "Statewide"),
+    labels = c(0, 1, 2, 3, 4, 5)
   )) %>%
 
 

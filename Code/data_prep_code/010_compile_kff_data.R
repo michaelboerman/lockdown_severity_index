@@ -223,6 +223,8 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
     Stay_Home_Order =
       case_when(
         grepl("^-", Stay_Home_Order, fixed = FALSE) ~ "-",
+        grepl("Counties of High Transmission", Stay_Home_Order, fixed = TRUE) ~ "Certain Regions",
+        grepl("Regions of High Transmission", Stay_Home_Order, fixed = TRUE) ~ "Certain Regions",
         grepl("High-Risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("High-risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("High Risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
@@ -263,19 +265,10 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("Reopen", Status_of_Reopening, fixed = FALSE) ~ "Reopened"
       )
   ) %>%
-
-
+  
   # change to factors
-  mutate(
-    Stay_Home_Order = as.factor(Stay_Home_Order),
-    Status_of_Reopening = as.factor(Status_of_Reopening),
-    NonEss_Business_Closed = as.factor(NonEss_Business_Closed),
-    Gathering_Limit = as.factor(Gathering_Limit),
-    Travel_Quarantine = as.factor(Travel_Quarantine),
-    Mask_Requirement = as.factor(Mask_Requirement),
-    Restaurants = as.factor(Restaurants),
-    School_Closed = as.factor(School_Closed)
-  ) %>%
+  mutate_if(is.character, as.factor) %>% 
+  
   identity() # fin
 
 # ---- INTERPOLATE ------------------------------------------------------------#
@@ -300,8 +293,6 @@ while (i < 24000) { # the amount needed to loop through not just nrow(cleaned), 
     break
   }
 }
-
-rm(list = c("df", "i"))
 
 ### Diagnose: Test to see if all days are sequential and such
 
