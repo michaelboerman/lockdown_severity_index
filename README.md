@@ -3,8 +3,10 @@
 ## Flagship Plots:
 ![](Results/plots/national_index_pop_std.png)
 ![](Results/plots/national_decomp_facet_pop_std.png)
+![](Results/plots/state_index/pop_std_all_states.png)
 ![](Results/plots/states_index_pop_std_free.png)
-![](Results/plots/states_index_pop_std_fixed.png)
+![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
+
 
 ## Overview
 We all want to know if lockdowns work. They would be a huge price to pay if not! In order to understand a relationship between cause and effect, both must be measured. We need to understand the severity of lockdowns – the cause – before we can do any regression or correlation analysis with death toll or economic impact – the effects. Metrics for these effects exist, but understanding the cause poses a challenge. The index presented here offers a useful measure to understand the severity of lockdown restrictions. It is available for each of nine individual lockdown categories, for each of the fifty states, and aggregated into one measure for the whole United States. 
@@ -14,10 +16,6 @@ Many great indices exist in this vein, but the Pandemic Lockdown Severity Index 
 2)	Each category is standardized to impose equal weighting.
 
 The first ensures California holds more weight than Alaska, for example, in the US-wide index. The second ensures that, regardless of the number of levels within each category, each hold an equal importance. Each of these also provide the opportunity for the user to modify the index with demographic, epidemiologic, or economic significance by adding external weights. 
-
-## Other Plots:
-![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
-![](Results/plots/state_index/pop_std_TX.png)
 
 ## Terminology
 Terminology:

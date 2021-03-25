@@ -46,68 +46,7 @@ weighted_std_scores <- dummies_with_pop %>%
 
 write_csv(weighted_std_scores, here("Results/csv/pop_std_scores_states.csv"))
 
-# plot by state: fixed y axis
-weighted_std_scores %>%
-  
-  group_by(date, state) %>% 
-  mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
-  ungroup() %>% 
-  mutate(weighted_standardized_score = rescale(weighted_standardized_score, c(0,100))) %>% 
-  
-  ggplot(aes(x = date, y = weighted_standardized_score)) +
-  geom_line() +
-  facet_wrap(~state, scales = "fixed", nrow = 10) +
-  theme_minimal() +
-  theme(
-    text = element_text(size = 20),
-    axis.text.y = element_blank(),
-    axis.text.x = element_blank(),
-    axis.title.y = element_blank(),
-    panel.grid.minor.y = element_blank(),
-    axis.title.x = element_blank(),
-    aspect.ratio = .5
-  ) +
-  scale_y_continuous(position = "right") +
-  ggtitle(
-    label = "Most states enacted similar policy strength. A few stand exceptionally high or low.",
-    subtitle = "All axes are the same 0 to 100 scale of severity."
-  ) +
-  labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
-                        "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ggsave(here("Results/plots/states_index_pop_std_fixed.png"), width = 16, height = 20)
 
-
-# plot by state: free y axis
-weighted_std_scores %>%
-  
-  group_by(date, state) %>% 
-  mutate(weighted_standardized_score = sum(weighted_standardized_score, na.rm = TRUE)) %>% 
-  ungroup() %>% 
-  mutate(weighted_standardized_score = rescale(weighted_standardized_score, c(0,100))) %>% 
-
-  ggplot(aes(x = date, y = weighted_standardized_score)) +
-  geom_line() +
-  facet_wrap(~state, scales = "free", nrow = 10) +
-  theme_minimal() +
-  theme(
-    text = element_text(size = 20),
-    axis.text.y = element_blank(),
-    axis.text.x = element_blank(),
-    axis.title.y = element_blank(),
-    panel.grid.minor.y = element_blank(),
-    axis.title.x = element_blank(),
-    aspect.ratio = .5
-  ) +
-  scale_y_continuous(position = "right") +
-  ggtitle(
-    label = "Restriction severity within each state mostly subsided after Spring, but some increased into Winter.",
-    subtitle = "Y-axes vary to show how each state has changed over time."
-  ) +
-  labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
-                        "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ggsave(here("Results/plots/states_index_pop_std_free.png"), width = 16, height = 20)
 
 # continue on to aggregate the states into nation-wide.
 weighted_std_scores_agg <- 
@@ -145,7 +84,7 @@ weighted_std_scores_agg %>%
     label = "U.S. Restriction Severity Index",
     subtitle = "On a scale of 0 (least severe policies) to 100 (most severe policies).\nRestrictions are collected at a state-level across 8 categories."
   ) +
-  labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by state by population of each state.\n",
+  labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by population of each state.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
   ylab("Severity Index Score") +
@@ -202,7 +141,7 @@ weighted_std_scores %>%
   theme(
     axis.title.y = element_blank(),
     axis.title.x = element_blank(),
-    # axis.text.y = element_blank(),
+    axis.text.y = element_blank(),
     legend.position = "none",
     aspect.ratio = .5
   ) +
@@ -213,6 +152,6 @@ weighted_std_scores %>%
     subtitle = "Each Y axis is identical. A low score means less severe restrictions."
   ) +
   labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
-  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 16, height = 11)
+  ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 12, height = 7.5)
 
 
