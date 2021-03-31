@@ -22,8 +22,8 @@ dummies_with_pop <-
   read_csv(here("Intermediate_Data/dummies_with_pop.csv"), 
     col_types = cols(
       .default = col_double(),      # defualt is double
-      date = col_date(format = ""), # except column Date, read as date.
-      state = col_character()       # except column state, read as chr
+      date     = col_date(format = ""), # except column Date, read as date.
+      state    = col_character()       # except column state, read as chr
   )
 )
 
@@ -44,8 +44,16 @@ weighted_std_scores <- dummies_with_pop %>%
   ungroup() %>% 
   identity()
 
-write_csv(weighted_std_scores, here("Results/csv/pop_std_scores_states.csv"))
+# save it with all categories but not intermediate calculations
+weighted_std_scores %>% 
+  select(-c(population, scores, standardized_score)) %>% 
+  write_csv(here("Results/csv/states_categories.csv"))
 
+# as one index
+weighted_std_scores %>% 
+  group_by(date, state) %>% 
+  summarize(index = sum(weighted_standardized_score, na.rm = T)) %>% 
+  write_csv(here("Results/csv/states_index.csv"))
 
 
 # continue on to aggregate the states into nation-wide.
@@ -55,11 +63,16 @@ weighted_std_scores_agg <-
   group_by(date) %>%
   summarize(composite_weighted_std_score = sum(weighted_standardized_score, na.rm = T)) %>%
   ungroup() %>%
+  
+  write_csv(here("Results/csv/national_index.csv")) %>% # again changes date to chr type.
+  mutate(date = as.Date(date)) %>%
+  
   mutate(composite_weighted_std_score = rescale(composite_weighted_std_score, c(0,100))) %>%
 
   # Save the succinct index version
-  write_csv(here("Results/csv/national_index_pop_std.csv")) %>% # again changes date to chr type.
+  write_csv(here("Results/csv/national_index_rescaled.csv")) %>% # again changes date to chr type.
   mutate(date = as.Date(date)) %>%
+  
   identity()
 
 

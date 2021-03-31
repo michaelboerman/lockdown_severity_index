@@ -1,12 +1,15 @@
 # 039_plot_states
+# plot facet wraps, and then map over each state
 
-# map over each state
+# ---- SETUP ------------------------------------------------------------------#
 library(here)
 library(tidyverse)
 library(scales)
 library(gghighlight)
 
-weighted_std_scores <- read_csv(here("Results/csv/pop_std_scores_states.csv"))
+weighted_std_scores <- read_csv(here("Results/csv/states_categories.csv"))
+
+# ---- PLOTS ------------------------------------------------------------------#
 
 # plot by state: free y axis
 weighted_std_scores %>%
