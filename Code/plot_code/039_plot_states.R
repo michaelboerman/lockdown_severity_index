@@ -28,8 +28,8 @@ weighted_std_scores %>%
     axis.text.y = element_blank(),
     axis.text.x = element_blank(),
     axis.title.y = element_blank(),
-    panel.grid.minor.y = element_blank(),
     axis.title.x = element_blank(),
+    panel.grid.minor.y = element_blank(),
     aspect.ratio = .5
   ) +
   scale_y_continuous(position = "right") +
@@ -58,6 +58,7 @@ weighted_std_scores %>%
     panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
     panel.grid.minor.y = element_blank(),
     axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
     aspect.ratio = .5
   ) +
   scale_y_continuous(position = "right") +
@@ -122,6 +123,7 @@ map(unique(weighted_std_scores$state), function(state_in)
       panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
       panel.grid.minor.y = element_blank(),
       axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
       aspect.ratio = .5
     ) +
     scale_y_continuous(position = "right") +
@@ -157,6 +159,7 @@ map(unique(weighted_std_scores$state), function(state_in)
       panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
       panel.grid.minor.y = element_blank(),
       axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
       aspect.ratio = .5
     ) +
     scale_y_continuous(position = "right") +

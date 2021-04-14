@@ -85,7 +85,8 @@ weighted_std_scores_agg %>%
     panel.grid.major.x = element_line(size = 1, colour = "lightgrey"),
     panel.grid.minor.y = element_blank(),
     axis.title.x = element_blank(),
-    aspect.ratio = .5
+    aspect.ratio = .5,
+    axis.title.y = element_blank()
   ) +
   scale_y_continuous(position = "right") +
   scale_x_date(
