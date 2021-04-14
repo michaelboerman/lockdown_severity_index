@@ -100,7 +100,6 @@ weighted_std_scores_agg %>%
   labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by population of each state.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
-  ylab("Severity Index Score") +
   ggsave(here("Results/plots/national_index_pop_std.png"), width = 12, height = 6)
 
 # Plot Decomposition bar chart

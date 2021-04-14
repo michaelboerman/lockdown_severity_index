@@ -74,7 +74,6 @@ weighted_std_scores %>%
   labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
-  ylab("Severity Index Score") +
   ggsave(here(paste0("Results/plots/state_index/pop_std_all_states.png")), width = 12, height = 6)
 
 
@@ -137,7 +136,6 @@ map(unique(weighted_std_scores$state), function(state_in)
     ) +
     labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                           "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
-    ylab("Severity Index Value") +
     ggsave(here(paste0("Results/plots/state_decomp/decomp_", state_in, ".png")), width = 12, height = 6)
 )
 
@@ -174,7 +172,6 @@ map(unique(weighted_std_scores$state), function(state_in)
     labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
                           "Data: KFF State COVID-19 Data and Policy Actions\n",
                           "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
-    ylab("Severity Index Score") +
     ggsave(here(paste0("Results/plots/state_index/pop_std_", state_in, ".png")), width = 12, height = 6)
 )
 
