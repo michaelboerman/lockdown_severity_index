@@ -70,7 +70,7 @@ weighted_std_scores %>%
   gghighlight(state %in% c("CA", "TX", "FL"), label_key = state) +
   ggtitle(
     label = "Most states enacted similar policy strength. A few stand exceptionally high or low.",
-    subtitle = "All axes are the same 0 to 100 scale of severity."
+    subtitle = "All states scored on the same 0 to 100 scale of severity."
   ) +
   labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
