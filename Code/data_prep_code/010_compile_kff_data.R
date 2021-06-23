@@ -42,6 +42,7 @@ files <- c(
   list.files(here("Data/kff_website")),
   list.files(here("Data/kff_github"))
 )
+
 dates <- mdy(str_extract(files, pattern = ".+?(?=\\.)")) # https://regex101.com/r/TOxdz8/1
 
 # re-order according to date correctly (as is, Jan 2021 comes before March 2020).
@@ -50,6 +51,7 @@ files_ordered <- files[order(dates)]
 
 # function to read in each csv, and create a column with the date.
 read_vintage_csv <- function(file_name) {
+  
   file_date <- mdy(str_extract(file_name, pattern = ".+?(?=\\.)")) # https://regex101.com/r/TOxdz8/1
 
   # if < the date of changeover from website to github,
@@ -255,8 +257,8 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
   relocate(Stay_Home_Order, .after = Date) %>%
 
   # Rename some stuff to avoid spaces
-  dplyr::rename(Emergency_Declaration = `Emergency Declaration`) %>%
-  dplyr::rename(Status_of_Reopening = `Status of Reopening`) %>%
+  rename(Emergency_Declaration = `Emergency Declaration`) %>%
+  rename(Status_of_Reopening = `Status of Reopening`) %>%
   mutate(
     Status_of_Reopening =
       case_when(
@@ -316,5 +318,6 @@ length(seq.Date(
 # summary(cleaned_interpolated)
 
 # Write to csv and Rdata
-data_lockdown_dummies <- cleaned_interpolated %>% filter(Date < max(unique(cleaned$Date)))
-write_csv(data_lockdown_dummies, here("Intermediate_Data/data_lockdown_dummies.csv"))
+cleaned_interpolated %>% 
+  filter(Date < max(unique(cleaned$Date))) %>% 
+  write_csv(here("Intermediate_Data/data_lockdown_dummies.csv"))

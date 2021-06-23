@@ -1,5 +1,5 @@
 # 012_gather_populations.R
-# Michael Boerman January 2020
+# Michael Boerman January 2021
 #
 # A simple script to get the latest estimates of state populations
 #

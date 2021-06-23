@@ -3,9 +3,9 @@
 # read in from 021_make_factor_levels output.
 cat_data_reordered <- read_csv(here("Intermediate_Data/cat_data_reordered.csv"),
   col_types = cols(
-    .default = col_double(), # coerce to be factors instead of chr
+    .default = col_double(),      # coerce to be factors instead of chr
     Date = col_date(format = ""), # except column Date, read as date.
-    Location = col_character() # except column Locaiton, read as chr
+    Location = col_character()    # except column Location, read as chr
   )
 )
 

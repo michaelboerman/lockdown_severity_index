@@ -102,17 +102,7 @@ write_csv(cat_data_reordered, here("Intermediate_Data", "cat_data_reordered.csv"
 # Now summarize by aggregating across states (national index)
 summary_df <- cat_data_reordered %>%
   group_by(Date) %>%
-  summarize(
-    Stay_Home_Order        = sum(Stay_Home_Order, na.rm = T),
-    Status_of_Reopening    = sum(Status_of_Reopening, na.rm = T),
-    NonEss_Business_Closed = sum(NonEss_Business_Closed, na.rm = T),
-    Gathering_Limit        = sum(Gathering_Limit, na.rm = T),
-    Emergency_Declaration  = sum(Emergency_Declaration, na.rm = T),
-    Travel_Quarantine      = sum(Travel_Quarantine, na.rm = T),
-    Mask_Requirement       = sum(Mask_Requirement, na.rm = T),
-    Restaurants            = sum(Restaurants, na.rm = T),
-    School_Closed          = sum(School_Closed, na.rm = T)
-  ) %>%
+  summarize(across(where(is.numeric), sum, na.rm = TRUE)) %>% 
   ungroup() %>%
-  pivot_longer(cols = 2:10, names_to = "Category", values_to = "sums") %>%
+  pivot_longer(cols = where(is.numeric), names_to = "Category", values_to = "sums") %>%
   write_csv(here("Intermediate_Data", "summary_df.csv"))
