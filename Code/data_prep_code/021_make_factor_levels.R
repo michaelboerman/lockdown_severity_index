@@ -9,12 +9,14 @@
 #
 # ---- Setup ------------------------------------------------------------------#
 
-library(readr)
 library(dplyr)
 library(tidyr)
+library(readr)
 library(here)
 
-options(dplyr.summarise.inform = FALSE) # https://www.tidyverse.org/blog/2020/05/dplyr-1-0-0-last-minute-additions/; could add .groups = "drop_last" to each summarize() call.
+# https://www.tidyverse.org/blog/2020/05/dplyr-1-0-0-last-minute-additions/; 
+# or could add .groups = "drop_last" to each summarize() call.
+options(dplyr.summarise.inform = FALSE) 
 
 # ---- Load Dummy Data --------------------------------------------------------#
 # From 010_compile_kff_data:
@@ -25,6 +27,10 @@ data_lockdown_dummies <- read_csv(
     Date = col_date(format = "") # except column Date, read as date.
   )
 )
+
+data_lockdown_dummies <- read_csv(
+  here("Intermediate_Data/data_lockdown_dummies.csv")) %>% 
+  mutate(across(where(is.character) | where(is.logical), as.factor))
 
 # ---- Recode into numbers-------------- --------------------------------------#
 
@@ -44,13 +50,13 @@ cat_data_reordered <- data_lockdown_dummies %>%
 
   # column 4.
   mutate(Status_of_Reopening = factor(Status_of_Reopening,
-    levels = c("Reopened", "Paused", "Closing"),
-    labels = c(1, 2, 3)
+    levels = c("Reopened", "Reopening", "Paused", "Closing"),
+    labels = c(1, 2, 3, 4)
   )) %>%
 
   # column 5.
   mutate(NonEss_Business_Closed = factor(NonEss_Business_Closed,
-    levels = c("-", "Other", "Some Reopened", "Reduced Capacity", "Some Closed", "All Non-Essential Retail Businesses Closed", "All Non-Essential Businesses Closed"),
+    levels = c("-", "Other", "Some Reopened", "Reduced Capacity", "Some Closed", "Retail Closed", "All Closed"),
     labels = c(0, 0, 1, 2, 3, 4, 5)
   )) %>%
 
@@ -62,8 +68,8 @@ cat_data_reordered <- data_lockdown_dummies %>%
 
   # column 7. Only one factor level present.
   mutate(Emergency_Declaration = factor(Emergency_Declaration,
-    levels = "Yes",
-    labels = c(1)
+    levels = c("No", "Yes"),
+    labels = c(0, 1)
   )) %>%
 
   # column 8.
@@ -75,7 +81,7 @@ cat_data_reordered <- data_lockdown_dummies %>%
   # column 9.
   mutate(Mask_Requirement = factor(Mask_Requirement,
     levels = c("-", "No", "Certain Employees Only", "General Public", "Yes"),
-    labels = c(0, 1, 2, 3, 3)
+    labels = c(0, 1, 2, 3, 4)
   )) %>%
 
   # column 10.

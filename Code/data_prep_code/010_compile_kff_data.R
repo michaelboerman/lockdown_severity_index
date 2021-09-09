@@ -57,10 +57,8 @@ read_vintage_csv <- function(file_name) {
   # if < the date of changeover from website to github,
   # then read from the kff_website folder and modify appropriately:
   if (file_date <= mdy("12-18-2020")) {
-    data <- read_csv(
-      file = here("Data/kff_website", file_name),
-      skip = 2
-    ) %>%
+    data <- here("Data/kff_website", file_name) %>% 
+      read_csv(skip = 2, col_types = cols()) %>%
       filter(Location != "United States") %>% # remove US-wide stats
       head(n = 51) %>% # 50 states + DC
       select(-Footnotes) %>% # remove col listing the footnotes.
@@ -70,10 +68,11 @@ read_vintage_csv <- function(file_name) {
   } else {
     # else if >= 12-20-2021,
     # then do similar code but read from kff_github and different csv structure.
-    data <- read_csv(file = here("Data/kff_github", file_name)) %>%
-      rename(Location = X1) %>% # First col is un-named
+    data <- here("Data/kff_github", file_name) %>% 
+      read_csv(col_types = cols()) %>%
+      rename(Location = X1) %>%               # First col is un-named
       filter(Location != "United States") %>% # remove US-wide stats
-      mutate_if(is.character, as.factor) %>% # change to factor
+      mutate_if(is.character, as.factor) %>%  # change to factor
       mutate(Date = file_date) %>%
       identity()
   }
@@ -85,14 +84,12 @@ read_vintage_csv <- function(file_name) {
 # data <- mcMap(read_vintage_csv, files_ordered, mc.cores = detectCores())
 
 # Windows version: takes a little longer. can't use all cores. 
-data <- map(files_ordered, read_vintage_csv)
+data <- files_ordered %>% map(read_vintage_csv)
 
 # change the names of the list items. (not functional / used later)
 names(data) <- paste0(
-  "vint_",
-  substr(dates_ordered, start = 1, stop = 4), # get the year
-  "-",
-  substr(dates_ordered, start = 6, stop = 10) # get the day and month
+  "vint_", substr(dates_ordered, start = 1, stop = 4), # get the year
+  "-", substr(dates_ordered, start = 6, stop = 10)     # get the day and month
 )
 
 # ---- EXPLORE ----------------------------------------------------------------#
@@ -108,28 +105,31 @@ names(data) <- paste0(
 # ----- CLEAN -----------------------------------------------------------------#
 # Now tidy up the levels:
 #  -Many categories are similar, so combine those.
-#  -Many levels are similar, so combine those.
-#  -Many stop being recorded, so drop those.
+#  -Many levels are similar,     so combine those.
+#  -Many stop being recorded,    so drop those.
 #  -Some are irrelevant (to me), so drop those.
-#  -Many have spaces in their names, so _ those.
+#  -Many have spaces,            so _ those.
 
-cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
+cleaned  <- plyr::join_all(dfs = data, type = "full", by="Date") %>%
 
-  # Mand Quarentine was only for first few days, then changed name.
+  # Mand Quarentine was only for first day.
   select(-"Mandatory Quarantine") %>%
 
-  # "State is Easing Social Distance Measures" is 9 levels, 1/5 are "yes" and rest
-  # are "NA". Info is captured elsewhere, so remove this summary column.
+  # "State is Easing Social Distance Measures" is a subjective category,
+  # which I remove because the point of this is to be objective.
   select(-"State Is Easing Social Distancing Measures") %>%
 
   # Remove this; not needed imo, and 4/5 is NA.
   select(-"Primary Election Postponement") %>%
+  
+  # Rename to avoid spaces
+  rename(Emergency_Declaration = `Emergency Declaration`) %>%
 
   # The data changes a month in to split bars and restaurants.
   # merge these into one column by replacing NAs.
   mutate(Restaurants = case_when(
     !is.na(`Restaurant Limits`) ~ as.character(`Restaurant Limits`),
-    is.na(`Restaurant Limits`) ~ as.character(`Bar/Restaurant Limits`)
+    is.na(`Restaurant Limits`)  ~ as.character(`Bar/Restaurant Limits`)
   )) %>%
   select(-c(
     "Restaurant Limits", "Bar/Restaurant Limits",
@@ -144,8 +144,9 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("elivery", Restaurants, fixed = TRUE) | grepl("Closed", Restaurants, fixed = TRUE) ~ "No Indoor",
         grepl("Closed to Indoor Service", Restaurants, fixed = TRUE) & grepl("Service", Restaurants, fixed = TRUE) ~ "No Indoor",
         grepl("Limit", Restaurants, fixed = TRUE) & grepl("Service", Restaurants, fixed = TRUE) ~ "Limited Indoor",
+        grepl("Open with Service Limits", Restaurants, fixed = TRUE) ~ "Open with Limits",
+        grepl("Open", Restaurants, fixed = TRUE) ~ "No Limits",
         grepl("Reopened", Restaurants, fixed = TRUE) ~ "No Limits",
-        grepl("Open", Restaurants, fixed = TRUE) ~ "No Limits"
       )
   ) %>%
 
@@ -184,20 +185,21 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
       case_when(
         grepl("^-", NonEss_Business_Closed, fixed = FALSE) ~ "-",
         grepl("Other", NonEss_Business_Closed, fixed = TRUE) ~ "Other",
-        grepl("^All Non-Essential Businesses$", NonEss_Business_Closed, fixed = FALSE) ~ "All Non-Essential Businesses Closed",
-        grepl("All Non-Essential Businesses Closed", NonEss_Business_Closed, fixed = FALSE) ~ "All Non-Essential Businesses Closed",
-        grepl("All Non-Essential Retail Businesses", NonEss_Business_Closed, fixed = TRUE) ~ "All Non-Essential Retail Businesses Closed",
+        grepl("^All Non-Essential Businesses$", NonEss_Business_Closed, fixed = FALSE) ~ "All Closed",
+        grepl("All Non-Essential Businesses Closed", NonEss_Business_Closed, fixed = FALSE) ~ "All Closed",
+        grepl("All Non-Essential Retail Businesses", NonEss_Business_Closed, fixed = TRUE) ~ "Retail Closed",
         grepl("Certain", NonEss_Business_Closed, fixed = TRUE) ~ "Some Closed",
         grepl("Some Non-Essential Businesses Closed", NonEss_Business_Closed, fixed = TRUE) ~ "Some Closed",
         grepl("Open with Reduced Capacity", NonEss_Business_Closed, fixed = FALSE) ~ "Reduced Capacity",
         grepl("All Non-Essential Businesses Permitted to Reopen with Reduced Capacity", NonEss_Business_Closed, fixed = TRUE) ~ "Reduced Capacity",
         grepl("Some Non-Essential Businesses Permitted to Reopen with Reduced Capacity", NonEss_Business_Closed, fixed = TRUE) ~ "Reduced Capacity",
         grepl("All Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
-        grepl("^All Non-Essential Businesses Open$", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
+        grepl("All Non-Essential Businesses Open", NonEss_Business_Closed, fixed = TRUE) ~ "All Reopened",
         grepl("Some Non-Essential Businesses Permitted to Reopen", NonEss_Business_Closed, fixed = TRUE) ~ "Some Reopened",
         grepl("New Business Closures or Limits", NonEss_Business_Closed, fixed = TRUE) ~ "Some Closed",
         )
   ) %>%
+  
   # Travel Quarantine has 9 levels. Boil down.
   dplyr::rename(Travel_Quarantine = "Mandatory Quarantine for Travelers") %>%
   mutate(
@@ -213,13 +215,10 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
       )
   ) %>%
 
-  # Two stay at home orders exist, one with capital At and one lowercase.
-  mutate(Stay_Home_Order = case_when(
-    !is.na(`Stay At Home Order`) ~ as.character(`Stay At Home Order`),
-    !is.na(`Stay at Home Order`) ~ as.character(`Stay at Home Order`)
-  )) %>%
-  select(-c("Stay At Home Order", "Stay at Home Order")) %>%
-
+  # Two stay at home orders exist, one with capital At and one lowercase at.
+  mutate(Stay_Home_Order = coalesce(`Stay at Home Order`, `Stay At Home Order`)) %>% 
+  select(-c("Stay at Home Order", "Stay At Home Order")) %>% 
+  
   # clean up the categories
   mutate(
     Stay_Home_Order =
@@ -230,7 +229,7 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("High-Risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("High-risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
         grepl("High Risk Groups", Stay_Home_Order, fixed = TRUE) ~ "High-Risk Groups",
-        grepl("Lifted", Stay_Home_Order, fixed = TRUE) ~ "Lifted",
+        grepl("Lifted", Stay_Home_Order, fixed = TRUE) ~ "No Restrictions",
         grepl("Statewide", Stay_Home_Order, fixed = TRUE) ~ "Statewide",
         grepl("Curfew", Stay_Home_Order, fixed = TRUE) ~ "Curfew",
       )
@@ -246,28 +245,30 @@ cleaned  <- plyr::join_all(dfs = data, type = "full") %>%
         grepl("No", Mask_Requirement, fixed = TRUE) ~ "No",
         grepl("Required for Certain Employees", Mask_Requirement, fixed = FALSE) ~ "Certain Employees Only",
         grepl("General Public", Mask_Requirement, fixed = TRUE) ~ "General Public",
-        grepl("Yes", Mask_Requirement, fixed = TRUE) ~ "Yes"
+        grepl("Yes", Mask_Requirement, fixed = TRUE) ~ "Yes",
+        grepl("Unvaccinated", Mask_Requirement, fixed = TRUE) ~ "Unvaccinated",
+        grepl("Indoor", Mask_Requirement, fixed = TRUE) ~ "Indoor Only",
       )
   ) %>%
 
-
-  # Reorder some stuff
-  relocate(Date, .after = Location) %>%
-  relocate(`Status of Reopening`, .after = Date) %>%
-  relocate(Stay_Home_Order, .after = Date) %>%
-
-  # Rename some stuff to avoid spaces
-  rename(Emergency_Declaration = `Emergency Declaration`) %>%
+  # A general catch-all category for level of reopning. 
+  # Consider removing this, since it is a subjective aggregate ranking. 
   rename(Status_of_Reopening = `Status of Reopening`) %>%
   mutate(
     Status_of_Reopening =
       case_when(
         grepl("Restrictions", Status_of_Reopening, fixed = TRUE) ~ "Closing",
         grepl("Paused", Status_of_Reopening, fixed = FALSE) ~ "Paused",
+        grepl("Reopening", Status_of_Reopening, fixed = FALSE) ~ "Reopening",
         grepl("Reopen", Status_of_Reopening, fixed = FALSE) ~ "Reopened"
       )
   ) %>%
   
+  # Reorder some stuff
+  relocate(Date, .after = Location) %>%
+  relocate(Status_of_Reopening, .after = Date) %>%
+  relocate(Stay_Home_Order, .after = Date) %>%
+
   # change to factors
   mutate_if(is.character, as.factor) %>% 
   
