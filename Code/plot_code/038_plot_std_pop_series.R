@@ -29,7 +29,6 @@ dummies_with_pop <-
 
 # standardize and weight by pop
 weighted_std_scores <- dummies_with_pop %>%
-  select(-Emergency_Declaration) %>% # is only "yes", so no sd, and would be centered on 0 anyway.
   pivot_longer(cols = -c(1:3), names_to = "Category", values_to = "scores") %>%
   mutate(scores_rescaled = rescale(scores, c(0,100))) %>% 
   group_by(Category) %>%
