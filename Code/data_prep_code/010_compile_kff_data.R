@@ -58,23 +58,24 @@ read_vintage_csv <- function(file_name) {
   # then read from the kff_website folder and modify appropriately:
   if (file_date <= mdy("12-18-2020")) {
     data <- here("Data/kff_website", file_name) %>% 
-      read_csv(skip = 2, col_types = cols()) %>%
+      read_csv(skip = 2, col_types = cols(), col_select=1:8) %>%
       filter(Location != "United States") %>% # remove US-wide stats
       head(n = 51) %>% # 50 states + DC
-      select(-Footnotes) %>% # remove col listing the footnotes.
+      # select(-Footnotes) %>% # remove col listing the footnotes.
       mutate_if(is.character, as.factor) %>% # change to factor
       mutate(Date = file_date) %>%
       identity()
-  } else {
-    # else if >= 12-20-2021,
+    } else if (file_date >= mdy("12-20-2020") & file_date <= mdy("08-04-2021")) {
     # then do similar code but read from kff_github and different csv structure.
     data <- here("Data/kff_github", file_name) %>% 
       read_csv(col_types = cols()) %>%
-      rename(Location = X1) %>%               # First col is un-named
+      rename(Location = 1) %>%                # First col is un-named
       filter(Location != "United States") %>% # remove US-wide stats
       mutate_if(is.character, as.factor) %>%  # change to factor
       mutate(Date = file_date) %>%
       identity()
+    } else {
+    warning ("File date outside of range. KFF Changed reporting after August 2021.")
   }
   return(data)
 }
