@@ -99,7 +99,7 @@ weighted_std_scores_agg %>%
   ) +
   labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories, then weighted by population of each state.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman"))
   ggsave(here("Results/plots/national_index_pop_std.png"), width = 12, height = 6)
 
 # Plot Decomposition bar chart
@@ -133,7 +133,7 @@ weighted_std_scores %>%
   labs(caption = paste0("Lockdown severity is standardized within each category, which are then weighted according to state population.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
-  ylab("Contribution Amount") +
+  ylab("Contribution Amount")
   ggsave(here("Results/plots/unused_intermediates/national_decomp_bar_pop_std.png"), width = 16, height = 20)
 
 #plot decomp facet wrapped
@@ -163,7 +163,7 @@ weighted_std_scores %>%
     label = "Across the entire U.S., some policies have had more impact than others over time.",
     subtitle = "Each Y axis is identical. A low score means less severe restrictions."
   ) +
-  labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
+  labs(caption = paste0("NAs are counted as 0.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman"))
   ggsave(here("Results/plots/national_decomp_facet_pop_std.png"), width = 12, height = 7.5)
 
 

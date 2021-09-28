@@ -57,5 +57,5 @@ standardized_scores %>%
     subtitle = "Low score means less severe restrictions."
   ) +
   labs(caption = paste0("Standardized severity is calculated by subtract mean and divid by standard deviation across 9 categorical variables.\n Standardization is necessary to correctly weight each category, regardless of its number of levels.\n Data is from ", min(standardized_scores$Date), " through ", max(standardized_scores$Date), ".")) +
-  ylab("Severity Index Score") +
+  ylab("Severity Index Score")
   ggsave(here("Results/plots/unused_intermediates/national_index_std.png"), width = 12, height = 6)

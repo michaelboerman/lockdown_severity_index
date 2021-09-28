@@ -40,7 +40,7 @@ summary_df %>%
   ) +
   labs(caption = paste0("NAs are counted as 0.\n Data is from ", 
                         min(summary_df$Date), " through ", max(summary_df$Date), 
-                        ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
+                        ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman"))
   ggsave(here("Results/plots/category_decomp.png"), width = 12, height = 6)
 
 # 2. Aggregated into US
@@ -68,5 +68,5 @@ summary_df %>%
     subtitle = "Low score means less severe restrictions."
   ) +
   labs(caption = paste0("Severity is calculated as the unweighted sum of 9 categorical variables assigned to numbers. NAs are counted as 0.\n Data is from ", min(summary_df$Date), " through ", max(summary_df$Date), ".")) +
-  ylab("Severity") +
+  ylab("Severity")
   ggsave(here("Results/plots/unused_intermediates/national_index_plain.png"), width = 12, height = 6)

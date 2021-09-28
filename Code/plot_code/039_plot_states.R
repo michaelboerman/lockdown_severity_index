@@ -39,7 +39,7 @@ weighted_std_scores %>%
   ) +
   labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
                         "Data from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman")) +
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman"))
   ggsave(here("Results/plots/states_index_pop_std_free.png"), width = 16, height = 20)
 
 # plot all on one, with highlights
@@ -74,7 +74,7 @@ weighted_std_scores %>%
   ) +
   labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
                         "Data: KFF State COVID-19 Data and Policy Actions\n",
-                        "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+                        "Calculations; Chart: Michael Boerman github.com/michaelboerman."))
   ggsave(here(paste0("Results/plots/state_index/pop_std_all_states.png")), width = 12, height = 6)
 
 
@@ -102,7 +102,7 @@ map(unique(weighted_std_scores$state), function(state_in)
       label = paste0(state_in, " Restrictions by Category"),
       subtitle = "Low score means less severe restrictions."
     ) +
-    labs(caption = paste0("Fixed Y axis. Gaps in data are NAs.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman")) +
+    labs(caption = paste0("Fixed Y axis. Gaps in data are NAs.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman"))
     ggsave(here(paste0("Results/plots/state_categories/categories_", state_in, ".png")), width = 12, height = 6)
 )
 
@@ -174,7 +174,7 @@ map(unique(weighted_std_scores$state), function(state_in)
     ) +
     labs(caption = paste0("Standardized severity is calculated by a weighted sum of individual categories.\n",
                           "Data: KFF State COVID-19 Data and Policy Actions\n",
-                          "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+                          "Calculations; Chart: Michael Boerman github.com/michaelboerman."))
     ggsave(here(paste0("Results/plots/state_index/pop_std_", state_in, ".png")), width = 12, height = 6)
 )
 

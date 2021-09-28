@@ -67,7 +67,7 @@ pop_weighted_scores %>%
     label = "Population-weighted scores of restriction severity",
     subtitle = "Low score means less severe restrictions."
   ) +
-  labs(caption = paste0("Series is computed as (State Population * sum of lockdown categorical variables) / US Population).\n Data from ", min(pop_weighted_scores$date), " through ", max(pop_weighted_scores$date), ".")) +
+  labs(caption = paste0("Series is computed as (State Population * sum of lockdown categorical variables) / US Population).\n Data from ", min(pop_weighted_scores$date), " through ", max(pop_weighted_scores$date), "."))
   ggsave(here("Results/plots/unused_intermediates/states_facet_pop.png"), width = 12, height = 6)
 
 # 2: US total
@@ -99,5 +99,5 @@ pop_weighted_scores %>%
     subtitle = "Low score means less severe restriction"
   ) +
   labs(caption = paste0("Series is computed as (State Population * sum of lockdown categorical variables) / US Population). \n Data is from ", min(pop_weighted_scores$date), " through ", max(pop_weighted_scores$date), ".")) +
-  ylab("Severity Score (unitless)") +
+  ylab("Severity Score (unitless)")
   ggsave(here("Results/plots/unused_intermediates/national_index_pop.png"), width = 12, height = 6)
