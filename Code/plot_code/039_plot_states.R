@@ -79,7 +79,7 @@ weighted_std_scores %>%
 
 
 # plot one state decomposition by facet wrap
-map(unique(weighted_std_scores$state), function(state_in)
+map(unique(weighted_std_scores$state), function(state_in) {
   weighted_std_scores %>%
     filter(state == state_in) %>% 
     ggplot(aes(x = date, y = weighted_standardized_score, color = Category)) +
@@ -103,11 +103,12 @@ map(unique(weighted_std_scores$state), function(state_in)
       subtitle = "Low score means less severe restrictions."
     ) +
     labs(caption = paste0("Fixed Y axis. Gaps in data are NAs.\n Data is from ", min(weighted_std_scores$date), " through ", max(weighted_std_scores$date), ".\n Data: Kaiser Family Foundation.\n Chart: Michael Boerman, github.com/michaelboerman"))
+    
     ggsave(here(paste0("Results/plots/state_categories/categories_", state_in, ".png")), width = 12, height = 6)
-)
+})
 
 # plot each state decomp by bar chart / colors
-map(unique(weighted_std_scores$state), function(state_in)
+map(unique(weighted_std_scores$state), function(state_in) {
   weighted_std_scores %>%
     group_by(state, date, Category) %>%
     summarize(
@@ -137,12 +138,12 @@ map(unique(weighted_std_scores$state), function(state_in)
       label = paste0(state_in, " Severity Decomposition by Category"),
     ) +
     labs(caption = paste0("Data: KFF State COVID-19 Data and Policy Actions\n",
-                          "Calculations; Chart: Michael Boerman github.com/michaelboerman.")) +
+                          "Calculations; Chart: Michael Boerman github.com/michaelboerman."))
     ggsave(here(paste0("Results/plots/state_decomp/decomp_", state_in, ".png")), width = 12, height = 6)
-)
+})
 
 # plot the one index for each state
-map(unique(weighted_std_scores$state), function(state_in)
+map(unique(weighted_std_scores$state), function(state_in) {
   weighted_std_scores %>%
     
     group_by(state, date) %>%
@@ -176,5 +177,5 @@ map(unique(weighted_std_scores$state), function(state_in)
                           "Data: KFF State COVID-19 Data and Policy Actions\n",
                           "Calculations; Chart: Michael Boerman github.com/michaelboerman."))
     ggsave(here(paste0("Results/plots/state_index/pop_std_", state_in, ".png")), width = 12, height = 6)
-)
+})
 
