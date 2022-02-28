@@ -1,5 +1,7 @@
 # Pandemic Lockdown Severity Index
 
+*This project is deprecated as-of summer 2020. Mostly because I thought COVID wasn't going to be a thing anymore... but also because this project served its purpose in landing me a new job.*
+
 ## Flagship Plots:
 ![](Results/plots/national_index_pop_std.png)
 ![](Results/plots/national_decomp_facet_pop_std.png)
