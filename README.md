@@ -1,6 +1,6 @@
 # Pandemic Lockdown Severity Index
 
-*This project is deprecated as-of summer 2021. Mostly because I thought COVID wasn't going to be a thing anymore... but also the fad of categorical aggregation caught attention from powerhouses larger than myself, most evident by the [Oxford Stringency Index](https://covidtracker.bsg.ox.ac.uk).*
+*As of summer 2021, this project is no longer being maintained. Mostly because I thought COVID wasn't going to be a thing anymore... but also the fad of categorical aggregation caught attention from powerhouses larger than myself, most evident by the [Oxford Stringency Index](https://covidtracker.bsg.ox.ac.uk). I reccomend using their data set instead of mine.*
 
 ## Flagship Plots:
 ![](Results/plots/national_index_pop_std.png)
