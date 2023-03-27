@@ -13,14 +13,14 @@ Many great indices exist in this vein, but the Pandemic Lockdown Severity Index 
 
 The first ensures California holds more weight than Alaska, for example, in the US-wide index. The second ensures that, regardless of the number of levels within each category, each hold an equal importance. Each of these also provide the opportunity for the user to modify the index with demographic, epidemiologic, or economic significance by adding external weights. 
 
-## Flagship Plots:
+## National-Level Plots
 ![](Results/plots/national_index_pop_std.png)
+![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
 ![](Results/plots/national_decomp_facet_pop_std.png)
+
+## State-Level Plots
 ![](Results/plots/state_index/pop_std_all_states.png)
 ![](Results/plots/states_index_pop_std_free.png)
-![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
-
-
 
 
 ## Terminology
