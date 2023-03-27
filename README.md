@@ -16,9 +16,9 @@ The first ensures California holds more weight than Alaska, for example, in the 
 ## National-Level Plots
 ![](Results/plots/national_index_pop_std.png)
 ![](Results/plots/unused_intermediates/national_decomp_bar_pop_std.png)
-![](Results/plots/states_index_pop_std_free.png)
 
 ## State-Level Plots
+![](Results/plots/states_index_pop_std_free.png)
 ![](Results/plots/national_decomp_facet_pop_std.png)
 ![](Results/plots/state_index/pop_std_all_states.png)
 
